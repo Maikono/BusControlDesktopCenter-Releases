@@ -1,13 +1,13 @@
 {
-  "version": "0.5.6.66",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.66/BusControlDesktopCenter-0.5.6.66-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.66",
+  "version": "0.5.6.67",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.67/BusControlDesktopCenter-0.5.6.67-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.67",
   "publishedAt": "2026-09-18",
-  "changelog": "- Arbeitsstand-Sync mit Dropbox ist separat abschaltbar und bei Erstinstallation aus.\n- Der Desktop Center versucht ohne eingerichteten Arbeitsstand-Sync keinen Dropbox-Ladevorgang beim Start oder Schließen.\n- Die Update-Prüfung nutzt wieder ein festes update-manifest.json als klare Manifest-Quelle.",
+  "changelog": "- Arbeitsstand-Sync mit Dropbox ist separat abschaltbar und bei Erstinstallation aus.\n- Der Desktop Center versucht ohne eingerichteten Arbeitsstand-Sync keinen Dropbox-Ladevorgang beim Start oder Schließen.\n- Die Dropbox-Arbeitsstand-Ladung nutzt das bestehende update_manifest.json und überspringt unveränderte Dateien.",
   "changelogItems": [
     "Arbeitsstand-Sync mit Dropbox ist separat abschaltbar und bei Erstinstallation aus.",
     "Der Desktop Center versucht ohne eingerichteten Arbeitsstand-Sync keinen Dropbox-Ladevorgang beim Start oder Schließen.",
-    "Die Update-Prüfung nutzt wieder ein festes update-manifest.json als klare Manifest-Quelle."
+    "Die Dropbox-Arbeitsstand-Ladung nutzt das bestehende update_manifest.json und überspringt unveränderte Dateien."
   ],
   "required": false
 }
