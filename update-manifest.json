@@ -1,13 +1,12 @@
 {
-  "version": "0.5.6.68",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.68/BusControlDesktopCenter-0.5.6.68-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.68",
+  "version": "0.5.6.69",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.69/BusControlDesktopCenter-0.5.6.69-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.69",
   "publishedAt": "2026-09-18",
-  "changelog": "- Beim ersten Start fragt der Desktop Center, ob der Dropbox-Arbeitsstand importiert und dauerhaft genutzt werden soll oder ob nur lokal gearbeitet wird.\n- Die Dropbox-Einstellung ist jetzt eindeutig als Auto-Sync für Start und Schließen beschrieben; ausgeschaltet bedeutet nur lokale Dateien.\n- Manuelles Arbeitsstand laden bleibt in den Einstellungen möglich, aktiviert aber keinen Auto-Sync.",
+  "changelog": "- Datenstamm-Pfadfelder in den Einstellungen sind jetzt auf dunklem Hintergrund hell lesbar.\n- Text, Label, Rahmen und Feldhintergrund der Dateipfad-/Ordnerpfadfelder verwenden feste Kontrastfarben.",
   "changelogItems": [
-    "Beim ersten Start fragt der Desktop Center, ob der Dropbox-Arbeitsstand importiert und dauerhaft genutzt werden soll oder ob nur lokal gearbeitet wird.",
-    "Die Dropbox-Einstellung ist jetzt eindeutig als Auto-Sync für Start und Schließen beschrieben; ausgeschaltet bedeutet nur lokale Dateien.",
-    "Manuelles Arbeitsstand laden bleibt in den Einstellungen möglich, aktiviert aber keinen Auto-Sync."
+    "Datenstamm-Pfadfelder in den Einstellungen sind jetzt auf dunklem Hintergrund hell lesbar.",
+    "Text, Label, Rahmen und Feldhintergrund der Dateipfad-/Ordnerpfadfelder verwenden feste Kontrastfarben."
   ],
   "required": false
 }
