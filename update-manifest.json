@@ -1,12 +1,15 @@
 {
-  "version": "0.5.6.69",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.69/BusControlDesktopCenter-0.5.6.69-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.69",
-  "publishedAt": "2026-09-18",
-  "changelog": "- Datenstamm-Pfadfelder in den Einstellungen sind jetzt auf dunklem Hintergrund hell lesbar.\n- Text, Label, Rahmen und Feldhintergrund der Dateipfad-/Ordnerpfadfelder verwenden feste Kontrastfarben.",
+  "version": "0.5.6.70",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.70/BusControlDesktopCenter-0.5.6.70-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.70",
+  "publishedAt": "2026-09-19",
+  "changelog": "- Der JSON-Editor unterstützt konfigurierbare Zielanzeigeprofile und übernimmt sie zuverlässig in Routenvorlagen.\n- SEV- und BNV-Fahrten verwenden den passenden Monitor-/Verkehrstyp und bleiben beim Laden und Speichern konsistent.\n- Der Routen-Editor ordnet Umleitungen dem richtigen Streckenabschnitt zu, zeigt auffällige Umwege an und erhält konfigurierte OSM-Zugriffsregeln.\n- Beim Arbeitsstand-Abgleich wird der vollständigste Zielkatalog mit Wechselzielen und Über-Angaben ausgewählt.\n- Betreiberprofile exportieren den konfigurierten Nachrichtenpfad für die appübergreifende Kommunikation.",
   "changelogItems": [
-    "Datenstamm-Pfadfelder in den Einstellungen sind jetzt auf dunklem Hintergrund hell lesbar.",
-    "Text, Label, Rahmen und Feldhintergrund der Dateipfad-/Ordnerpfadfelder verwenden feste Kontrastfarben."
+    "Der JSON-Editor unterstützt konfigurierbare Zielanzeigeprofile und übernimmt sie zuverlässig in Routenvorlagen.",
+    "SEV- und BNV-Fahrten verwenden den passenden Monitor-/Verkehrstyp und bleiben beim Laden und Speichern konsistent.",
+    "Der Routen-Editor ordnet Umleitungen dem richtigen Streckenabschnitt zu, zeigt auffällige Umwege an und erhält konfigurierte OSM-Zugriffsregeln.",
+    "Beim Arbeitsstand-Abgleich wird der vollständigste Zielkatalog mit Wechselzielen und Über-Angaben ausgewählt.",
+    "Betreiberprofile exportieren den konfigurierten Nachrichtenpfad für die appübergreifende Kommunikation."
   ],
   "required": false
 }
