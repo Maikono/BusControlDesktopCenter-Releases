@@ -1,15 +1,14 @@
 {
-  "version": "0.5.6.70",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.70/BusControlDesktopCenter-0.5.6.70-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.70",
-  "publishedAt": "2026-09-19",
-  "changelog": "- Der JSON-Editor unterstützt konfigurierbare Zielanzeigeprofile und übernimmt sie zuverlässig in Routenvorlagen.\n- SEV- und BNV-Fahrten verwenden den passenden Monitor-/Verkehrstyp und bleiben beim Laden und Speichern konsistent.\n- Der Routen-Editor ordnet Umleitungen dem richtigen Streckenabschnitt zu, zeigt auffällige Umwege an und erhält konfigurierte OSM-Zugriffsregeln.\n- Beim Arbeitsstand-Abgleich wird der vollständigste Zielkatalog mit Wechselzielen und Über-Angaben ausgewählt.\n- Betreiberprofile exportieren den konfigurierten Nachrichtenpfad für die appübergreifende Kommunikation.",
+  "version": "0.5.6.71",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.71/BusControlDesktopCenter-0.5.6.71-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.71",
+  "publishedAt": "2026-09-20",
+  "changelog": "- Der Konfigurator bietet jetzt einen eigenen Sendeweg-Bereich für IBIS-Zielanzeigen.\n- Zielanzeigen können pro Konfiguration zwischen bestehendem Bestand, Kabel/Wagenbus und WLAN/Serial-over-IP wählen.\n- Serial-over-IP-Host, Port und Protokoll werden betreiberneutral gespeichert, validiert und in Fahrzeugkonfigurationen übernommen.\n- Bildschirm- und Zielanzeigen-Sendewege bleiben beim Laden, Speichern und bei Fahrzeugprofilen getrennt erhalten.",
   "changelogItems": [
-    "Der JSON-Editor unterstützt konfigurierbare Zielanzeigeprofile und übernimmt sie zuverlässig in Routenvorlagen.",
-    "SEV- und BNV-Fahrten verwenden den passenden Monitor-/Verkehrstyp und bleiben beim Laden und Speichern konsistent.",
-    "Der Routen-Editor ordnet Umleitungen dem richtigen Streckenabschnitt zu, zeigt auffällige Umwege an und erhält konfigurierte OSM-Zugriffsregeln.",
-    "Beim Arbeitsstand-Abgleich wird der vollständigste Zielkatalog mit Wechselzielen und Über-Angaben ausgewählt.",
-    "Betreiberprofile exportieren den konfigurierten Nachrichtenpfad für die appübergreifende Kommunikation."
+    "Der Konfigurator bietet jetzt einen eigenen Sendeweg-Bereich für IBIS-Zielanzeigen.",
+    "Zielanzeigen können pro Konfiguration zwischen bestehendem Bestand, Kabel/Wagenbus und WLAN/Serial-over-IP wählen.",
+    "Serial-over-IP-Host, Port und Protokoll werden betreiberneutral gespeichert, validiert und in Fahrzeugkonfigurationen übernommen.",
+    "Bildschirm- und Zielanzeigen-Sendewege bleiben beim Laden, Speichern und bei Fahrzeugprofilen getrennt erhalten."
   ],
   "required": false
 }
