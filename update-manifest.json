@@ -1,14 +1,14 @@
 {
-  "version": "0.5.6.71",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.71/BusControlDesktopCenter-0.5.6.71-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.71",
-  "publishedAt": "2026-09-20",
-  "changelog": "- Der Konfigurator bietet jetzt einen eigenen Sendeweg-Bereich für IBIS-Zielanzeigen.\n- Zielanzeigen können pro Konfiguration zwischen bestehendem Bestand, Kabel/Wagenbus und WLAN/Serial-over-IP wählen.\n- Serial-over-IP-Host, Port und Protokoll werden betreiberneutral gespeichert, validiert und in Fahrzeugkonfigurationen übernommen.\n- Bildschirm- und Zielanzeigen-Sendewege bleiben beim Laden, Speichern und bei Fahrzeugprofilen getrennt erhalten.",
+  "version": "0.5.6.72",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.72/BusControlDesktopCenter-0.5.6.72-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.72",
+  "publishedAt": "2026-09-21",
+  "changelog": "- Betriebshinweise lassen sich jetzt gezielt einer Fahrt, einem Kurs, einer Linie, einer Datei oder einem Fahrzeug zuordnen.\n- Kartenpunkte und Radien können direkt im Routeneditor gesetzt und geprüft werden; sofortige Hinweise funktionieren ohne GPS.\n- Ungespeicherte Betriebshinweise werden beim Schließen erkannt und vor dem Upload nach Bestätigung gesichert.\n- Der Konfigurator bietet betreiberneutrale Monitor-Netzwerkprofile für Auto, Ethernet und WLAN mit optionalem Profilnamen.",
   "changelogItems": [
-    "Der Konfigurator bietet jetzt einen eigenen Sendeweg-Bereich für IBIS-Zielanzeigen.",
-    "Zielanzeigen können pro Konfiguration zwischen bestehendem Bestand, Kabel/Wagenbus und WLAN/Serial-over-IP wählen.",
-    "Serial-over-IP-Host, Port und Protokoll werden betreiberneutral gespeichert, validiert und in Fahrzeugkonfigurationen übernommen.",
-    "Bildschirm- und Zielanzeigen-Sendewege bleiben beim Laden, Speichern und bei Fahrzeugprofilen getrennt erhalten."
+    "Betriebshinweise lassen sich jetzt gezielt einer Fahrt, einem Kurs, einer Linie, einer Datei oder einem Fahrzeug zuordnen.",
+    "Kartenpunkte und Radien können direkt im Routeneditor gesetzt und geprüft werden; sofortige Hinweise funktionieren ohne GPS.",
+    "Ungespeicherte Betriebshinweise werden beim Schließen erkannt und vor dem Upload nach Bestätigung gesichert.",
+    "Der Konfigurator bietet betreiberneutrale Monitor-Netzwerkprofile für Auto, Ethernet und WLAN mit optionalem Profilnamen."
   ],
   "required": false
 }
