@@ -1,13 +1,15 @@
 {
-  "version": "0.5.6.73",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.73/BusControlDesktopCenter-0.5.6.73-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.73",
-  "publishedAt": "2026-09-21",
-  "changelog": "- Beim ersten Dropbox-Arbeitsstandimport fragt der Desktop Center jetzt, ob das Programm-Arbeitsverzeichnis oder ein eigenes Arbeitsverzeichnis verwendet werden soll.\n- Manuelles „Arbeitsstand laden“ fragt ebenfalls nach dem Zielordner und speichert die Auswahl, damit die importierten Dateien direkt im aktiven Arbeitsverzeichnis landen.\n- Kursdateien werden nach dem Import auch in den Dropbox-Kategorieordnern erkannt, während flache alte Kursordner weiter funktionieren.",
+  "version": "0.5.6.74",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.74/BusControlDesktopCenter-0.5.6.74-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.74",
+  "publishedAt": "2026-09-22",
+  "changelog": "- Beim ersten Start wird einmalig ein Desktop-Center-Stammordner festgelegt; dort wird die feste lokale Struktur für Fahrplan, GPX, Navigation, Ansagen, Zielanzeigen und Arbeitsstand angelegt.\n- Der Stammordner kann später in den Einstellungen geändert werden und dient danach als gemeinsame Quelle für die Module und den Dropbox-Arbeitsstandimport.\n- Dropbox-Arbeitsstandordner werden beim Start jetzt über den schnellen rekursiven Dropbox-Scan gelesen. Das verhindert sehr lange Wartezeiten bei vielen Unterordnern.\n- Die Anzeige „Ordner wird gelesen“ bleibt dadurch nur noch während der echten Dropbox-Dateiliste aktiv und kommt schneller zum messbaren Fortschritt.\n- Im Routen-Editor übersteuert „OSM-Zugriffsbeschränkungen ignorieren“ jetzt auch Valhalla-Restriktionen und Einbahnstraßen.",
   "changelogItems": [
-    "Beim ersten Dropbox-Arbeitsstandimport fragt der Desktop Center jetzt, ob das Programm-Arbeitsverzeichnis oder ein eigenes Arbeitsverzeichnis verwendet werden soll.",
-    "Manuelles „Arbeitsstand laden“ fragt ebenfalls nach dem Zielordner und speichert die Auswahl, damit die importierten Dateien direkt im aktiven Arbeitsverzeichnis landen.",
-    "Kursdateien werden nach dem Import auch in den Dropbox-Kategorieordnern erkannt, während flache alte Kursordner weiter funktionieren."
+    "Beim ersten Start wird einmalig ein Desktop-Center-Stammordner festgelegt; dort wird die feste lokale Struktur für Fahrplan, GPX, Navigation, Ansagen, Zielanzeigen und Arbeitsstand angelegt.",
+    "Der Stammordner kann später in den Einstellungen geändert werden und dient danach als gemeinsame Quelle für die Module und den Dropbox-Arbeitsstandimport.",
+    "Dropbox-Arbeitsstandordner werden beim Start jetzt über den schnellen rekursiven Dropbox-Scan gelesen. Das verhindert sehr lange Wartezeiten bei vielen Unterordnern.",
+    "Die Anzeige „Ordner wird gelesen“ bleibt dadurch nur noch während der echten Dropbox-Dateiliste aktiv und kommt schneller zum messbaren Fortschritt.",
+    "Im Routen-Editor übersteuert „OSM-Zugriffsbeschränkungen ignorieren“ jetzt auch Valhalla-Restriktionen und Einbahnstraßen."
   ],
   "required": false
 }
