@@ -1,14 +1,14 @@
 {
-  "version": "0.5.6.75",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.75/BusControlDesktopCenter-0.5.6.75-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.75",
+  "version": "0.5.6.76",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.76/BusControlDesktopCenter-0.5.6.76-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.76",
   "publishedAt": "2026-09-24",
-  "changelog": "- Der Dropbox-Arbeitsstand nutzt jetzt auch fuer DesktopCenter/Arbeitsstand, DesktopCenter/Arbeitsstamm, stopcenter und routing die bestehende Update-Manifest-Dateiliste, wenn diese vorhanden ist.\n- Fehlen die neuen Manifest-Kategorien noch, bleibt der bisherige Dropbox-Ordnerscan als Fallback erhalten.\n- Der Manifest-Ersteller schreibt diese DesktopCenter-Arbeitsordner kuenftig mit denselben Sicherheitsfiltern wie Import und Export; Cache-, Backup-, Log- und Token-Dateien werden ausgeschlossen.\n- APK-Eintraege im Dropbox-Update-Manifest behalten SHA-256 und versionCode zuverlaessiger, wenn eine bestehende APK bereits im Manifest steht.",
+  "changelog": "- Das Sichern des DesktopCenter-Arbeitsstands nutzt das vorhandene Manifest jetzt auch in Rueckrichtung: unveraenderte Dateien in Arbeitsstand, Arbeitsstamm, stopcenter und routing werden lokal per Dropbox-Content-Hash erkannt und ohne einzelnen Dropbox-Upload-Check uebersprungen.\n- Dadurch muss der Export bei grossen Arbeitsordnern nicht mehr fuer tausende unveraenderte Dateien einzeln Dropbox anfragen.\n- Das Manifest wird weiterhin nach Uploads oder fehlenden Manifest-Kategorien aktualisiert, damit Laden und Sichern denselben Stand verwenden.\n- Fahrplan-Manifestpfade werden kanonisch normalisiert, damit Route-Trigger-Sidecars konsistent einsortiert und doppelte Fahrplan-Eintraege vermieden werden.",
   "changelogItems": [
-    "Der Dropbox-Arbeitsstand nutzt jetzt auch fuer DesktopCenter/Arbeitsstand, DesktopCenter/Arbeitsstamm, stopcenter und routing die bestehende Update-Manifest-Dateiliste, wenn diese vorhanden ist.",
-    "Fehlen die neuen Manifest-Kategorien noch, bleibt der bisherige Dropbox-Ordnerscan als Fallback erhalten.",
-    "Der Manifest-Ersteller schreibt diese DesktopCenter-Arbeitsordner kuenftig mit denselben Sicherheitsfiltern wie Import und Export; Cache-, Backup-, Log- und Token-Dateien werden ausgeschlossen.",
-    "APK-Eintraege im Dropbox-Update-Manifest behalten SHA-256 und versionCode zuverlaessiger, wenn eine bestehende APK bereits im Manifest steht."
+    "Das Sichern des DesktopCenter-Arbeitsstands nutzt das vorhandene Manifest jetzt auch in Rueckrichtung: unveraenderte Dateien in Arbeitsstand, Arbeitsstamm, stopcenter und routing werden lokal per Dropbox-Content-Hash erkannt und ohne einzelnen Dropbox-Upload-Check uebersprungen.",
+    "Dadurch muss der Export bei grossen Arbeitsordnern nicht mehr fuer tausende unveraenderte Dateien einzeln Dropbox anfragen.",
+    "Das Manifest wird weiterhin nach Uploads oder fehlenden Manifest-Kategorien aktualisiert, damit Laden und Sichern denselben Stand verwenden.",
+    "Fahrplan-Manifestpfade werden kanonisch normalisiert, damit Route-Trigger-Sidecars konsistent einsortiert und doppelte Fahrplan-Eintraege vermieden werden."
   ],
   "required": false
 }
