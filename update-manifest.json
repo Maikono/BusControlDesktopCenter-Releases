@@ -1,15 +1,14 @@
 {
-  "version": "0.5.6.74",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.74/BusControlDesktopCenter-0.5.6.74-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.74",
-  "publishedAt": "2026-09-22",
-  "changelog": "- Beim ersten Start wird einmalig ein Desktop-Center-Stammordner festgelegt; dort wird die feste lokale Struktur für Fahrplan, GPX, Navigation, Ansagen, Zielanzeigen und Arbeitsstand angelegt.\n- Der Stammordner kann später in den Einstellungen geändert werden und dient danach als gemeinsame Quelle für die Module und den Dropbox-Arbeitsstandimport.\n- Dropbox-Arbeitsstandordner werden beim Start jetzt über den schnellen rekursiven Dropbox-Scan gelesen. Das verhindert sehr lange Wartezeiten bei vielen Unterordnern.\n- Die Anzeige „Ordner wird gelesen“ bleibt dadurch nur noch während der echten Dropbox-Dateiliste aktiv und kommt schneller zum messbaren Fortschritt.\n- Im Routen-Editor übersteuert „OSM-Zugriffsbeschränkungen ignorieren“ jetzt auch Valhalla-Restriktionen und Einbahnstraßen.",
+  "version": "0.5.6.75",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.75/BusControlDesktopCenter-0.5.6.75-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.75",
+  "publishedAt": "2026-09-24",
+  "changelog": "- Der Dropbox-Arbeitsstand nutzt jetzt auch fuer DesktopCenter/Arbeitsstand, DesktopCenter/Arbeitsstamm, stopcenter und routing die bestehende Update-Manifest-Dateiliste, wenn diese vorhanden ist.\n- Fehlen die neuen Manifest-Kategorien noch, bleibt der bisherige Dropbox-Ordnerscan als Fallback erhalten.\n- Der Manifest-Ersteller schreibt diese DesktopCenter-Arbeitsordner kuenftig mit denselben Sicherheitsfiltern wie Import und Export; Cache-, Backup-, Log- und Token-Dateien werden ausgeschlossen.\n- APK-Eintraege im Dropbox-Update-Manifest behalten SHA-256 und versionCode zuverlaessiger, wenn eine bestehende APK bereits im Manifest steht.",
   "changelogItems": [
-    "Beim ersten Start wird einmalig ein Desktop-Center-Stammordner festgelegt; dort wird die feste lokale Struktur für Fahrplan, GPX, Navigation, Ansagen, Zielanzeigen und Arbeitsstand angelegt.",
-    "Der Stammordner kann später in den Einstellungen geändert werden und dient danach als gemeinsame Quelle für die Module und den Dropbox-Arbeitsstandimport.",
-    "Dropbox-Arbeitsstandordner werden beim Start jetzt über den schnellen rekursiven Dropbox-Scan gelesen. Das verhindert sehr lange Wartezeiten bei vielen Unterordnern.",
-    "Die Anzeige „Ordner wird gelesen“ bleibt dadurch nur noch während der echten Dropbox-Dateiliste aktiv und kommt schneller zum messbaren Fortschritt.",
-    "Im Routen-Editor übersteuert „OSM-Zugriffsbeschränkungen ignorieren“ jetzt auch Valhalla-Restriktionen und Einbahnstraßen."
+    "Der Dropbox-Arbeitsstand nutzt jetzt auch fuer DesktopCenter/Arbeitsstand, DesktopCenter/Arbeitsstamm, stopcenter und routing die bestehende Update-Manifest-Dateiliste, wenn diese vorhanden ist.",
+    "Fehlen die neuen Manifest-Kategorien noch, bleibt der bisherige Dropbox-Ordnerscan als Fallback erhalten.",
+    "Der Manifest-Ersteller schreibt diese DesktopCenter-Arbeitsordner kuenftig mit denselben Sicherheitsfiltern wie Import und Export; Cache-, Backup-, Log- und Token-Dateien werden ausgeschlossen.",
+    "APK-Eintraege im Dropbox-Update-Manifest behalten SHA-256 und versionCode zuverlaessiger, wenn eine bestehende APK bereits im Manifest steht."
   ],
   "required": false
 }
