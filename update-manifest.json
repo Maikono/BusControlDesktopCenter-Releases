@@ -1,14 +1,14 @@
 {
-  "version": "0.5.6.76",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.76/BusControlDesktopCenter-0.5.6.76-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.76",
-  "publishedAt": "2026-09-24",
-  "changelog": "- Das Sichern des DesktopCenter-Arbeitsstands nutzt das vorhandene Manifest jetzt auch in Rueckrichtung: unveraenderte Dateien in Arbeitsstand, Arbeitsstamm, stopcenter und routing werden lokal per Dropbox-Content-Hash erkannt und ohne einzelnen Dropbox-Upload-Check uebersprungen.\n- Dadurch muss der Export bei grossen Arbeitsordnern nicht mehr fuer tausende unveraenderte Dateien einzeln Dropbox anfragen.\n- Das Manifest wird weiterhin nach Uploads oder fehlenden Manifest-Kategorien aktualisiert, damit Laden und Sichern denselben Stand verwenden.\n- Fahrplan-Manifestpfade werden kanonisch normalisiert, damit Route-Trigger-Sidecars konsistent einsortiert und doppelte Fahrplan-Eintraege vermieden werden.",
+  "version": "0.5.6.77",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.77/BusControlDesktopCenter-0.5.6.77-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.77",
+  "publishedAt": "2026-09-25",
+  "changelog": "- Der Startbildschirm gibt das Hauptmenue nach spaetestens 15 Sekunden frei, wenn der Arbeitsstand noch weiter synchronisiert wird.\n- Der echte Arbeitsstand-Fortschritt laeuft danach als gruener Hintergrundbalken unten im Hauptfenster weiter.\n- Betriebshinweise und Route-Trigger verwenden jetzt einen konfigurierbaren Dropbox-Ordner und werden in Manifest- und Konfigurator-Daten uebernommen.\n- Manifest-basierte Arbeitsstand-Lade- und Sicherungslogik aus den vorherigen Updates bleibt erhalten.",
   "changelogItems": [
-    "Das Sichern des DesktopCenter-Arbeitsstands nutzt das vorhandene Manifest jetzt auch in Rueckrichtung: unveraenderte Dateien in Arbeitsstand, Arbeitsstamm, stopcenter und routing werden lokal per Dropbox-Content-Hash erkannt und ohne einzelnen Dropbox-Upload-Check uebersprungen.",
-    "Dadurch muss der Export bei grossen Arbeitsordnern nicht mehr fuer tausende unveraenderte Dateien einzeln Dropbox anfragen.",
-    "Das Manifest wird weiterhin nach Uploads oder fehlenden Manifest-Kategorien aktualisiert, damit Laden und Sichern denselben Stand verwenden.",
-    "Fahrplan-Manifestpfade werden kanonisch normalisiert, damit Route-Trigger-Sidecars konsistent einsortiert und doppelte Fahrplan-Eintraege vermieden werden."
+    "Der Startbildschirm gibt das Hauptmenue nach spaetestens 15 Sekunden frei, wenn der Arbeitsstand noch weiter synchronisiert wird.",
+    "Der echte Arbeitsstand-Fortschritt laeuft danach als gruener Hintergrundbalken unten im Hauptfenster weiter.",
+    "Betriebshinweise und Route-Trigger verwenden jetzt einen konfigurierbaren Dropbox-Ordner und werden in Manifest- und Konfigurator-Daten uebernommen.",
+    "Manifest-basierte Arbeitsstand-Lade- und Sicherungslogik aus den vorherigen Updates bleibt erhalten."
   ],
   "required": false
 }
