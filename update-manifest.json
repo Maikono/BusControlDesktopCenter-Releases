@@ -1,14 +1,16 @@
 {
-  "version": "0.5.6.77",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.77/BusControlDesktopCenter-0.5.6.77-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.77",
-  "publishedAt": "2026-09-25",
-  "changelog": "- Der Startbildschirm gibt das Hauptmenue nach spaetestens 15 Sekunden frei, wenn der Arbeitsstand noch weiter synchronisiert wird.\n- Der echte Arbeitsstand-Fortschritt laeuft danach als gruener Hintergrundbalken unten im Hauptfenster weiter.\n- Betriebshinweise und Route-Trigger verwenden jetzt einen konfigurierbaren Dropbox-Ordner und werden in Manifest- und Konfigurator-Daten uebernommen.\n- Manifest-basierte Arbeitsstand-Lade- und Sicherungslogik aus den vorherigen Updates bleibt erhalten.",
+  "version": "0.5.6.78",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.78/BusControlDesktopCenter-0.5.6.78-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.78",
+  "publishedAt": "2026-10-04",
+  "changelog": "- Der Kurseditor fuehrt kompakter durch Kursgrunddaten, Fahrgrunddaten, Haltestellen und Abschluss und erlaubt den direkten Wechsel zwischen vorhandenen Fahrten.\n- Kalenderregeln, einzelne Verkehrstage und Datumsbereiche koennen direkt im Kurseditor gepflegt werden.\n- Der neue Abschlussdialog bietet Speichern, Routenvorlage, Routenauswahl und Fahrtenvorlage in einem Ablauf und verhindert doppelte Fahrten.\n- Betriebshinweise behalten ihren gewaehlten Zielbereich zuverlaessig in der Datei.\n- GORBA/XIMPLE und der Routerweg lassen sich im Konfigurator getrennt konfigurieren.\n- GPX- und NAV-Dateien werden bei festgelegtem Arbeitsverzeichnis nur aus dessen Struktur aufgeloest, damit keine fremden Dateien versehentlich verwendet werden.",
   "changelogItems": [
-    "Der Startbildschirm gibt das Hauptmenue nach spaetestens 15 Sekunden frei, wenn der Arbeitsstand noch weiter synchronisiert wird.",
-    "Der echte Arbeitsstand-Fortschritt laeuft danach als gruener Hintergrundbalken unten im Hauptfenster weiter.",
-    "Betriebshinweise und Route-Trigger verwenden jetzt einen konfigurierbaren Dropbox-Ordner und werden in Manifest- und Konfigurator-Daten uebernommen.",
-    "Manifest-basierte Arbeitsstand-Lade- und Sicherungslogik aus den vorherigen Updates bleibt erhalten."
+    "Der Kurseditor fuehrt kompakter durch Kursgrunddaten, Fahrgrunddaten, Haltestellen und Abschluss und erlaubt den direkten Wechsel zwischen vorhandenen Fahrten.",
+    "Kalenderregeln, einzelne Verkehrstage und Datumsbereiche koennen direkt im Kurseditor gepflegt werden.",
+    "Der neue Abschlussdialog bietet Speichern, Routenvorlage, Routenauswahl und Fahrtenvorlage in einem Ablauf und verhindert doppelte Fahrten.",
+    "Betriebshinweise behalten ihren gewaehlten Zielbereich zuverlaessig in der Datei.",
+    "GORBA/XIMPLE und der Routerweg lassen sich im Konfigurator getrennt konfigurieren.",
+    "GPX- und NAV-Dateien werden bei festgelegtem Arbeitsverzeichnis nur aus dessen Struktur aufgeloest, damit keine fremden Dateien versehentlich verwendet werden."
   ],
   "required": false
 }
