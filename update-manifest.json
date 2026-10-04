@@ -1,16 +1,16 @@
 {
-  "version": "0.5.6.78",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.78/BusControlDesktopCenter-0.5.6.78-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.78",
+  "version": "0.5.6.79",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.79/BusControlDesktopCenter-0.5.6.79-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.79",
   "publishedAt": "2026-10-04",
-  "changelog": "- Der Kurseditor fuehrt kompakter durch Kursgrunddaten, Fahrgrunddaten, Haltestellen und Abschluss und erlaubt den direkten Wechsel zwischen vorhandenen Fahrten.\n- Kalenderregeln, einzelne Verkehrstage und Datumsbereiche koennen direkt im Kurseditor gepflegt werden.\n- Der neue Abschlussdialog bietet Speichern, Routenvorlage, Routenauswahl und Fahrtenvorlage in einem Ablauf und verhindert doppelte Fahrten.\n- Betriebshinweise behalten ihren gewaehlten Zielbereich zuverlaessig in der Datei.\n- GORBA/XIMPLE und der Routerweg lassen sich im Konfigurator getrennt konfigurieren.\n- GPX- und NAV-Dateien werden bei festgelegtem Arbeitsverzeichnis nur aus dessen Struktur aufgeloest, damit keine fremden Dateien versehentlich verwendet werden.",
+  "changelog": "- Kalenderregeln und Datumszeitraeume stehen auf breiten Ansichten nebeneinander.\n- Fahrtnummer und Routenvorlage sind kompakt zusammengefasst; bei neuen Fahrten wird Linien- oder Betriebsfahrt direkt abgefragt.\n- Lange Kurs- und Fahrtenfilter lassen sich ueber einen sichtbaren horizontalen Balken vollstaendig scrollen.\n- Die extern geoeffnete Karte verwendet eine frei erreichbare OpenFreeMap-Grundkarte.\n- Gespeicherte Routenvorlagen bleiben nach dem Speichern und Neustart auffindbar; wiederverwendete IDs verschiedener Linien wie RE19 und D werden getrennt erhalten.\n- Willkommens- und Haltestellenansagen werden mit Routenvorlagen und Arbeitsstand uebernommen. Die Synchronisierung nutzt die vorhandenen Ansagenordner und verhindert rekursive DesktopCenter-Unterordner.",
   "changelogItems": [
-    "Der Kurseditor fuehrt kompakter durch Kursgrunddaten, Fahrgrunddaten, Haltestellen und Abschluss und erlaubt den direkten Wechsel zwischen vorhandenen Fahrten.",
-    "Kalenderregeln, einzelne Verkehrstage und Datumsbereiche koennen direkt im Kurseditor gepflegt werden.",
-    "Der neue Abschlussdialog bietet Speichern, Routenvorlage, Routenauswahl und Fahrtenvorlage in einem Ablauf und verhindert doppelte Fahrten.",
-    "Betriebshinweise behalten ihren gewaehlten Zielbereich zuverlaessig in der Datei.",
-    "GORBA/XIMPLE und der Routerweg lassen sich im Konfigurator getrennt konfigurieren.",
-    "GPX- und NAV-Dateien werden bei festgelegtem Arbeitsverzeichnis nur aus dessen Struktur aufgeloest, damit keine fremden Dateien versehentlich verwendet werden."
+    "Kalenderregeln und Datumszeitraeume stehen auf breiten Ansichten nebeneinander.",
+    "Fahrtnummer und Routenvorlage sind kompakt zusammengefasst; bei neuen Fahrten wird Linien- oder Betriebsfahrt direkt abgefragt.",
+    "Lange Kurs- und Fahrtenfilter lassen sich ueber einen sichtbaren horizontalen Balken vollstaendig scrollen.",
+    "Die extern geoeffnete Karte verwendet eine frei erreichbare OpenFreeMap-Grundkarte.",
+    "Gespeicherte Routenvorlagen bleiben nach dem Speichern und Neustart auffindbar; wiederverwendete IDs verschiedener Linien wie RE19 und D werden getrennt erhalten.",
+    "Willkommens- und Haltestellenansagen werden mit Routenvorlagen und Arbeitsstand uebernommen. Die Synchronisierung nutzt die vorhandenen Ansagenordner und verhindert rekursive DesktopCenter-Unterordner."
   ],
   "required": false
 }
