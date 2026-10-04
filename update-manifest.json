@@ -1,16 +1,16 @@
 {
-  "version": "0.5.6.79",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.79/BusControlDesktopCenter-0.5.6.79-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.79",
+  "version": "0.5.6.80",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.80/BusControlDesktopCenter-0.5.6.80-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.80",
   "publishedAt": "2026-10-04",
-  "changelog": "- Kalenderregeln und Datumszeitraeume stehen auf breiten Ansichten nebeneinander.\n- Fahrtnummer und Routenvorlage sind kompakt zusammengefasst; bei neuen Fahrten wird Linien- oder Betriebsfahrt direkt abgefragt.\n- Lange Kurs- und Fahrtenfilter lassen sich ueber einen sichtbaren horizontalen Balken vollstaendig scrollen.\n- Die extern geoeffnete Karte verwendet eine frei erreichbare OpenFreeMap-Grundkarte.\n- Gespeicherte Routenvorlagen bleiben nach dem Speichern und Neustart auffindbar; wiederverwendete IDs verschiedener Linien wie RE19 und D werden getrennt erhalten.\n- Willkommens- und Haltestellenansagen werden mit Routenvorlagen und Arbeitsstand uebernommen. Die Synchronisierung nutzt die vorhandenen Ansagenordner und verhindert rekursive DesktopCenter-Unterordner.",
+  "changelog": "- Der Routen-Editor kann nach der letzten Linienfahrt automatisch eine Betriebsfahrt zum ausgewaehlten Betriebshof oder Abstellplatz berechnen und einfuegen.\n- Die letzte Ankunft wird als Abfahrt uebernommen; berechnete Ankunft, Entfernung sowie GPX- und NAV-Dateien werden in die Betriebsfahrt eingetragen.\n- Wenn der Routingdienst nicht erreichbar ist, kann die Fahrzeit anhand des Fahrzeugprofils geschaetzt und transparent gekennzeichnet werden.\n- Der GPX-Routeneditor zeigt berechnete Streckenlaenge und Fahrzeit bereits vor dem Export an.\n- Routingmodus, Valhalla-Endpunkt, Filter, Fahrzeugabmessungen und die Geschwindigkeit fuer Schaetzungen werden zentral gespeichert und von beiden Editoren gemeinsam verwendet.\n- Direkte Strecken erhalten ebenfalls eine nachvollziehbare Fahrzeit aus dem aktiven Fahrzeugprofil.",
   "changelogItems": [
-    "Kalenderregeln und Datumszeitraeume stehen auf breiten Ansichten nebeneinander.",
-    "Fahrtnummer und Routenvorlage sind kompakt zusammengefasst; bei neuen Fahrten wird Linien- oder Betriebsfahrt direkt abgefragt.",
-    "Lange Kurs- und Fahrtenfilter lassen sich ueber einen sichtbaren horizontalen Balken vollstaendig scrollen.",
-    "Die extern geoeffnete Karte verwendet eine frei erreichbare OpenFreeMap-Grundkarte.",
-    "Gespeicherte Routenvorlagen bleiben nach dem Speichern und Neustart auffindbar; wiederverwendete IDs verschiedener Linien wie RE19 und D werden getrennt erhalten.",
-    "Willkommens- und Haltestellenansagen werden mit Routenvorlagen und Arbeitsstand uebernommen. Die Synchronisierung nutzt die vorhandenen Ansagenordner und verhindert rekursive DesktopCenter-Unterordner."
+    "Der Routen-Editor kann nach der letzten Linienfahrt automatisch eine Betriebsfahrt zum ausgewaehlten Betriebshof oder Abstellplatz berechnen und einfuegen.",
+    "Die letzte Ankunft wird als Abfahrt uebernommen; berechnete Ankunft, Entfernung sowie GPX- und NAV-Dateien werden in die Betriebsfahrt eingetragen.",
+    "Wenn der Routingdienst nicht erreichbar ist, kann die Fahrzeit anhand des Fahrzeugprofils geschaetzt und transparent gekennzeichnet werden.",
+    "Der GPX-Routeneditor zeigt berechnete Streckenlaenge und Fahrzeit bereits vor dem Export an.",
+    "Routingmodus, Valhalla-Endpunkt, Filter, Fahrzeugabmessungen und die Geschwindigkeit fuer Schaetzungen werden zentral gespeichert und von beiden Editoren gemeinsam verwendet.",
+    "Direkte Strecken erhalten ebenfalls eine nachvollziehbare Fahrzeit aus dem aktiven Fahrzeugprofil."
   ],
   "required": false
 }
