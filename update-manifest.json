@@ -1,16 +1,16 @@
 {
-  "version": "0.5.6.81",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.81/BusControlDesktopCenter-0.5.6.81-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.81",
+  "version": "0.6.0",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.0/BusControlDesktopCenter-0.6.0-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.0",
   "publishedAt": "2026-10-05",
-  "changelog": "- Routen-Editor und Haltestellen-Center erkennen fehlende Haltestellenansagen und koennen sie mit Vorschau gezielt erzeugen und zuordnen.\n- Vorhandene Audiodateien und manuelle Zuordnungen bleiben erhalten; gleiche Haltestellen verwenden bereits vorhandene Ansagen erneut.\n- ElevenLabs steht neben Windows und OpenAI als Ansagenanbieter bereit, inklusive Stimmenauswahl und Anzeige des Zeichenkontingents.\n- ElevenLabs-Konten und Stimmen werden getrennt je Verkehrsbetrieb gespeichert und ueber die vorhandenen Betreiberprofile aufgeloest.\n- Erzeugte Ansagen werden im konfigurierten Arbeitsverzeichnis abgelegt und in das bestehende Dropbox-Arbeitsstandspaket aufgenommen.\n- Fortschritt und Ergebnis der Ansagenerzeugung werden direkt im jeweiligen Editor angezeigt.",
+  "changelog": "- Das Ansagen-Tool ist in Erstellen, Modus, Archiv und Einstellungen gegliedert und bietet einen deutlich uebersichtlicheren Arbeitsablauf.\n- Sprechprofile fuer Windows, OpenAI und ElevenLabs koennen je Verkehrsbetrieb angelegt, aktiviert, getestet und verwaltet werden.\n- ElevenLabs v3/v4 unterstuetzt Ausdrucks-Tags und Mehrstimmen-Ansagen; nicht verfuegbare Stimmen werden passend zum Tarif gekennzeichnet.\n- Das neue Ansagenarchiv durchsucht, sortiert und gruppiert erzeugte Audiodateien und zeigt Anbieter, Profil, Kategorie und Stimmenanzahl an.\n- OpenAI- und ElevenLabs-Zugangsdaten werden zentral je Verkehrsbetrieb verwaltet und bleiben durch die bestehende Sync-Sicherheitslogik vom Arbeitsstand ausgeschlossen.\n- Vorhandene Einstellungen werden automatisch in die neue Profilstruktur uebernommen; Aussprache- und Vorlagenbezeichnungen wurden sprachlich bereinigt.",
   "changelogItems": [
-    "Routen-Editor und Haltestellen-Center erkennen fehlende Haltestellenansagen und koennen sie mit Vorschau gezielt erzeugen und zuordnen.",
-    "Vorhandene Audiodateien und manuelle Zuordnungen bleiben erhalten; gleiche Haltestellen verwenden bereits vorhandene Ansagen erneut.",
-    "ElevenLabs steht neben Windows und OpenAI als Ansagenanbieter bereit, inklusive Stimmenauswahl und Anzeige des Zeichenkontingents.",
-    "ElevenLabs-Konten und Stimmen werden getrennt je Verkehrsbetrieb gespeichert und ueber die vorhandenen Betreiberprofile aufgeloest.",
-    "Erzeugte Ansagen werden im konfigurierten Arbeitsverzeichnis abgelegt und in das bestehende Dropbox-Arbeitsstandspaket aufgenommen.",
-    "Fortschritt und Ergebnis der Ansagenerzeugung werden direkt im jeweiligen Editor angezeigt."
+    "Das Ansagen-Tool ist in Erstellen, Modus, Archiv und Einstellungen gegliedert und bietet einen deutlich uebersichtlicheren Arbeitsablauf.",
+    "Sprechprofile fuer Windows, OpenAI und ElevenLabs koennen je Verkehrsbetrieb angelegt, aktiviert, getestet und verwaltet werden.",
+    "ElevenLabs v3/v4 unterstuetzt Ausdrucks-Tags und Mehrstimmen-Ansagen; nicht verfuegbare Stimmen werden passend zum Tarif gekennzeichnet.",
+    "Das neue Ansagenarchiv durchsucht, sortiert und gruppiert erzeugte Audiodateien und zeigt Anbieter, Profil, Kategorie und Stimmenanzahl an.",
+    "OpenAI- und ElevenLabs-Zugangsdaten werden zentral je Verkehrsbetrieb verwaltet und bleiben durch die bestehende Sync-Sicherheitslogik vom Arbeitsstand ausgeschlossen.",
+    "Vorhandene Einstellungen werden automatisch in die neue Profilstruktur uebernommen; Aussprache- und Vorlagenbezeichnungen wurden sprachlich bereinigt."
   ],
   "required": false
 }
