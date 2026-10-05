@@ -1,16 +1,16 @@
 {
-  "version": "0.5.6.80",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.80/BusControlDesktopCenter-0.5.6.80-setup.exe",
-  "headline": "BusControl Desktop Center v0.5.6.80",
-  "publishedAt": "2026-10-04",
-  "changelog": "- Der Routen-Editor kann nach der letzten Linienfahrt automatisch eine Betriebsfahrt zum ausgewaehlten Betriebshof oder Abstellplatz berechnen und einfuegen.\n- Die letzte Ankunft wird als Abfahrt uebernommen; berechnete Ankunft, Entfernung sowie GPX- und NAV-Dateien werden in die Betriebsfahrt eingetragen.\n- Wenn der Routingdienst nicht erreichbar ist, kann die Fahrzeit anhand des Fahrzeugprofils geschaetzt und transparent gekennzeichnet werden.\n- Der GPX-Routeneditor zeigt berechnete Streckenlaenge und Fahrzeit bereits vor dem Export an.\n- Routingmodus, Valhalla-Endpunkt, Filter, Fahrzeugabmessungen und die Geschwindigkeit fuer Schaetzungen werden zentral gespeichert und von beiden Editoren gemeinsam verwendet.\n- Direkte Strecken erhalten ebenfalls eine nachvollziehbare Fahrzeit aus dem aktiven Fahrzeugprofil.",
+  "version": "0.5.6.81",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.5.6.81/BusControlDesktopCenter-0.5.6.81-setup.exe",
+  "headline": "BusControl Desktop Center v0.5.6.81",
+  "publishedAt": "2026-10-05",
+  "changelog": "- Routen-Editor und Haltestellen-Center erkennen fehlende Haltestellenansagen und koennen sie mit Vorschau gezielt erzeugen und zuordnen.\n- Vorhandene Audiodateien und manuelle Zuordnungen bleiben erhalten; gleiche Haltestellen verwenden bereits vorhandene Ansagen erneut.\n- ElevenLabs steht neben Windows und OpenAI als Ansagenanbieter bereit, inklusive Stimmenauswahl und Anzeige des Zeichenkontingents.\n- ElevenLabs-Konten und Stimmen werden getrennt je Verkehrsbetrieb gespeichert und ueber die vorhandenen Betreiberprofile aufgeloest.\n- Erzeugte Ansagen werden im konfigurierten Arbeitsverzeichnis abgelegt und in das bestehende Dropbox-Arbeitsstandspaket aufgenommen.\n- Fortschritt und Ergebnis der Ansagenerzeugung werden direkt im jeweiligen Editor angezeigt.",
   "changelogItems": [
-    "Der Routen-Editor kann nach der letzten Linienfahrt automatisch eine Betriebsfahrt zum ausgewaehlten Betriebshof oder Abstellplatz berechnen und einfuegen.",
-    "Die letzte Ankunft wird als Abfahrt uebernommen; berechnete Ankunft, Entfernung sowie GPX- und NAV-Dateien werden in die Betriebsfahrt eingetragen.",
-    "Wenn der Routingdienst nicht erreichbar ist, kann die Fahrzeit anhand des Fahrzeugprofils geschaetzt und transparent gekennzeichnet werden.",
-    "Der GPX-Routeneditor zeigt berechnete Streckenlaenge und Fahrzeit bereits vor dem Export an.",
-    "Routingmodus, Valhalla-Endpunkt, Filter, Fahrzeugabmessungen und die Geschwindigkeit fuer Schaetzungen werden zentral gespeichert und von beiden Editoren gemeinsam verwendet.",
-    "Direkte Strecken erhalten ebenfalls eine nachvollziehbare Fahrzeit aus dem aktiven Fahrzeugprofil."
+    "Routen-Editor und Haltestellen-Center erkennen fehlende Haltestellenansagen und koennen sie mit Vorschau gezielt erzeugen und zuordnen.",
+    "Vorhandene Audiodateien und manuelle Zuordnungen bleiben erhalten; gleiche Haltestellen verwenden bereits vorhandene Ansagen erneut.",
+    "ElevenLabs steht neben Windows und OpenAI als Ansagenanbieter bereit, inklusive Stimmenauswahl und Anzeige des Zeichenkontingents.",
+    "ElevenLabs-Konten und Stimmen werden getrennt je Verkehrsbetrieb gespeichert und ueber die vorhandenen Betreiberprofile aufgeloest.",
+    "Erzeugte Ansagen werden im konfigurierten Arbeitsverzeichnis abgelegt und in das bestehende Dropbox-Arbeitsstandspaket aufgenommen.",
+    "Fortschritt und Ergebnis der Ansagenerzeugung werden direkt im jeweiligen Editor angezeigt."
   ],
   "required": false
 }
