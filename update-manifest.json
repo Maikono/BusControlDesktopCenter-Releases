@@ -1,13 +1,14 @@
 {
-  "version": "0.6.2",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.2/BusControlDesktopCenter-0.6.2-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.2",
+  "version": "0.6.3",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.3/BusControlDesktopCenter-0.6.3-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.3",
   "publishedAt": "2026-10-07",
-  "changelog": "- Eingebettete und extern geoeffnete Karten verwenden fuer Haltestellen jetzt das vorhandene blaue H-Symbol aus der Haltestellenlinie.\n- GPS-Hinweispunkte werden je nach Dringlichkeit blau, gelb, orange oder rot dargestellt und pulsieren mit passender Geschwindigkeit und Wellenzahl.\n- Deaktivierte Hinweispunkte erscheinen grau; ein Kartenklick uebernimmt die GPS-Position sowohl in der Programmkarte als auch im externen Browser.",
+  "changelog": "- Haltestellenkarten im Routen-Editor sind wieder groesser und lesbarer; Zusatzfelder wechseln bei wenig Platz in eine eigene Zeile.\n- Haltestellen lassen sich auf der eingebetteten und externen Karte mit einem deutlich groesseren Klickbereich auswaehlen; doppelte Symbole werden ausgeblendet.\n- Der GPX-Editor verwendet den lokal gewaehlten Haltestellenpfad und zeigt Fahrzeit, optionale Geschwindigkeitsangaben sowie den dauerhaft speicherbaren Dunkelmodus.\n- Die Strassenpruefung verhindert bei freigegebenen OSM-Zufahrten eine falsche Zuordnung zu Fusswegen.",
   "changelogItems": [
-    "Eingebettete und extern geoeffnete Karten verwenden fuer Haltestellen jetzt das vorhandene blaue H-Symbol aus der Haltestellenlinie.",
-    "GPS-Hinweispunkte werden je nach Dringlichkeit blau, gelb, orange oder rot dargestellt und pulsieren mit passender Geschwindigkeit und Wellenzahl.",
-    "Deaktivierte Hinweispunkte erscheinen grau; ein Kartenklick uebernimmt die GPS-Position sowohl in der Programmkarte als auch im externen Browser."
+    "Haltestellenkarten im Routen-Editor sind wieder groesser und lesbarer; Zusatzfelder wechseln bei wenig Platz in eine eigene Zeile.",
+    "Haltestellen lassen sich auf der eingebetteten und externen Karte mit einem deutlich groesseren Klickbereich auswaehlen; doppelte Symbole werden ausgeblendet.",
+    "Der GPX-Editor verwendet den lokal gewaehlten Haltestellenpfad und zeigt Fahrzeit, optionale Geschwindigkeitsangaben sowie den dauerhaft speicherbaren Dunkelmodus.",
+    "Die Strassenpruefung verhindert bei freigegebenen OSM-Zufahrten eine falsche Zuordnung zu Fusswegen."
   ],
   "required": false
 }
