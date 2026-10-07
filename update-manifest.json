@@ -1,16 +1,13 @@
 {
-  "version": "0.6.1",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.1/BusControlDesktopCenter-0.6.1-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.1",
-  "publishedAt": "2026-10-06",
-  "changelog": "- Vor dem Speichern prueft der Routen-Editor auf fehlende Betriebsfahrten vor, zwischen und nach Linienfahrten sowie auf lange Zeitluecken am selben Ort.\n- Vorschlaege koennen als Pause bestaetigt, ohne GPX eingefuegt oder automatisch mit GPX- und NAV-Dateien berechnet werden.\n- Betriebshof, Abstellung oder Haltestelle lassen sich durchsuchen und als Standard-Betriebsstandort dauerhaft speichern.\n- Automatische Betriebsfahrten verwenden das gemeinsame GPX-Editor-Fahrzeugprofil, beachten die verfuegbare Zeit und begrenzen die Bus-Hoechstgeschwindigkeit auf 80 km/h.\n- Das Ansagen-Tool behaelt Entwuerfe beim Bereichswechsel, erlaubt schnellen Profilwechsel und zeigt die Speicheraktionen dauerhaft sichtbar an.\n- Ansagen-Assistent, Speicherbestaetigung, Einstellungsnavigation und Dialogdarstellung wurden uebersichtlicher und besser bedienbar gestaltet.",
+  "version": "0.6.2",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.2/BusControlDesktopCenter-0.6.2-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.2",
+  "publishedAt": "2026-10-07",
+  "changelog": "- Eingebettete und extern geoeffnete Karten verwenden fuer Haltestellen jetzt das vorhandene blaue H-Symbol aus der Haltestellenlinie.\n- GPS-Hinweispunkte werden je nach Dringlichkeit blau, gelb, orange oder rot dargestellt und pulsieren mit passender Geschwindigkeit und Wellenzahl.\n- Deaktivierte Hinweispunkte erscheinen grau; ein Kartenklick uebernimmt die GPS-Position sowohl in der Programmkarte als auch im externen Browser.",
   "changelogItems": [
-    "Vor dem Speichern prueft der Routen-Editor auf fehlende Betriebsfahrten vor, zwischen und nach Linienfahrten sowie auf lange Zeitluecken am selben Ort.",
-    "Vorschlaege koennen als Pause bestaetigt, ohne GPX eingefuegt oder automatisch mit GPX- und NAV-Dateien berechnet werden.",
-    "Betriebshof, Abstellung oder Haltestelle lassen sich durchsuchen und als Standard-Betriebsstandort dauerhaft speichern.",
-    "Automatische Betriebsfahrten verwenden das gemeinsame GPX-Editor-Fahrzeugprofil, beachten die verfuegbare Zeit und begrenzen die Bus-Hoechstgeschwindigkeit auf 80 km/h.",
-    "Das Ansagen-Tool behaelt Entwuerfe beim Bereichswechsel, erlaubt schnellen Profilwechsel und zeigt die Speicheraktionen dauerhaft sichtbar an.",
-    "Ansagen-Assistent, Speicherbestaetigung, Einstellungsnavigation und Dialogdarstellung wurden uebersichtlicher und besser bedienbar gestaltet."
+    "Eingebettete und extern geoeffnete Karten verwenden fuer Haltestellen jetzt das vorhandene blaue H-Symbol aus der Haltestellenlinie.",
+    "GPS-Hinweispunkte werden je nach Dringlichkeit blau, gelb, orange oder rot dargestellt und pulsieren mit passender Geschwindigkeit und Wellenzahl.",
+    "Deaktivierte Hinweispunkte erscheinen grau; ein Kartenklick uebernimmt die GPS-Position sowohl in der Programmkarte als auch im externen Browser."
   ],
   "required": false
 }
