@@ -1,14 +1,13 @@
 {
-  "version": "0.6.3",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.3/BusControlDesktopCenter-0.6.3-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.3",
-  "publishedAt": "2026-10-07",
-  "changelog": "- Haltestellenkarten im Routen-Editor sind wieder groesser und lesbarer; Zusatzfelder wechseln bei wenig Platz in eine eigene Zeile.\n- Haltestellen lassen sich auf der eingebetteten und externen Karte mit einem deutlich groesseren Klickbereich auswaehlen; doppelte Symbole werden ausgeblendet.\n- Der GPX-Editor verwendet den lokal gewaehlten Haltestellenpfad und zeigt Fahrzeit, optionale Geschwindigkeitsangaben sowie den dauerhaft speicherbaren Dunkelmodus.\n- Die Strassenpruefung verhindert bei freigegebenen OSM-Zufahrten eine falsche Zuordnung zu Fusswegen.",
+  "version": "0.6.4",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.4/BusControlDesktopCenter-0.6.4-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.4",
+  "publishedAt": "2026-10-08",
+  "changelog": "- Uhrzeiten und Bedienelemente im Haltestellenverlauf passen sich an Fensterbreite und Windows-Skalierung an.\n- Bereits eingefuegte Fahrthaltestellen lassen sich direkt auf der eingebetteten Karte anklicken und zur Bearbeitung oeffnen.\n- Im GPX-Editor haben Haltestellensymbole beim Anklicken Vorrang vor der darunterliegenden Routenlinie.",
   "changelogItems": [
-    "Haltestellenkarten im Routen-Editor sind wieder groesser und lesbarer; Zusatzfelder wechseln bei wenig Platz in eine eigene Zeile.",
-    "Haltestellen lassen sich auf der eingebetteten und externen Karte mit einem deutlich groesseren Klickbereich auswaehlen; doppelte Symbole werden ausgeblendet.",
-    "Der GPX-Editor verwendet den lokal gewaehlten Haltestellenpfad und zeigt Fahrzeit, optionale Geschwindigkeitsangaben sowie den dauerhaft speicherbaren Dunkelmodus.",
-    "Die Strassenpruefung verhindert bei freigegebenen OSM-Zufahrten eine falsche Zuordnung zu Fusswegen."
+    "Uhrzeiten und Bedienelemente im Haltestellenverlauf passen sich an Fensterbreite und Windows-Skalierung an.",
+    "Bereits eingefuegte Fahrthaltestellen lassen sich direkt auf der eingebetteten Karte anklicken und zur Bearbeitung oeffnen.",
+    "Im GPX-Editor haben Haltestellensymbole beim Anklicken Vorrang vor der darunterliegenden Routenlinie."
   ],
   "required": false
 }
