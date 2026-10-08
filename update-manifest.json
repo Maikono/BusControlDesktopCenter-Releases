@@ -1,13 +1,15 @@
 {
-  "version": "0.6.4",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.4/BusControlDesktopCenter-0.6.4-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.4",
+  "version": "0.6.5",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.5/BusControlDesktopCenter-0.6.5-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.5",
   "publishedAt": "2026-10-08",
-  "changelog": "- Uhrzeiten und Bedienelemente im Haltestellenverlauf passen sich an Fensterbreite und Windows-Skalierung an.\n- Bereits eingefuegte Fahrthaltestellen lassen sich direkt auf der eingebetteten Karte anklicken und zur Bearbeitung oeffnen.\n- Im GPX-Editor haben Haltestellensymbole beim Anklicken Vorrang vor der darunterliegenden Routenlinie.",
+  "changelog": "- Dispo+ ist als vollstaendiges Desktop-Center-Modul fuer Vorplanung, Disposition, Dienste, Urlaub, Auftraege und Fahrerstamm integriert.\n- Betreiberprofile trennen Arbeitsverzeichnisse, Datenquellen, Zugangsdaten, Ansagen und Dropbox-Zustaende dauerhaft voneinander.\n- Dropbox-Import, Upload und Manifest-Verarbeitung pruefen das aktive Betreiberprofil und brechen bei einem Profilwechsel sicher ab.\n- Kalenderregeln werden zentral ausgewertet und stehen auch der Fahrzeugbedarfs- und Umlaufplanung zur Verfuegung.\n- Karten-Haltestellensymbole sind besser sichtbar und weitere Ansagen-, Konfigurator- und Datenquellenablaeufe wurden erweitert.",
   "changelogItems": [
-    "Uhrzeiten und Bedienelemente im Haltestellenverlauf passen sich an Fensterbreite und Windows-Skalierung an.",
-    "Bereits eingefuegte Fahrthaltestellen lassen sich direkt auf der eingebetteten Karte anklicken und zur Bearbeitung oeffnen.",
-    "Im GPX-Editor haben Haltestellensymbole beim Anklicken Vorrang vor der darunterliegenden Routenlinie."
+    "Dispo+ ist als vollstaendiges Desktop-Center-Modul fuer Vorplanung, Disposition, Dienste, Urlaub, Auftraege und Fahrerstamm integriert.",
+    "Betreiberprofile trennen Arbeitsverzeichnisse, Datenquellen, Zugangsdaten, Ansagen und Dropbox-Zustaende dauerhaft voneinander.",
+    "Dropbox-Import, Upload und Manifest-Verarbeitung pruefen das aktive Betreiberprofil und brechen bei einem Profilwechsel sicher ab.",
+    "Kalenderregeln werden zentral ausgewertet und stehen auch der Fahrzeugbedarfs- und Umlaufplanung zur Verfuegung.",
+    "Karten-Haltestellensymbole sind besser sichtbar und weitere Ansagen-, Konfigurator- und Datenquellenablaeufe wurden erweitert."
   ],
   "required": false
 }
