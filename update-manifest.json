@@ -1,15 +1,18 @@
 {
-  "version": "0.6.6",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.6/BusControlDesktopCenter-0.6.6-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.6",
+  "version": "0.6.7",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.7/BusControlDesktopCenter-0.6.7-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.7",
   "publishedAt": "2026-10-09",
-  "changelog": "- Dispo+ kann Fahrplandaten aus Excel uebernehmen, Vorplanungsfahrten verwalten und daraus Umlaeufe mit Wendezeiten und Verkehrstagen bilden.\n- Der neue Diensteditor prueft Ueberschneidungen, Fahrerzuordnungen und Freigaben und uebertraegt Arbeitszeiten kontrolliert in die Fahrerakten.\n- Ungespeicherte Dispo+-Entwuerfe bleiben bei Profil- und Fensterwechseln erhalten und werden vor dem Schliessen abgefragt.\n- Fahrerakten und Fahrzeugarchiv schuetzen parallele Aenderungen, defekte Dateien und fehlgeschlagene Dokument-Uploads besser.\n- Routenbibliothek, Liniencodes und der Assistent fuer Haltestellenansagen erkennen ihre Daten zuverlaessiger.",
+  "changelog": "- Der Dispo+-Excel-Import fuehrt durch die Zuordnung von Betriebshof, Orten und Umlaufbeziehungen und speichert die Einstellungen betreiberbezogen.\n- Die neue Tages- und Kursuebersicht zeigt Fahrzeugbedarf, Fahrtenfolgen, Verfuegbarkeit sowie Fahr-, Wende-, Stand- und Leerfahrtzeiten.\n- Wiederkehrende Fahrten werden fuer den gewaehlten Monat anhand ihrer Verkehrstage und des passenden Schulkalenders erzeugt.\n- Die Kursbildung ist fuer grosse Monatsplaene optimiert und behandelt Uebergaenge ueber die Betriebstagsgrenze ohne doppelte Zeitberechnung.\n- Der Routen-Editor erzeugt auf Wunsch betreiberbezogene Willkommensansagen mit Linie, Start und Ziel ueber die vorhandene ElevenLabs-Anbindung.\n- Routenvorlagen erhalten zuverlaessig eine freie Nummer; der Abschlussdialog ist breiter, scrollbar und uebersichtlicher.\n- Vorhandene API-Zugaenge koennen sicher einem Betreiberprofil zugeordnet werden und werden beim Speichern nicht mehr versehentlich geleert.\n- Nutz-, Leer- und Hofkilometer bleiben nachvollziehbar als offen markiert, bis eine echte Streckenquelle oder ein manueller Wert vorliegt.",
   "changelogItems": [
-    "Dispo+ kann Fahrplandaten aus Excel uebernehmen, Vorplanungsfahrten verwalten und daraus Umlaeufe mit Wendezeiten und Verkehrstagen bilden.",
-    "Der neue Diensteditor prueft Ueberschneidungen, Fahrerzuordnungen und Freigaben und uebertraegt Arbeitszeiten kontrolliert in die Fahrerakten.",
-    "Ungespeicherte Dispo+-Entwuerfe bleiben bei Profil- und Fensterwechseln erhalten und werden vor dem Schliessen abgefragt.",
-    "Fahrerakten und Fahrzeugarchiv schuetzen parallele Aenderungen, defekte Dateien und fehlgeschlagene Dokument-Uploads besser.",
-    "Routenbibliothek, Liniencodes und der Assistent fuer Haltestellenansagen erkennen ihre Daten zuverlaessiger."
+    "Der Dispo+-Excel-Import fuehrt durch die Zuordnung von Betriebshof, Orten und Umlaufbeziehungen und speichert die Einstellungen betreiberbezogen.",
+    "Die neue Tages- und Kursuebersicht zeigt Fahrzeugbedarf, Fahrtenfolgen, Verfuegbarkeit sowie Fahr-, Wende-, Stand- und Leerfahrtzeiten.",
+    "Wiederkehrende Fahrten werden fuer den gewaehlten Monat anhand ihrer Verkehrstage und des passenden Schulkalenders erzeugt.",
+    "Die Kursbildung ist fuer grosse Monatsplaene optimiert und behandelt Uebergaenge ueber die Betriebstagsgrenze ohne doppelte Zeitberechnung.",
+    "Der Routen-Editor erzeugt auf Wunsch betreiberbezogene Willkommensansagen mit Linie, Start und Ziel ueber die vorhandene ElevenLabs-Anbindung.",
+    "Routenvorlagen erhalten zuverlaessig eine freie Nummer; der Abschlussdialog ist breiter, scrollbar und uebersichtlicher.",
+    "Vorhandene API-Zugaenge koennen sicher einem Betreiberprofil zugeordnet werden und werden beim Speichern nicht mehr versehentlich geleert.",
+    "Nutz-, Leer- und Hofkilometer bleiben nachvollziehbar als offen markiert, bis eine echte Streckenquelle oder ein manueller Wert vorliegt."
   ],
   "required": false
 }
