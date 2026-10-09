@@ -1,15 +1,15 @@
 {
-  "version": "0.6.5",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.5/BusControlDesktopCenter-0.6.5-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.5",
-  "publishedAt": "2026-10-08",
-  "changelog": "- Dispo+ ist als vollstaendiges Desktop-Center-Modul fuer Vorplanung, Disposition, Dienste, Urlaub, Auftraege und Fahrerstamm integriert.\n- Betreiberprofile trennen Arbeitsverzeichnisse, Datenquellen, Zugangsdaten, Ansagen und Dropbox-Zustaende dauerhaft voneinander.\n- Dropbox-Import, Upload und Manifest-Verarbeitung pruefen das aktive Betreiberprofil und brechen bei einem Profilwechsel sicher ab.\n- Kalenderregeln werden zentral ausgewertet und stehen auch der Fahrzeugbedarfs- und Umlaufplanung zur Verfuegung.\n- Karten-Haltestellensymbole sind besser sichtbar und weitere Ansagen-, Konfigurator- und Datenquellenablaeufe wurden erweitert.",
+  "version": "0.6.6",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.6/BusControlDesktopCenter-0.6.6-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.6",
+  "publishedAt": "2026-10-09",
+  "changelog": "- Dispo+ kann Fahrplandaten aus Excel uebernehmen, Vorplanungsfahrten verwalten und daraus Umlaeufe mit Wendezeiten und Verkehrstagen bilden.\n- Der neue Diensteditor prueft Ueberschneidungen, Fahrerzuordnungen und Freigaben und uebertraegt Arbeitszeiten kontrolliert in die Fahrerakten.\n- Ungespeicherte Dispo+-Entwuerfe bleiben bei Profil- und Fensterwechseln erhalten und werden vor dem Schliessen abgefragt.\n- Fahrerakten und Fahrzeugarchiv schuetzen parallele Aenderungen, defekte Dateien und fehlgeschlagene Dokument-Uploads besser.\n- Routenbibliothek, Liniencodes und der Assistent fuer Haltestellenansagen erkennen ihre Daten zuverlaessiger.",
   "changelogItems": [
-    "Dispo+ ist als vollstaendiges Desktop-Center-Modul fuer Vorplanung, Disposition, Dienste, Urlaub, Auftraege und Fahrerstamm integriert.",
-    "Betreiberprofile trennen Arbeitsverzeichnisse, Datenquellen, Zugangsdaten, Ansagen und Dropbox-Zustaende dauerhaft voneinander.",
-    "Dropbox-Import, Upload und Manifest-Verarbeitung pruefen das aktive Betreiberprofil und brechen bei einem Profilwechsel sicher ab.",
-    "Kalenderregeln werden zentral ausgewertet und stehen auch der Fahrzeugbedarfs- und Umlaufplanung zur Verfuegung.",
-    "Karten-Haltestellensymbole sind besser sichtbar und weitere Ansagen-, Konfigurator- und Datenquellenablaeufe wurden erweitert."
+    "Dispo+ kann Fahrplandaten aus Excel uebernehmen, Vorplanungsfahrten verwalten und daraus Umlaeufe mit Wendezeiten und Verkehrstagen bilden.",
+    "Der neue Diensteditor prueft Ueberschneidungen, Fahrerzuordnungen und Freigaben und uebertraegt Arbeitszeiten kontrolliert in die Fahrerakten.",
+    "Ungespeicherte Dispo+-Entwuerfe bleiben bei Profil- und Fensterwechseln erhalten und werden vor dem Schliessen abgefragt.",
+    "Fahrerakten und Fahrzeugarchiv schuetzen parallele Aenderungen, defekte Dateien und fehlgeschlagene Dokument-Uploads besser.",
+    "Routenbibliothek, Liniencodes und der Assistent fuer Haltestellenansagen erkennen ihre Daten zuverlaessiger."
   ],
   "required": false
 }
