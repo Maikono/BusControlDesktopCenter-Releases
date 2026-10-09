@@ -1,18 +1,15 @@
 {
-  "version": "0.6.7",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.7/BusControlDesktopCenter-0.6.7-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.7",
+  "version": "0.6.8",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.8/BusControlDesktopCenter-0.6.8-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.8",
   "publishedAt": "2026-10-09",
-  "changelog": "- Der Dispo+-Excel-Import fuehrt durch die Zuordnung von Betriebshof, Orten und Umlaufbeziehungen und speichert die Einstellungen betreiberbezogen.\n- Die neue Tages- und Kursuebersicht zeigt Fahrzeugbedarf, Fahrtenfolgen, Verfuegbarkeit sowie Fahr-, Wende-, Stand- und Leerfahrtzeiten.\n- Wiederkehrende Fahrten werden fuer den gewaehlten Monat anhand ihrer Verkehrstage und des passenden Schulkalenders erzeugt.\n- Die Kursbildung ist fuer grosse Monatsplaene optimiert und behandelt Uebergaenge ueber die Betriebstagsgrenze ohne doppelte Zeitberechnung.\n- Der Routen-Editor erzeugt auf Wunsch betreiberbezogene Willkommensansagen mit Linie, Start und Ziel ueber die vorhandene ElevenLabs-Anbindung.\n- Routenvorlagen erhalten zuverlaessig eine freie Nummer; der Abschlussdialog ist breiter, scrollbar und uebersichtlicher.\n- Vorhandene API-Zugaenge koennen sicher einem Betreiberprofil zugeordnet werden und werden beim Speichern nicht mehr versehentlich geleert.\n- Nutz-, Leer- und Hofkilometer bleiben nachvollziehbar als offen markiert, bis eine echte Streckenquelle oder ein manueller Wert vorliegt.",
+  "changelog": "- Dispo+ kann den gespeicherten Planungsstand ueber einen klaren Bestaetigungsdialog vollstaendig zuruecksetzen.\n- Fahrer, Fahrzeuge, Dienste, Auftraege, Einstellungen sowie Einsatzort-, Alias- und Wegzeitregeln bleiben beim Zuruecksetzen erhalten.\n- Verknuepfungen aus Dienstbloecken zu entfernten Planungsfahrten werden sicher geloest, ohne die Dienstbloecke selbst zu loeschen.\n- Eine geoeffnete Excel-Auswahl bleibt verfuegbar und kann direkt als neuer Planungsstand uebernommen werden.\n- Bei nicht sicher lesbarer Vorplanung oder Dienstdatei bleibt die Funktion gesperrt; fehlgeschlagene Schreibvorgaenge werden zurueckgerollt.",
   "changelogItems": [
-    "Der Dispo+-Excel-Import fuehrt durch die Zuordnung von Betriebshof, Orten und Umlaufbeziehungen und speichert die Einstellungen betreiberbezogen.",
-    "Die neue Tages- und Kursuebersicht zeigt Fahrzeugbedarf, Fahrtenfolgen, Verfuegbarkeit sowie Fahr-, Wende-, Stand- und Leerfahrtzeiten.",
-    "Wiederkehrende Fahrten werden fuer den gewaehlten Monat anhand ihrer Verkehrstage und des passenden Schulkalenders erzeugt.",
-    "Die Kursbildung ist fuer grosse Monatsplaene optimiert und behandelt Uebergaenge ueber die Betriebstagsgrenze ohne doppelte Zeitberechnung.",
-    "Der Routen-Editor erzeugt auf Wunsch betreiberbezogene Willkommensansagen mit Linie, Start und Ziel ueber die vorhandene ElevenLabs-Anbindung.",
-    "Routenvorlagen erhalten zuverlaessig eine freie Nummer; der Abschlussdialog ist breiter, scrollbar und uebersichtlicher.",
-    "Vorhandene API-Zugaenge koennen sicher einem Betreiberprofil zugeordnet werden und werden beim Speichern nicht mehr versehentlich geleert.",
-    "Nutz-, Leer- und Hofkilometer bleiben nachvollziehbar als offen markiert, bis eine echte Streckenquelle oder ein manueller Wert vorliegt."
+    "Dispo+ kann den gespeicherten Planungsstand ueber einen klaren Bestaetigungsdialog vollstaendig zuruecksetzen.",
+    "Fahrer, Fahrzeuge, Dienste, Auftraege, Einstellungen sowie Einsatzort-, Alias- und Wegzeitregeln bleiben beim Zuruecksetzen erhalten.",
+    "Verknuepfungen aus Dienstbloecken zu entfernten Planungsfahrten werden sicher geloest, ohne die Dienstbloecke selbst zu loeschen.",
+    "Eine geoeffnete Excel-Auswahl bleibt verfuegbar und kann direkt als neuer Planungsstand uebernommen werden.",
+    "Bei nicht sicher lesbarer Vorplanung oder Dienstdatei bleibt die Funktion gesperrt; fehlgeschlagene Schreibvorgaenge werden zurueckgerollt."
   ],
   "required": false
 }
