@@ -1,15 +1,17 @@
 {
-  "version": "0.6.8",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.8/BusControlDesktopCenter-0.6.8-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.8",
-  "publishedAt": "2026-10-09",
-  "changelog": "- Dispo+ kann den gespeicherten Planungsstand ueber einen klaren Bestaetigungsdialog vollstaendig zuruecksetzen.\n- Fahrer, Fahrzeuge, Dienste, Auftraege, Einstellungen sowie Einsatzort-, Alias- und Wegzeitregeln bleiben beim Zuruecksetzen erhalten.\n- Verknuepfungen aus Dienstbloecken zu entfernten Planungsfahrten werden sicher geloest, ohne die Dienstbloecke selbst zu loeschen.\n- Eine geoeffnete Excel-Auswahl bleibt verfuegbar und kann direkt als neuer Planungsstand uebernommen werden.\n- Bei nicht sicher lesbarer Vorplanung oder Dienstdatei bleibt die Funktion gesperrt; fehlgeschlagene Schreibvorgaenge werden zurueckgerollt.",
+  "version": "0.6.9",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.9/BusControlDesktopCenter-0.6.9-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.9",
+  "publishedAt": "2026-10-10",
+  "changelog": "- Dispo+ erweitert: faire Fahrer- und Fahrzeugzuteilung mit Erklärungen, Reservebedarf, Personalanschlüsse, Ablösen und Ausfallvorschläge.\n- Planänderungen simulieren und Planversionen wiederherstellen; veraltete Vorschläge werden sicher verworfen.\n- Fahrer- und Fahrzeugverwaltung erweitert: Planungswünsche, Institutions-Personalnummern, private Dokumente, Fotos, Fahrzeug-Tags und Prüfungen.\n- Passwörter und PINs werden mit gesalzenem PBKDF2 geschützt; bestehende Zugangsdaten werden bei erfolgreicher Anmeldung migriert.\n- Programm-Updates sind scrollbar; Konfiguration verteilen wurde aus dem Update-Fenster entfernt.\n- Zentrale Haltestellendateien werden nach dem Import eingebunden und im Haltestellen-Editor automatisch aktualisiert.\n- Fahrplan-Löschaufträge lassen sich im Uploader über das bestehende Datenmanifest verteilen; die Tablet-App muss diese Aufträge unterstützen.",
   "changelogItems": [
-    "Dispo+ kann den gespeicherten Planungsstand ueber einen klaren Bestaetigungsdialog vollstaendig zuruecksetzen.",
-    "Fahrer, Fahrzeuge, Dienste, Auftraege, Einstellungen sowie Einsatzort-, Alias- und Wegzeitregeln bleiben beim Zuruecksetzen erhalten.",
-    "Verknuepfungen aus Dienstbloecken zu entfernten Planungsfahrten werden sicher geloest, ohne die Dienstbloecke selbst zu loeschen.",
-    "Eine geoeffnete Excel-Auswahl bleibt verfuegbar und kann direkt als neuer Planungsstand uebernommen werden.",
-    "Bei nicht sicher lesbarer Vorplanung oder Dienstdatei bleibt die Funktion gesperrt; fehlgeschlagene Schreibvorgaenge werden zurueckgerollt."
+    "Dispo+ erweitert: faire Fahrer- und Fahrzeugzuteilung mit Erklärungen, Reservebedarf, Personalanschlüsse, Ablösen und Ausfallvorschläge.",
+    "Planänderungen simulieren und Planversionen wiederherstellen; veraltete Vorschläge werden sicher verworfen.",
+    "Fahrer- und Fahrzeugverwaltung erweitert: Planungswünsche, Institutions-Personalnummern, private Dokumente, Fotos, Fahrzeug-Tags und Prüfungen.",
+    "Passwörter und PINs werden mit gesalzenem PBKDF2 geschützt; bestehende Zugangsdaten werden bei erfolgreicher Anmeldung migriert.",
+    "Programm-Updates sind scrollbar; Konfiguration verteilen wurde aus dem Update-Fenster entfernt.",
+    "Zentrale Haltestellendateien werden nach dem Import eingebunden und im Haltestellen-Editor automatisch aktualisiert.",
+    "Fahrplan-Löschaufträge lassen sich im Uploader über das bestehende Datenmanifest verteilen; die Tablet-App muss diese Aufträge unterstützen."
   ],
   "required": false
 }
