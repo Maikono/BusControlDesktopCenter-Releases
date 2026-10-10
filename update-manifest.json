@@ -1,17 +1,19 @@
 {
-  "version": "0.6.9",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.9/BusControlDesktopCenter-0.6.9-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.9",
+  "version": "0.6.9.1",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.9.1/BusControlDesktopCenter-0.6.9.1-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.9.1",
   "publishedAt": "2026-10-10",
-  "changelog": "- Dispo+ erweitert: faire Fahrer- und Fahrzeugzuteilung mit Erklärungen, Reservebedarf, Personalanschlüsse, Ablösen und Ausfallvorschläge.\n- Planänderungen simulieren und Planversionen wiederherstellen; veraltete Vorschläge werden sicher verworfen.\n- Fahrer- und Fahrzeugverwaltung erweitert: Planungswünsche, Institutions-Personalnummern, private Dokumente, Fotos, Fahrzeug-Tags und Prüfungen.\n- Passwörter und PINs werden mit gesalzenem PBKDF2 geschützt; bestehende Zugangsdaten werden bei erfolgreicher Anmeldung migriert.\n- Programm-Updates sind scrollbar; Konfiguration verteilen wurde aus dem Update-Fenster entfernt.\n- Zentrale Haltestellendateien werden nach dem Import eingebunden und im Haltestellen-Editor automatisch aktualisiert.\n- Fahrplan-Löschaufträge lassen sich im Uploader über das bestehende Datenmanifest verteilen; die Tablet-App muss diese Aufträge unterstützen.",
+  "changelog": "- Hotfix: Die Fahrzeugverwaltung lässt sich aus Dispo+ öffnen, ohne dass das Programm wegen verschachtelter vertikaler Scrollbereiche abbricht.\n- Dispo+ fragt für die Bedarfsplanung nicht mehr sämtliche Fahrzeug-Unterordner, Berichte, Fotos und Dokumentprüfungen ab.\n- Die digitale Fahrzeugakte lädt zuerst die Fahrzeugliste und danach gezielt die Details des ausgewählten Fahrzeugs.\n- Der Excel-Import erkennt jetzt auch SEV-Fahrpläne ohne Sonderzugnummer-Zeile sowie Anmerkungen im Plural oder einen direkt beginnenden Haltestellenblock.\n- Testkurse erhalten im Routeneditor eine eigene Kennzeichnung und einen eigenen Reiter; Dispo+ blendet sie vollständig aus.\n- Übersicht und Fahrzeugbedarf berücksichtigen nur Kurse des ausgewählten Betriebstags; alte doppelte Kurskopien und datumsspezifische Legacy-Kalender werden bereinigt ausgewertet.\n- Die von Dispo+ verwendeten Dropbox-Listen- und Textabrufe besitzen Zeitgrenzen; der interne Rückweg aus der Fahrzeugverwaltung löst kein vollständiges Neuladen mehr aus.",
   "changelogItems": [
-    "Dispo+ erweitert: faire Fahrer- und Fahrzeugzuteilung mit Erklärungen, Reservebedarf, Personalanschlüsse, Ablösen und Ausfallvorschläge.",
-    "Planänderungen simulieren und Planversionen wiederherstellen; veraltete Vorschläge werden sicher verworfen.",
-    "Fahrer- und Fahrzeugverwaltung erweitert: Planungswünsche, Institutions-Personalnummern, private Dokumente, Fotos, Fahrzeug-Tags und Prüfungen.",
-    "Passwörter und PINs werden mit gesalzenem PBKDF2 geschützt; bestehende Zugangsdaten werden bei erfolgreicher Anmeldung migriert.",
-    "Programm-Updates sind scrollbar; Konfiguration verteilen wurde aus dem Update-Fenster entfernt.",
-    "Zentrale Haltestellendateien werden nach dem Import eingebunden und im Haltestellen-Editor automatisch aktualisiert.",
-    "Fahrplan-Löschaufträge lassen sich im Uploader über das bestehende Datenmanifest verteilen; die Tablet-App muss diese Aufträge unterstützen."
+    "Hotfix: Die Fahrzeugverwaltung lässt sich aus Dispo+ öffnen, ohne dass das Programm wegen verschachtelter vertikaler Scrollbereiche abbricht.",
+    "Die Fahrzeugakte erhält innerhalb von Dispo+ eine fest begrenzte Arbeitsfläche und behält ihre eigenen Listen- und Detail-Scrollbereiche.",
+    "Dispo+ fragt für die Bedarfsplanung nicht mehr sämtliche Fahrzeug-Unterordner, Berichte, Fotos und Dokumentprüfungen ab.",
+    "Die digitale Fahrzeugakte lädt zuerst die Fahrzeugliste und danach gezielt die Details des ausgewählten Fahrzeugs.",
+    "Der Excel-Import erkennt jetzt auch SEV-Fahrpläne ohne Sonderzugnummer-Zeile sowie Anmerkungen im Plural oder einen direkt beginnenden Haltestellenblock.",
+    "Testkurse erhalten im Routeneditor eine eigene Kennzeichnung und einen eigenen Reiter; Dispo+ blendet sie aus allen Planungslisten und Bedarfsrechnungen aus.",
+    "Übersicht, Umlaufband und Fahrzeugbedarf berücksichtigen nur Kurse des ausgewählten Betriebstags.",
+    "Alte flache Kurskopien und konkrete Einsatzdaten mit früherer Montag-bis-Sonntag-Standardmarkierung werden ohne falsche Dauerläufer ausgewertet.",
+    "Die von Dispo+ verwendeten Dropbox-Listen- und Textabrufe besitzen Zeitgrenzen; der interne Rückweg aus der Fahrzeugverwaltung löst kein vollständiges Neuladen mehr aus."
   ],
   "required": false
 }
