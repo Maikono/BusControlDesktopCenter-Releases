@@ -1,17 +1,15 @@
 {
-  "version": "0.6.11",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.11/BusControlDesktopCenter-0.6.11-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.11",
+  "version": "0.6.12",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.12/BusControlDesktopCenter-0.6.12-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.12",
   "publishedAt": "2026-10-11",
-  "changelog": "- Dispo+-Planungsergebnisse erscheinen im Monatskalender mit Belegungs-, Fahrzeug- und Konfliktanzeige.\n- Mehrere Excel-Fahrpläne, kompakte SEV-Tabellen und vollständige Kursunterlagen aus PDF und Excel lassen sich gemeinsam importieren, prüfen und synchronisieren.\n- Strukturierte Fahrerakten, sicheres Löschen und erweiterte Fahrzeugfreigaben verbessern die Personal- und Fahrzeugplanung.\n- Der Routen-Editor verwendet beim Start sofort die konfigurierte Kursablage und kann Kurse lokal oder zusätzlich per Tablet-Löschauftrag entfernen.\n- Nahe beieinanderliegende Haltestellen bleiben auf interner und externer Karte unterscheidbar und besser anklickbar.\n- Das Haltestellen-Center behält eine manuell gewählte Stammdatei bei und lädt nur dieselbe zentrale Datei automatisch nach.\n- IBIS-, LAWO- und GORBA-Wege sind klar getrennt; GORBA verwendet den konfigurierten WLAN-/XIMPLE-Routerweg.",
+  "changelog": "- Dispo+ erhält eine zentrale Ereigniszentrale für Schäden, HU/TÜV, SP sowie Werkstatt- und Sperrzeiten mit gelesenen, zurückgestellten und erledigten Meldungen.\n- Ereignisse werden betreiberbezogen über die vorhandenen Server-, Dropbox- und Hybridwege geladen und bleiben bei Teilausfällen erhalten.\n- Die Vorplanung nutzt einen Monatskalender, konfigurierbare Kursordner und nachvollziehbare Konflikt- und Belegungsanzeigen.\n- Fahrzeugeignung, Erstzulassung, Altersgrenzen, Tachograf- und Länderfreigaben werden genauer und betreiberneutral bewertet.\n- Im Routen-Editor können mehrere Kurse ausgewählt und gemeinsam lokal oder zusätzlich per Tablet-Löschauftrag entfernt werden.",
   "changelogItems": [
-    "Dispo+-Planungsergebnisse erscheinen im Monatskalender mit Belegungs-, Fahrzeug- und Konfliktanzeige.",
-    "Mehrere Excel-Fahrpläne, kompakte SEV-Tabellen und vollständige Kursunterlagen aus PDF und Excel lassen sich gemeinsam importieren, prüfen und synchronisieren.",
-    "Strukturierte Fahrerakten, sicheres Löschen und erweiterte Fahrzeugfreigaben verbessern die Personal- und Fahrzeugplanung.",
-    "Der Routen-Editor verwendet beim Start sofort die konfigurierte Kursablage und kann Kurse lokal oder zusätzlich per Tablet-Löschauftrag entfernen.",
-    "Nahe beieinanderliegende Haltestellen bleiben auf interner und externer Karte unterscheidbar und besser anklickbar.",
-    "Das Haltestellen-Center behält eine manuell gewählte Stammdatei bei und lädt nur dieselbe zentrale Datei automatisch nach.",
-    "IBIS-, LAWO- und GORBA-Wege sind klar getrennt; GORBA verwendet den konfigurierten WLAN-/XIMPLE-Routerweg."
+    "Dispo+ erhält eine zentrale Ereigniszentrale für Schäden, HU/TÜV, SP sowie Werkstatt- und Sperrzeiten mit gelesenen, zurückgestellten und erledigten Meldungen.",
+    "Ereignisse werden betreiberbezogen über die vorhandenen Server-, Dropbox- und Hybridwege geladen und bleiben bei Teilausfällen erhalten.",
+    "Die Vorplanung nutzt einen Monatskalender, konfigurierbare Kursordner und nachvollziehbare Konflikt- und Belegungsanzeigen.",
+    "Fahrzeugeignung, Erstzulassung, Altersgrenzen, Tachograf- und Länderfreigaben werden genauer und betreiberneutral bewertet.",
+    "Im Routen-Editor können mehrere Kurse ausgewählt und gemeinsam lokal oder zusätzlich per Tablet-Löschauftrag entfernt werden."
   ],
   "required": false
 }
