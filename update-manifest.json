@@ -1,17 +1,17 @@
 {
-  "version": "0.6.10",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.10/BusControlDesktopCenter-0.6.10-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.10",
-  "publishedAt": "2026-10-10",
-  "changelog": "- Die Dispo+-Übersicht zeigt Kurse, Fahrten, Fahrzeuge, Fahrerwechsel, Parallelbedarfe und unbesetzte Zeiträume in einer gemeinsamen Zeitleiste.\n- Betriebstag, Quellkennungen und Mehrfachbedarfe werden stabil zugeordnet; doppelte oder widersprüchliche Einträge werden sichtbar vermieden beziehungsweise markiert.\n- Fahrer- und Fahrzeugakten sind enger mit Dispo+ verbunden; ungespeicherte Fahrerakten werden vor einem Reiterwechsel geschützt.\n- Der Excel-Import unterstützt mehrere frei konfigurierbare Kennungen und gruppierte Auswahlmöglichkeiten für erkannte Fahrten.\n- Planungsdaten zeigen beim Einlesen echten Fortschritt für die verarbeiteten Fahrer- und Fahrzeugakten.\n- Fahrzeuge können mit Bestätigung sicher gelöscht werden; aktuelle Revision, Betreiberprofil, Ordnerpfade und Legacy-Aliase werden vor dem Löschen geprüft.\n- Nach dem Löschen bleibt die Fahrzeugauswahl konsistent und Teilerfolge oder Konflikte werden verständlich gemeldet.",
+  "version": "0.6.11",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.11/BusControlDesktopCenter-0.6.11-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.11",
+  "publishedAt": "2026-10-11",
+  "changelog": "- Dispo+-Planungsergebnisse erscheinen im Monatskalender mit Belegungs-, Fahrzeug- und Konfliktanzeige.\n- Mehrere Excel-Fahrpläne, kompakte SEV-Tabellen und vollständige Kursunterlagen aus PDF und Excel lassen sich gemeinsam importieren, prüfen und synchronisieren.\n- Strukturierte Fahrerakten, sicheres Löschen und erweiterte Fahrzeugfreigaben verbessern die Personal- und Fahrzeugplanung.\n- Der Routen-Editor verwendet beim Start sofort die konfigurierte Kursablage und kann Kurse lokal oder zusätzlich per Tablet-Löschauftrag entfernen.\n- Nahe beieinanderliegende Haltestellen bleiben auf interner und externer Karte unterscheidbar und besser anklickbar.\n- Das Haltestellen-Center behält eine manuell gewählte Stammdatei bei und lädt nur dieselbe zentrale Datei automatisch nach.\n- IBIS-, LAWO- und GORBA-Wege sind klar getrennt; GORBA verwendet den konfigurierten WLAN-/XIMPLE-Routerweg.",
   "changelogItems": [
-    "Die Dispo+-Übersicht zeigt Kurse, Fahrten, Fahrzeuge, Fahrerwechsel, Parallelbedarfe und unbesetzte Zeiträume in einer gemeinsamen Zeitleiste.",
-    "Betriebstag, Quellkennungen und Mehrfachbedarfe werden stabil zugeordnet; doppelte oder widersprüchliche Einträge werden sichtbar vermieden beziehungsweise markiert.",
-    "Fahrer- und Fahrzeugakten sind enger mit Dispo+ verbunden; ungespeicherte Fahrerakten werden vor einem Reiterwechsel geschützt.",
-    "Der Excel-Import unterstützt mehrere frei konfigurierbare Kennungen und gruppierte Auswahlmöglichkeiten für erkannte Fahrten.",
-    "Planungsdaten zeigen beim Einlesen echten Fortschritt für die verarbeiteten Fahrer- und Fahrzeugakten.",
-    "Fahrzeuge können mit Bestätigung sicher gelöscht werden; aktuelle Revision, Betreiberprofil, Ordnerpfade und Legacy-Aliase werden vor dem Löschen geprüft.",
-    "Nach dem Löschen bleibt die Fahrzeugauswahl konsistent und Teilerfolge oder Konflikte werden verständlich gemeldet."
+    "Dispo+-Planungsergebnisse erscheinen im Monatskalender mit Belegungs-, Fahrzeug- und Konfliktanzeige.",
+    "Mehrere Excel-Fahrpläne, kompakte SEV-Tabellen und vollständige Kursunterlagen aus PDF und Excel lassen sich gemeinsam importieren, prüfen und synchronisieren.",
+    "Strukturierte Fahrerakten, sicheres Löschen und erweiterte Fahrzeugfreigaben verbessern die Personal- und Fahrzeugplanung.",
+    "Der Routen-Editor verwendet beim Start sofort die konfigurierte Kursablage und kann Kurse lokal oder zusätzlich per Tablet-Löschauftrag entfernen.",
+    "Nahe beieinanderliegende Haltestellen bleiben auf interner und externer Karte unterscheidbar und besser anklickbar.",
+    "Das Haltestellen-Center behält eine manuell gewählte Stammdatei bei und lädt nur dieselbe zentrale Datei automatisch nach.",
+    "IBIS-, LAWO- und GORBA-Wege sind klar getrennt; GORBA verwendet den konfigurierten WLAN-/XIMPLE-Routerweg."
   ],
   "required": false
 }
