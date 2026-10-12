@@ -1,15 +1,15 @@
 {
-  "version": "0.6.13",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.13/BusControlDesktopCenter-0.6.13-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.13",
+  "version": "0.6.14",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.14/BusControlDesktopCenter-0.6.14-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.14",
   "publishedAt": "2026-10-12",
-  "changelog": "- Die Dispo+-Planung unterstützt mehrere Depots, portable Kursquellen und betreiberbezogene Kursordner.\n- Fertige Fahrzeugumlauf-Arbeitsmappen werden robust importiert, geprüft und synchronisiert.\n- Fahrer- und Fahrzeugarchive laden schneller über Sitzungs-Caches und gezielte Katalogabfragen.\n- Geschützte Kostenplanung mit Dieselpreisquelle, Einstellungen und Planungsansicht ergänzt die Dienstplanung.\n- Kursplanung, Subunternehmerzuordnung sowie geschützte Arbeitsmappen werden nachvollziehbar zusammengeführt.",
+  "changelog": "- Die automatische Dispo+-Dienstplanung plant Dienstentlastungen, Rangfolgen und mehrstufige Dienstaufteilungen nachvollziehbar.\n- Dienstregeln für den Personenverkehr sowie Ausgleichs- und Vergütungseinstellungen sind betreiberbezogen konfigurierbar.\n- Dispo+ führt Kursordner sicher aus dem aktiven Arbeitsstamm zusammen und behandelt nicht verfügbare Arbeitsbereiche robust.\n- Mehrere PCs können Planungs- und Synchronisationshistorien mit Schutz vor veralteten oder widersprüchlichen Ständen austauschen.\n- Kursplanung, Subunternehmerzuordnung, Archive und geschützte Arbeitsmappen bleiben in der bestehenden Server-, Dropbox- und Manifest-Architektur integriert.",
   "changelogItems": [
-    "Die Dispo+-Planung unterstützt mehrere Depots, portable Kursquellen und betreiberbezogene Kursordner.",
-    "Fertige Fahrzeugumlauf-Arbeitsmappen werden robust importiert, geprüft und synchronisiert.",
-    "Fahrer- und Fahrzeugarchive laden schneller über Sitzungs-Caches und gezielte Katalogabfragen.",
-    "Geschützte Kostenplanung mit Dieselpreisquelle, Einstellungen und Planungsansicht ergänzt die Dienstplanung.",
-    "Kursplanung, Subunternehmerzuordnung sowie geschützte Arbeitsmappen werden nachvollziehbar zusammengeführt."
+    "Die automatische Dispo+-Dienstplanung plant Dienstentlastungen, Rangfolgen und mehrstufige Dienstaufteilungen nachvollziehbar.",
+    "Dienstregeln für den Personenverkehr sowie Ausgleichs- und Vergütungseinstellungen sind betreiberbezogen konfigurierbar.",
+    "Dispo+ führt Kursordner sicher aus dem aktiven Arbeitsstamm zusammen und behandelt nicht verfügbare Arbeitsbereiche robust.",
+    "Mehrere PCs können Planungs- und Synchronisationshistorien mit Schutz vor veralteten oder widersprüchlichen Ständen austauschen.",
+    "Kursplanung, Subunternehmerzuordnung, Archive und geschützte Arbeitsmappen bleiben in der bestehenden Server-, Dropbox- und Manifest-Architektur integriert."
   ],
   "required": false
 }
