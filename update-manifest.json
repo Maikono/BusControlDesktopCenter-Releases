@@ -1,15 +1,15 @@
 {
-  "version": "0.6.12",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.12/BusControlDesktopCenter-0.6.12-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.12",
-  "publishedAt": "2026-10-11",
-  "changelog": "- Dispo+ erhält eine zentrale Ereigniszentrale für Schäden, HU/TÜV, SP sowie Werkstatt- und Sperrzeiten mit gelesenen, zurückgestellten und erledigten Meldungen.\n- Ereignisse werden betreiberbezogen über die vorhandenen Server-, Dropbox- und Hybridwege geladen und bleiben bei Teilausfällen erhalten.\n- Die Vorplanung nutzt einen Monatskalender, konfigurierbare Kursordner und nachvollziehbare Konflikt- und Belegungsanzeigen.\n- Fahrzeugeignung, Erstzulassung, Altersgrenzen, Tachograf- und Länderfreigaben werden genauer und betreiberneutral bewertet.\n- Im Routen-Editor können mehrere Kurse ausgewählt und gemeinsam lokal oder zusätzlich per Tablet-Löschauftrag entfernt werden.",
+  "version": "0.6.13",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.13/BusControlDesktopCenter-0.6.13-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.13",
+  "publishedAt": "2026-10-12",
+  "changelog": "- Die Dispo+-Planung unterstützt mehrere Depots, portable Kursquellen und betreiberbezogene Kursordner.\n- Fertige Fahrzeugumlauf-Arbeitsmappen werden robust importiert, geprüft und synchronisiert.\n- Fahrer- und Fahrzeugarchive laden schneller über Sitzungs-Caches und gezielte Katalogabfragen.\n- Geschützte Kostenplanung mit Dieselpreisquelle, Einstellungen und Planungsansicht ergänzt die Dienstplanung.\n- Kursplanung, Subunternehmerzuordnung sowie geschützte Arbeitsmappen werden nachvollziehbar zusammengeführt.",
   "changelogItems": [
-    "Dispo+ erhält eine zentrale Ereigniszentrale für Schäden, HU/TÜV, SP sowie Werkstatt- und Sperrzeiten mit gelesenen, zurückgestellten und erledigten Meldungen.",
-    "Ereignisse werden betreiberbezogen über die vorhandenen Server-, Dropbox- und Hybridwege geladen und bleiben bei Teilausfällen erhalten.",
-    "Die Vorplanung nutzt einen Monatskalender, konfigurierbare Kursordner und nachvollziehbare Konflikt- und Belegungsanzeigen.",
-    "Fahrzeugeignung, Erstzulassung, Altersgrenzen, Tachograf- und Länderfreigaben werden genauer und betreiberneutral bewertet.",
-    "Im Routen-Editor können mehrere Kurse ausgewählt und gemeinsam lokal oder zusätzlich per Tablet-Löschauftrag entfernt werden."
+    "Die Dispo+-Planung unterstützt mehrere Depots, portable Kursquellen und betreiberbezogene Kursordner.",
+    "Fertige Fahrzeugumlauf-Arbeitsmappen werden robust importiert, geprüft und synchronisiert.",
+    "Fahrer- und Fahrzeugarchive laden schneller über Sitzungs-Caches und gezielte Katalogabfragen.",
+    "Geschützte Kostenplanung mit Dieselpreisquelle, Einstellungen und Planungsansicht ergänzt die Dienstplanung.",
+    "Kursplanung, Subunternehmerzuordnung sowie geschützte Arbeitsmappen werden nachvollziehbar zusammengeführt."
   ],
   "required": false
 }
