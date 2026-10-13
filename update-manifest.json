@@ -1,15 +1,13 @@
 {
-  "version": "0.6.14",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.14/BusControlDesktopCenter-0.6.14-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.14",
-  "publishedAt": "2026-10-12",
-  "changelog": "- Die automatische Dispo+-Dienstplanung plant Dienstentlastungen, Rangfolgen und mehrstufige Dienstaufteilungen nachvollziehbar.\n- Dienstregeln für den Personenverkehr sowie Ausgleichs- und Vergütungseinstellungen sind betreiberbezogen konfigurierbar.\n- Dispo+ führt Kursordner sicher aus dem aktiven Arbeitsstamm zusammen und behandelt nicht verfügbare Arbeitsbereiche robust.\n- Mehrere PCs können Planungs- und Synchronisationshistorien mit Schutz vor veralteten oder widersprüchlichen Ständen austauschen.\n- Kursplanung, Subunternehmerzuordnung, Archive und geschützte Arbeitsmappen bleiben in der bestehenden Server-, Dropbox- und Manifest-Architektur integriert.",
+  "version": "0.6.15",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.15/BusControlDesktopCenter-0.6.15-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.15",
+  "publishedAt": "2026-10-13",
+  "changelog": "- Das Desktop Center startet wieder zuverlässig, wenn ein neuer leerer Workspace-Kursordner und eine bereits gefüllte Fahrplanquelle gleichzeitig vorhanden sind.\n- Bei automatisch ermittelten Kursordnern bleibt die zentrale, gültige Datenquelle maßgeblich.\n- Ein leerer vorbereiteter Kursordner wird ohne Programmabsturz vorgemerkt und kann später mit Kursdateien befüllt werden.",
   "changelogItems": [
-    "Die automatische Dispo+-Dienstplanung plant Dienstentlastungen, Rangfolgen und mehrstufige Dienstaufteilungen nachvollziehbar.",
-    "Dienstregeln für den Personenverkehr sowie Ausgleichs- und Vergütungseinstellungen sind betreiberbezogen konfigurierbar.",
-    "Dispo+ führt Kursordner sicher aus dem aktiven Arbeitsstamm zusammen und behandelt nicht verfügbare Arbeitsbereiche robust.",
-    "Mehrere PCs können Planungs- und Synchronisationshistorien mit Schutz vor veralteten oder widersprüchlichen Ständen austauschen.",
-    "Kursplanung, Subunternehmerzuordnung, Archive und geschützte Arbeitsmappen bleiben in der bestehenden Server-, Dropbox- und Manifest-Architektur integriert."
+    "Das Desktop Center startet wieder zuverlässig, wenn ein neuer leerer Workspace-Kursordner und eine bereits gefüllte Fahrplanquelle gleichzeitig vorhanden sind.",
+    "Bei automatisch ermittelten Kursordnern bleibt die zentrale, gültige Datenquelle maßgeblich.",
+    "Ein leerer vorbereiteter Kursordner wird ohne Programmabsturz vorgemerkt und kann später mit Kursdateien befüllt werden."
   ],
   "required": false
 }
