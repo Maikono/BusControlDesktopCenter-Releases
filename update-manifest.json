@@ -1,13 +1,15 @@
 {
-  "version": "0.6.15",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.15/BusControlDesktopCenter-0.6.15-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.15",
+  "version": "0.6.16",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.16/BusControlDesktopCenter-0.6.16-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.16",
   "publishedAt": "2026-10-13",
-  "changelog": "- Das Desktop Center startet wieder zuverlässig, wenn ein neuer leerer Workspace-Kursordner und eine bereits gefüllte Fahrplanquelle gleichzeitig vorhanden sind.\n- Bei automatisch ermittelten Kursordnern bleibt die zentrale, gültige Datenquelle maßgeblich.\n- Ein leerer vorbereiteter Kursordner wird ohne Programmabsturz vorgemerkt und kann später mit Kursdateien befüllt werden.",
   "changelogItems": [
-    "Das Desktop Center startet wieder zuverlässig, wenn ein neuer leerer Workspace-Kursordner und eine bereits gefüllte Fahrplanquelle gleichzeitig vorhanden sind.",
-    "Bei automatisch ermittelten Kursordnern bleibt die zentrale, gültige Datenquelle maßgeblich.",
-    "Ein leerer vorbereiteter Kursordner wird ohne Programmabsturz vorgemerkt und kann später mit Kursdateien befüllt werden."
+    "Dispo+ plant wiederkehrende Kurse über Vertragszeiträume, Mindestwendezeiten und Dienstalternativen.",
+    "Kursimporte unterstützen mehrlinige Kursbündel, DB-Container-Arbeitsmappen sowie eintägige Fahrzeugkarten-Maßnahmen mit manueller Kartenauswahl.",
+    "Fahrerakten, Fahrerpräferenzen, Fahrerübersicht und personen-only Auftragskosten sind in die betreiberbezogene Planung eingebunden.",
+    "Routenvorlagen speichern Betriebshinweise und binden sie beim Anwenden an den konkreten Kurs zurück.",
+    "Kurs-Synchronisierung berücksichtigt manifestierte Löschungen auch im Arbeitsstand und führt nach dem Import einen abschließenden Löschdurchgang aus."
   ],
-  "required": false
+  "required": false,
+  "changelog": "- Dispo+ plant wiederkehrende Kurse über Vertragszeiträume, Mindestwendezeiten und Dienstalternativen.\n- Kursimporte unterstützen mehrlinige Kursbündel, DB-Container-Arbeitsmappen sowie eintägige Fahrzeugkarten-Maßnahmen mit manueller Kartenauswahl.\n- Fahrerakten, Fahrerpräferenzen, Fahrerübersicht und personen-only Auftragskosten sind in die betreiberbezogene Planung eingebunden.\n- Routenvorlagen speichern Betriebshinweise und binden sie beim Anwenden an den konkreten Kurs zurück.\n- Kurs-Synchronisierung berücksichtigt manifestierte Löschungen auch im Arbeitsstand und führt nach dem Import einen abschließenden Löschdurchgang aus."
 }
