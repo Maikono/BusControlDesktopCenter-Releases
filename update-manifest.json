@@ -1,20 +1,12 @@
 {
-  "version": "0.6.22",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.22/BusControlDesktopCenter-0.6.22-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.22",
+  "version": "0.6.23",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.23/BusControlDesktopCenter-0.6.23-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.23",
   "publishedAt": "2026-10-14",
-  "changelog": "- Dispo+ plant wiederkehrende Kurse über Vertragszeiträume, Mindestwendezeiten und Dienstalternativen.\n- Kursimporte unterstützen mehrlinige Kursbündel, DB-Container-Arbeitsmappen sowie eintägige Fahrzeugkarten-Maßnahmen mit manueller Kartenauswahl.\n- Fahrerakten, Fahrerpräferenzen, Fahrerübersicht und personen-only Auftragskosten sind in die betreiberbezogene Planung eingebunden.\n- Routenvorlagen speichern Betriebshinweise und binden sie beim Anwenden an den konkreten Kurs zurück.\n- Kurs-Synchronisierung berücksichtigt manifestierte Löschungen auch im Arbeitsstand und führt nach dem Import einen abschließenden Löschdurchgang aus.\n- Die Mehrfachauswahl in Alle Kurse verwendet den geladenen Kurskatalog weiter, statt bei jedem Haken alle Fahrplandateien neu einzulesen.\n- Nach einem erfolgreichen Dropbox-Einzelupload kann der Routen-Editor im aktuellen Routenabschluss weiterarbeiten oder zum Hauptmenü zurückkehren; die Rückfrage bleibt als oberstes Fenster bedienbar.\n- Dispo+ führt Kursimporte aus Dokumenten und Excel mit einer sichtbaren Fortsetzung in die Kurs- und Dienstplanung weiter.\n- Routen-Editor-Fahrten können als Dienste vorbereitet werden; die tägliche Fahrerzuordnung unterstützt dabei die neue Drag-and-drop-Planung.\n- Einzelfahrtage lassen sich in Tages-, Wochen- und Monatsansicht per zweitem Klick oder durch Leeren des Eingabefelds wieder entfernen.",
+  "changelog": "Der automatische Windows-Installer beendet nach der normalen Wartezeit auch den verbliebenen jpackage-Launcher-Prozess, bevor Inno Setup Dateien ersetzt.\nDadurch wird der bisherige stille Exit-Code 5 bei gesperrten Programmdateien vermieden und die neue Installation kann anschließend wieder gestartet werden.",
   "changelogItems": [
-    "Dispo+ plant wiederkehrende Kurse über Vertragszeiträume, Mindestwendezeiten und Dienstalternativen.",
-    "Kursimporte unterstützen mehrlinige Kursbündel, DB-Container-Arbeitsmappen sowie eintägige Fahrzeugkarten-Maßnahmen mit manueller Kartenauswahl.",
-    "Fahrerakten, Fahrerpräferenzen, Fahrerübersicht und personen-only Auftragskosten sind in die betreiberbezogene Planung eingebunden.",
-    "Routenvorlagen speichern Betriebshinweise und binden sie beim Anwenden an den konkreten Kurs zurück.",
-    "Kurs-Synchronisierung berücksichtigt manifestierte Löschungen auch im Arbeitsstand und führt nach dem Import einen abschließenden Löschdurchgang aus.",
-    "Die Mehrfachauswahl in Alle Kurse verwendet den geladenen Kurskatalog weiter, statt bei jedem Haken alle Fahrplandateien neu einzulesen.",
-    "Nach einem erfolgreichen Dropbox-Einzelupload kann der Routen-Editor im aktuellen Routenabschluss weiterarbeiten oder zum Hauptmenü zurückkehren; die Rückfrage bleibt als oberstes Fenster bedienbar.",
-    "Dispo+ führt Kursimporte aus Dokumenten und Excel mit einer sichtbaren Fortsetzung in die Kurs- und Dienstplanung weiter.",
-    "Routen-Editor-Fahrten können als Dienste vorbereitet werden; die tägliche Fahrerzuordnung unterstützt dabei die neue Drag-and-drop-Planung.",
-    "Einzelfahrtage lassen sich in Tages-, Wochen- und Monatsansicht per zweitem Klick oder durch Leeren des Eingabefelds wieder entfernen."
+    "Der automatische Windows-Installer beendet nach der normalen Wartezeit auch den verbliebenen jpackage-Launcher-Prozess, bevor Inno Setup Dateien ersetzt.",
+    "Dadurch wird der bisherige stille Exit-Code 5 bei gesperrten Programmdateien vermieden und die neue Installation kann anschließend wieder gestartet werden."
   ],
   "required": false
 }
