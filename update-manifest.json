@@ -1,14 +1,14 @@
 {
-  "version": "0.6.24",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.24/BusControlDesktopCenter-0.6.24-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.24",
+  "version": "0.6.25",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.25/BusControlDesktopCenter-0.6.25-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.25",
   "publishedAt": "2026-10-15",
-  "changelog": "Alle zentralen Datei- und Ordnerauswahlen bieten jetzt eine Suche nach Namen oder Pfad.\nDie Suche kann auf den aktuellen Ordner oder dessen Unterordner erweitert werden.\nTreffer lassen sich direkt übernehmen; zuletzt verwendete Dateien und Ordner werden je Dialog gespeichert.\nDirekte Swing-Dateiauswahlen aus bestehenden Modulen erhalten dieselbe Oberfläche automatisch.",
+  "changelog": "Dispo+ bietet jetzt Tages-, Wochen- und Monatsansichten für die Disposition.\nOffene Dienste und verfügbare Fahrer werden gemeinsam angezeigt; Fahrer können per Klick oder Drag-and-drop zugewiesen werden.\nSichtbare Fahrten lassen sich über die vorhandene Prüf- und Speicherlogik in planbare Dienste übernehmen.\nDie Dateiauswahl-Suche und der gespeicherte Verlauf aus v0.6.24 bleiben enthalten.",
   "changelogItems": [
-    "Alle zentralen Datei- und Ordnerauswahlen bieten jetzt eine Suche nach Namen oder Pfad.",
-    "Die Suche kann auf den aktuellen Ordner oder dessen Unterordner erweitert werden.",
-    "Treffer lassen sich direkt übernehmen; zuletzt verwendete Dateien und Ordner werden je Dialog gespeichert.",
-    "Direkte Swing-Dateiauswahlen aus bestehenden Modulen erhalten dieselbe Oberfläche automatisch."
+    "Dispo+ bietet jetzt Tages-, Wochen- und Monatsansichten für die Disposition.",
+    "Offene Dienste und verfügbare Fahrer werden gemeinsam angezeigt; Fahrer können per Klick oder Drag-and-drop zugewiesen werden.",
+    "Sichtbare Fahrten lassen sich über die vorhandene Prüf- und Speicherlogik in planbare Dienste übernehmen.",
+    "Die Dateiauswahl-Suche und der gespeicherte Verlauf aus v0.6.24 bleiben enthalten."
   ],
   "required": false
 }
