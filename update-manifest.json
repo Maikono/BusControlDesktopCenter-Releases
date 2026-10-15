@@ -1,15 +1,16 @@
 {
-  "version": "0.6.25",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.25/BusControlDesktopCenter-0.6.25-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.25",
-  "publishedAt": "2026-10-15",
-  "changelog": "Dispo+ bietet jetzt Tages-, Wochen- und Monatsansichten für die Disposition.\nOffene Dienste und verfügbare Fahrer werden gemeinsam angezeigt; Fahrer können per Klick oder Drag-and-drop zugewiesen werden.\nSichtbare Fahrten lassen sich über die vorhandene Prüf- und Speicherlogik in planbare Dienste übernehmen.\nDie Dateiauswahl-Suche und der gespeicherte Verlauf aus v0.6.24 bleiben enthalten.",
+  "version": "0.6.26",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.26/BusControlDesktopCenter-0.6.26-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.26",
+  "publishedAt": "2026-10-16",
+  "changelog": "Der JSON-/Routen-Editor erhält erweiterte Varianten-, Filter- und Verlaufspflege sowie die Bereinigung abgelaufener Kursdaten.\nDispo+ erweitert die Umlauf-, Import-, Kosten- und Einsatzplanung und übernimmt ausgewählte Kurse direkt in die bestehende Dienstplanung.\nRouteneditor-Fahrtblöcke verwenden stabile Block-IDs und Start-/Endorte für sichere Grenzen in der Dienstplanung.\nDie Fortschrittsanzeige der Umlaufplanung beschreibt verbundene Übergänge und entstehende Fahrzeugketten.\nAnsagen-Profile und ElevenLabs-Einstellungen werden betreiberbezogen gespeichert; Dropbox-/Workspace-Synchronisation übernimmt sie über die bestehende Manifest- und Sicherheitsarchitektur.\nÄnderungen an der Fahrerakte werden vor dem Speichern zuverlässig erkannt.",
   "changelogItems": [
-    "Dispo+ bietet jetzt Tages-, Wochen- und Monatsansichten für die Disposition.",
-    "Offene Dienste und verfügbare Fahrer werden gemeinsam angezeigt; Fahrer können per Klick oder Drag-and-drop zugewiesen werden.",
-    "Sichtbare Fahrten lassen sich über die vorhandene Prüf- und Speicherlogik in planbare Dienste übernehmen.",
-    "Die Dateiauswahl-Suche und der gespeicherte Verlauf aus v0.6.24 bleiben enthalten."
+    "Der JSON-/Routen-Editor erhält erweiterte Varianten-, Filter- und Verlaufspflege sowie die Bereinigung abgelaufener Kursdaten.",
+    "Dispo+ erweitert die Umlauf-, Import-, Kosten- und Einsatzplanung und übernimmt ausgewählte Kurse direkt in die bestehende Dienstplanung.",
+    "Routeneditor-Fahrtblöcke verwenden stabile Block-IDs und Start-/Endorte für sichere Grenzen in der Dienstplanung.",
+    "Die Fortschrittsanzeige der Umlaufplanung beschreibt verbundene Übergänge und entstehende Fahrzeugketten.",
+    "Ansagen-Profile und ElevenLabs-Einstellungen werden betreiberbezogen gespeichert; Dropbox-/Workspace-Synchronisation übernimmt sie über die bestehende Manifest- und Sicherheitsarchitektur.",
+    "Änderungen an der Fahrerakte werden vor dem Speichern zuverlässig erkannt."
   ],
   "required": false
 }
-
