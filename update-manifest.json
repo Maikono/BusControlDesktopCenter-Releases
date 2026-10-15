@@ -1,12 +1,14 @@
 {
-  "version": "0.6.23",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.23/BusControlDesktopCenter-0.6.23-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.23",
-  "publishedAt": "2026-10-14",
-  "changelog": "Der automatische Windows-Installer beendet nach der normalen Wartezeit auch den verbliebenen jpackage-Launcher-Prozess, bevor Inno Setup Dateien ersetzt.\nDadurch wird der bisherige stille Exit-Code 5 bei gesperrten Programmdateien vermieden und die neue Installation kann anschließend wieder gestartet werden.",
+  "version": "0.6.24",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.24/BusControlDesktopCenter-0.6.24-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.24",
+  "publishedAt": "2026-10-15",
+  "changelog": "Alle zentralen Datei- und Ordnerauswahlen bieten jetzt eine Suche nach Namen oder Pfad.\nDie Suche kann auf den aktuellen Ordner oder dessen Unterordner erweitert werden.\nTreffer lassen sich direkt übernehmen; zuletzt verwendete Dateien und Ordner werden je Dialog gespeichert.\nDirekte Swing-Dateiauswahlen aus bestehenden Modulen erhalten dieselbe Oberfläche automatisch.",
   "changelogItems": [
-    "Der automatische Windows-Installer beendet nach der normalen Wartezeit auch den verbliebenen jpackage-Launcher-Prozess, bevor Inno Setup Dateien ersetzt.",
-    "Dadurch wird der bisherige stille Exit-Code 5 bei gesperrten Programmdateien vermieden und die neue Installation kann anschließend wieder gestartet werden."
+    "Alle zentralen Datei- und Ordnerauswahlen bieten jetzt eine Suche nach Namen oder Pfad.",
+    "Die Suche kann auf den aktuellen Ordner oder dessen Unterordner erweitert werden.",
+    "Treffer lassen sich direkt übernehmen; zuletzt verwendete Dateien und Ordner werden je Dialog gespeichert.",
+    "Direkte Swing-Dateiauswahlen aus bestehenden Modulen erhalten dieselbe Oberfläche automatisch."
   ],
   "required": false
 }
