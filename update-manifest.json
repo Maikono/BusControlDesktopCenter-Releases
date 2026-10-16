@@ -1,17 +1,14 @@
 {
-  "version": "0.6.27",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.27/BusControlDesktopCenter-0.6.27-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.27",
+  "version": "0.6.28",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.28/BusControlDesktopCenter-0.6.28-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.28",
   "publishedAt": "2026-10-16",
-  "changelog": "Der JSON-/Routen-Editor trennt gleichnamige Kurse kalenderbezogen; Dispo+ erweitert Batch-Dienstplanung, Ablösungen, Nachtübergänge und Herkunftszuordnung; Standzeiten bleiben nachvollziehbar; Dateiinteraktionen nutzen die zentrale Explorer-Auswahl; der Updater verwendet die kanonische refs/heads/main-Manifest-URL.",
+  "changelog": "Dispo+ erweitert Aufteilung, Ablösungsorte und Standzeiten; Dienstblöcke, offene Prüfungen und Timeline-Projektionen werden konsistent dargestellt; Ablösungspräferenzen und Standortoptionen werden dauerhaft gespeichert.",
   "changelogItems": [
-    "Der JSON-/Routen-Editor trennt gleichnamige Kurse anhand ihres Fahrtkalenders und schützt Routennummern vor unbeabsichtigtem Überschreiben.",
-    "Dispo+ erweitert Batch-Planung, Aufteilung, Ein- und Ausfahrten, Ablösungen an Zwischenhaltestellen, Nachtübergänge und Herkunftszuordnung.",
-    "Manuelle Eingaben bleiben bei fehlenden Wegvorschlägen möglich; unbestätigte Standzeiten werden nicht automatisch als Pause angerechnet.",
-    "Dispo+ simuliert Planänderungen revisionssicher und zeigt offene, bestätigte und betroffene Dienstblöcke nachvollziehbar an.",
-    "Die Dispo+-Übersicht passt Timeline, Beschriftungen und Fahrzeug-/Fahrerinformationen an verfügbare Fensterbreiten an.",
-    "Dateiinteraktionen verwenden die zentrale native Windows-Explorer-Auswahl mit konsistentem Fallback und gemeinsamem Verlauf.",
-    "Der Updater verwendet die kanonische öffentliche Manifest-URL über refs/heads/main."
+    "Die automatische Dienstplanung unterstützt feinere Aufteilung, Ablösungsorte und Standzeiten mit nachvollziehbarer Herkunft.",
+    "Dienstblöcke, offene Prüfungen und Timeline-Projektionen werden für unterschiedliche Fensterbreiten konsistent dargestellt.",
+    "Ablösungspräferenzen und Standortoptionen werden dauerhaft gespeichert und in Planung, Review und Zusammenfassung wiederverwendet.",
+    "Dienst- und Pausenregeln berücksichtigen die neuen Standstill- und Ablösungsvarianten ohne bestätigte Ruhepausen vorwegzunehmen."
   ],
   "required": false
 }
