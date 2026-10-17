@@ -1,14 +1,14 @@
 {
-  "version": "0.6.28",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.28/BusControlDesktopCenter-0.6.28-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.28",
-  "publishedAt": "2026-10-16",
-  "changelog": "Dispo+ erweitert Aufteilung, Ablösungsorte und Standzeiten; Dienstblöcke, offene Prüfungen und Timeline-Projektionen werden konsistent dargestellt; Ablösungspräferenzen und Standortoptionen werden dauerhaft gespeichert.",
+  "version": "0.6.29",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.29/BusControlDesktopCenter-0.6.29-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.29",
+  "publishedAt": "2026-10-17",
+  "changelog": "Der BusControlSystem-Konfigurator unterstützt verschachtelte Kartenbewegungs-Einstellungen mit GPS-Abfrageintervallen und Glättungsstufen. Unbekannte Konfigurationsfelder und Strukturen bleiben beim Bearbeiten, Wiederöffnen und Fahrzeugexport erhalten.",
   "changelogItems": [
-    "Die automatische Dienstplanung unterstützt feinere Aufteilung, Ablösungsorte und Standzeiten mit nachvollziehbarer Herkunft.",
-    "Dienstblöcke, offene Prüfungen und Timeline-Projektionen werden für unterschiedliche Fensterbreiten konsistent dargestellt.",
-    "Ablösungspräferenzen und Standortoptionen werden dauerhaft gespeichert und in Planung, Review und Zusammenfassung wiederverwendet.",
-    "Dienst- und Pausenregeln berücksichtigen die neuen Standstill- und Ablösungsvarianten ohne bestätigte Ruhepausen vorwegzunehmen."
+    "Kartenbewegungs-Einstellungen mit GPS-Abfrageintervallen von 250 bis 2000 ms und den Glättungsstufen Reaktiv, Ausgewogen und Sehr weich können im Konfigurator bearbeitet werden.",
+    "Anschlussanzeige und Konfigurationsversion 30 werden im bestehenden Import- und Exportpfad berücksichtigt.",
+    "Unbekannte Felder sowie verschachtelte Bereiche von BusControlSystem-Konfigurationen bleiben beim Speichern, Wiederöffnen und Fahrzeugexport erhalten.",
+    "Der bestehende Release-, Manifest- und Verteilweg bleibt unverändert und ist vollständig durch 1.443 Tests validiert."
   ],
   "required": false
 }
