@@ -1,15 +1,14 @@
 {
-  "version": "0.6.30",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.30/BusControlDesktopCenter-0.6.30-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.30",
+  "version": "0.6.31",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.31/BusControlDesktopCenter-0.6.31-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.31",
   "publishedAt": "2026-10-18",
-  "changelog": "Der JSON-Editor, das Ansagen-Werkzeug und Dispo+ erhalten neue Sprach-, Countdown-, Entlastungsweg- und Übersichtsfunktionen.",
+  "changelog": "Der JSON-Editor erhält skalierbare Zielanzeigen-Piktogramme und eine einheitliche Vorschau für Zielanzeigenzeichen und LAWOs-Textlogos.",
   "changelogItems": [
-    "Der JSON-Editor unterstützt niederländische Sonderansagen, eine auswählbare Abfahrts-Countdown-Darstellung sowie robustere Routensicherheit und Sonderzeichenverarbeitung.",
-    "Das Ansagen-Werkzeug bietet Sprachprofile, Übersetzungsunterstützung und einen Editor für lokalisierte Sprachtexte.",
-    "Dispo+ berücksichtigt die Machbarkeit von Entlastungswegen und stellt Kursinformationen als Overlay bereit.",
-    "Kurze Linienhalte können bestätigt werden; Entlastungs-Timeline, Prüfdialoge und Übersichtsansicht wurden erweitert.",
-    "Der bestehende Release-, Manifest- und Verteilweg ist durch 1.482 Tests ohne Fehler validiert."
+    "Zielanzeigen-Piktogramme werden im JSON-Editor als eigene skalierbare Vorschau dargestellt.",
+    "LAWOs-Textlogos verwenden dieselbe Vorschau für Zielanzeigenzeichen, Haltestellen- und Stadionlogos.",
+    "Die protokollierten Zielanzeigenzeichen bleiben bei Eingabe und Speicherung unverändert erhalten.",
+    "Der bestehende Release-, Manifest- und Verteilweg ist durch 1.485 Tests ohne Fehler validiert."
   ],
   "required": false
 }
