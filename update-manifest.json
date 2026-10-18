@@ -1,14 +1,15 @@
 {
-  "version": "0.6.29",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.29/BusControlDesktopCenter-0.6.29-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.29",
-  "publishedAt": "2026-10-17",
-  "changelog": "Der BusControlSystem-Konfigurator unterstützt verschachtelte Kartenbewegungs-Einstellungen mit GPS-Abfrageintervallen und Glättungsstufen. Unbekannte Konfigurationsfelder und Strukturen bleiben beim Bearbeiten, Wiederöffnen und Fahrzeugexport erhalten.",
+  "version": "0.6.30",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.30/BusControlDesktopCenter-0.6.30-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.30",
+  "publishedAt": "2026-10-18",
+  "changelog": "Der JSON-Editor, das Ansagen-Werkzeug und Dispo+ erhalten neue Sprach-, Countdown-, Entlastungsweg- und Übersichtsfunktionen.",
   "changelogItems": [
-    "Kartenbewegungs-Einstellungen mit GPS-Abfrageintervallen von 250 bis 2000 ms und den Glättungsstufen Reaktiv, Ausgewogen und Sehr weich können im Konfigurator bearbeitet werden.",
-    "Anschlussanzeige und Konfigurationsversion 30 werden im bestehenden Import- und Exportpfad berücksichtigt.",
-    "Unbekannte Felder sowie verschachtelte Bereiche von BusControlSystem-Konfigurationen bleiben beim Speichern, Wiederöffnen und Fahrzeugexport erhalten.",
-    "Der bestehende Release-, Manifest- und Verteilweg bleibt unverändert und ist vollständig durch 1.443 Tests validiert."
+    "Der JSON-Editor unterstützt niederländische Sonderansagen, eine auswählbare Abfahrts-Countdown-Darstellung sowie robustere Routensicherheit und Sonderzeichenverarbeitung.",
+    "Das Ansagen-Werkzeug bietet Sprachprofile, Übersetzungsunterstützung und einen Editor für lokalisierte Sprachtexte.",
+    "Dispo+ berücksichtigt die Machbarkeit von Entlastungswegen und stellt Kursinformationen als Overlay bereit.",
+    "Kurze Linienhalte können bestätigt werden; Entlastungs-Timeline, Prüfdialoge und Übersichtsansicht wurden erweitert.",
+    "Der bestehende Release-, Manifest- und Verteilweg ist durch 1.482 Tests ohne Fehler validiert."
   ],
   "required": false
 }
