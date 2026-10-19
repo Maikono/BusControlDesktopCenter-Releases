@@ -1,14 +1,15 @@
 {
-  "version": "0.6.31",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.31/BusControlDesktopCenter-0.6.31-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.31",
-  "publishedAt": "2026-10-18",
-  "changelog": "Der JSON-Editor erhält skalierbare Zielanzeigen-Piktogramme und eine einheitliche Vorschau für Zielanzeigenzeichen und LAWOs-Textlogos.",
+  "version": "0.6.33",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.33/BusControlDesktopCenter-0.6.33-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.33",
+  "publishedAt": "2026-10-20",
+  "changelog": "Die Zielanzeigensteuerung erhält einen vollständigen Handbetrieb-Katalog mit LAWO-PDF-Import, Matrixvorschauen und administrativer Bildzuweisung.",
   "changelogItems": [
-    "Zielanzeigen-Piktogramme werden im JSON-Editor als eigene skalierbare Vorschau dargestellt.",
-    "LAWOs-Textlogos verwenden dieselbe Vorschau für Zielanzeigenzeichen, Haltestellen- und Stadionlogos.",
-    "Die protokollierten Zielanzeigenzeichen bleiben bei Eingabe und Speicherung unverändert erhalten.",
-    "Der bestehende Release-, Manifest- und Verteilweg ist durch 1.485 Tests ohne Fehler validiert."
+    "Der Klartext-Editor zeigt die vorhandenen Ziel-Piktogramme horizontal mit echter Glyphenvorschau und ohne das alte DS001a-Sonderzeichenfeld.",
+    "LAWO-Linien- und Ziel-PDFs werden mit Matrixvorschauen eingelesen; der geprüfte Import erkennt 999 Linien und 641 Ziele.",
+    "Für jeden Handbetrieb-Eintrag können Matrix- oder Originalbilder administrativ zugewiesen und in der Vorschau kontrolliert werden.",
+    "Der Handbetrieb-Katalog wird nach Zielanzeigen/Handbetrieb/handbetrieb-katalog.json exportiert und erhält bestehende Einträge bei erneuten Imports.",
+    "Der vollständige Release-Testlauf umfasst 1.511 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App erhält keine Bearbeitungsfunktionen."
   ],
   "required": false
 }
