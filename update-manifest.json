@@ -1,15 +1,16 @@
 {
-  "version": "0.6.35",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.35/BusControlDesktopCenter-0.6.35-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.35",
+  "version": "0.6.36",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.36/BusControlDesktopCenter-0.6.36-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.36",
   "publishedAt": "2026-10-20",
-  "changelog": "Ansagenarchiv, Haltestellen-Sprechtexte, zentraler Stimmenkonfiguration und lokalisierte JSON-Editor-Funktionen sind jetzt im Desktop Center gebündelt.",
+  "changelog": "Nach dem Speichern eines Kurses fragt der Routeneditor auch beim normalen Speichern, ob ein Kursplan als PDF erstellt werden soll. Der PDF-Kursplan zeigt den tatsächlichen Speicherpfad an und wird nach dem Schreiben auf eine gültige, nicht leere PDF-Datei geprüft. Kurs- und Handbetrieb-Kataloge verwenden im lokalen Betrieb den aktiven Desktop-Center-Datenstamm und werden nach dem Schreiben verifiziert. Dispo+-Vorplanung, Dienst- und Planrevisionen prüfen nach dem atomaren Schreiben den persistierten Inhalt. Die Ansagen-Komponentenverwaltung führt Haltestellen, Sprachbausteine, Sprechtext, Vorschau, Erzeugung und Export durch die vorhandene Betreiberkonfiguration. Der vollständige Release-Testlauf umfasst 1.530 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer.",
   "changelogItems": [
-    "Die Ansagensteuerung zeigt die Haltestellenliste mit optionalen betreiberspezifischen Sprechtexten und exportiert das Ansagenarchiv.",
-    "Zentrale Ansagen- und Stimmenparameter werden im bestehenden Betreiberprofil gespeichert und wiederverwendet.",
-    "Der JSON-Editor unterstützt lokalisierte Ansagenreihenfolge, sichere Routenbereinigung sowie die vorhandenen Dropbox- und Manifest-Verteilwege.",
-    "Die Konfigurator-Migration übernimmt die zentralen Ansagen- und Stimmenparameter ohne eine zweite Konfigurations- oder Update-Architektur.",
-    "Der vollständige Release-Testlauf umfasst 1.529 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App bleibt unverändert."
+    "Nach dem Speichern eines Kurses fragt der Routeneditor auch beim normalen Speichern, ob ein Kursplan als PDF erstellt werden soll.",
+    "Der PDF-Kursplan zeigt den tatsächlichen Speicherpfad an und wird nach dem Schreiben auf eine gültige, nicht leere PDF-Datei geprüft.",
+    "Kurs- und Handbetrieb-Kataloge verwenden im lokalen Betrieb den aktiven Desktop-Center-Datenstamm und werden nach dem Schreiben verifiziert.",
+    "Dispo+-Vorplanung, Dienst- und Planrevisionen prüfen nach dem atomaren Schreiben den persistierten Inhalt.",
+    "Die Ansagen-Komponentenverwaltung führt Haltestellen, Sprachbausteine, Sprechtext, Vorschau, Erzeugung und Export durch die vorhandene Betreiberkonfiguration.",
+    "Der vollständige Release-Testlauf umfasst 1.530 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer."
   ],
   "required": false
 }
