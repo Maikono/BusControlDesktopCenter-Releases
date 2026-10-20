@@ -1,15 +1,15 @@
 {
-  "version": "0.6.34",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.34/BusControlDesktopCenter-0.6.34-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.34",
+  "version": "0.6.35",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.35/BusControlDesktopCenter-0.6.35-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.35",
   "publishedAt": "2026-10-20",
-  "changelog": "Die Ansagensteuerung kann alle fehlenden Komponenten gesammelt erzeugen und nutzt dabei die bestehende betreiberspezifische Manifest- und TTS-Konfiguration.",
+  "changelog": "Ansagenarchiv, Haltestellen-Sprechtexte, zentraler Stimmenkonfiguration und lokalisierte JSON-Editor-Funktionen sind jetzt im Desktop Center gebündelt.",
   "changelogItems": [
-    "Die Ansagensteuerung bietet eine globale Auswahl für alle fehlenden Komponenten und erzeugt sie in begrenzten Batches.",
-    "Der bestehende Betreiberpfad für Manifest und TTS bleibt erhalten; es wird keine zweite Update- oder Verteilarchitektur eingeführt.",
-    "Fortschrittsanzeige und Abbrechen stehen während der Batch-Erzeugung zur Verfügung.",
-    "Nach drei identischen Fehlern wird die laufende Batch-Erzeugung geschützt beendet; bereits erfolgreiche Einträge bleiben erhalten.",
-    "Der vollständige Release-Testlauf umfasst 1.513 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App bleibt unverändert."
+    "Die Ansagensteuerung zeigt die Haltestellenliste mit optionalen betreiberspezifischen Sprechtexten und exportiert das Ansagenarchiv.",
+    "Zentrale Ansagen- und Stimmenparameter werden im bestehenden Betreiberprofil gespeichert und wiederverwendet.",
+    "Der JSON-Editor unterstützt lokalisierte Ansagenreihenfolge, sichere Routenbereinigung sowie die vorhandenen Dropbox- und Manifest-Verteilwege.",
+    "Die Konfigurator-Migration übernimmt die zentralen Ansagen- und Stimmenparameter ohne eine zweite Konfigurations- oder Update-Architektur.",
+    "Der vollständige Release-Testlauf umfasst 1.529 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App bleibt unverändert."
   ],
   "required": false
 }
