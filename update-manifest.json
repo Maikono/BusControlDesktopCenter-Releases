@@ -1,15 +1,15 @@
 {
-  "version": "0.6.33",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.33/BusControlDesktopCenter-0.6.33-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.33",
+  "version": "0.6.34",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.34/BusControlDesktopCenter-0.6.34-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.34",
   "publishedAt": "2026-10-20",
-  "changelog": "Die Zielanzeigensteuerung erhält einen vollständigen Handbetrieb-Katalog mit LAWO-PDF-Import, Matrixvorschauen und administrativer Bildzuweisung.",
+  "changelog": "Die Ansagensteuerung kann alle fehlenden Komponenten gesammelt erzeugen und nutzt dabei die bestehende betreiberspezifische Manifest- und TTS-Konfiguration.",
   "changelogItems": [
-    "Der Klartext-Editor zeigt die vorhandenen Ziel-Piktogramme horizontal mit echter Glyphenvorschau und ohne das alte DS001a-Sonderzeichenfeld.",
-    "LAWO-Linien- und Ziel-PDFs werden mit Matrixvorschauen eingelesen; der geprüfte Import erkennt 999 Linien und 641 Ziele.",
-    "Für jeden Handbetrieb-Eintrag können Matrix- oder Originalbilder administrativ zugewiesen und in der Vorschau kontrolliert werden.",
-    "Der Handbetrieb-Katalog wird nach Zielanzeigen/Handbetrieb/handbetrieb-katalog.json exportiert und erhält bestehende Einträge bei erneuten Imports.",
-    "Der vollständige Release-Testlauf umfasst 1.511 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App erhält keine Bearbeitungsfunktionen."
+    "Die Ansagensteuerung bietet eine globale Auswahl für alle fehlenden Komponenten und erzeugt sie in begrenzten Batches.",
+    "Der bestehende Betreiberpfad für Manifest und TTS bleibt erhalten; es wird keine zweite Update- oder Verteilarchitektur eingeführt.",
+    "Fortschrittsanzeige und Abbrechen stehen während der Batch-Erzeugung zur Verfügung.",
+    "Nach drei identischen Fehlern wird die laufende Batch-Erzeugung geschützt beendet; bereits erfolgreiche Einträge bleiben erhalten.",
+    "Der vollständige Release-Testlauf umfasst 1.513 Tests ohne Fehler, ohne Ausnahmen und ohne Überspringer. Die Tablet-App bleibt unverändert."
   ],
   "required": false
 }
