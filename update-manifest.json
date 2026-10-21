@@ -1,16 +1,15 @@
 {
-  "version": "0.6.37",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.37/BusControlDesktopCenter-0.6.37-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.37",
-  "publishedAt": "2026-10-20",
-  "changelog": "Ansagen-Arbeitsbereiche für freie Ansagen, Haltestellenansagen und Stapelerzeugung sind klar getrennt. Die Sprechbausteinverwaltung bietet Katalog, Bearbeitung, Vorschau und Ausgabe mit Auswahl, Filterung und fehlenden Bausteinen. Sprach- und Profilzuordnung sowie Ansagen-Einstellungen bleiben im vorhandenen Betreiber- und Verteilweg eingebunden. CSV- und Archiv-Exporte verwenden weiterhin die bestehende lokale Ansagenablage und schließen geheime Einstellungen aus. Neue Render- und Persistenztests prüfen Ansagen-Arbeitsbereiche, Bausteinbearbeitung und kompakte Desktop-Ansichten. Der vollständige Release-Testlauf umfasst 1.533 Tests ohne Fehler, Ausnahmen oder Überspringer.",
+  "version": "0.6.38",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.38/BusControlDesktopCenter-0.6.38-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.38 – portable Sprechlisten",
+  "publishedAt": "2026-10-21",
+  "changelog": "Sprechlisten können im Ansagen-Tool unter Sprechbausteine > Erzeugen & Export direkt importiert und exportiert werden. Die JSON-Liste enthält Texte, Sprachen, Ausspracheregeln und Zusammensetzungsvorlagen, aber keine API-Schlüssel oder Stimmenbindungen. Neue Ansagen-ZIP-Exporte betten die Sprechliste im bestehenden Bausteinmanifest ein. Der Import erzeugt keine kostenpflichtigen Aufnahmen. Der Buskonfigurator unterstützt drei Ansagenvarianten; Dispo+ zeigt vorhandene Tablet-Rückmeldungen an.",
   "changelogItems": [
-    "Ansagen-Arbeitsbereiche für freie Ansagen, Haltestellenansagen und Stapelerzeugung sind klar getrennt.",
-    "Die Sprechbausteinverwaltung bietet Katalog, Bearbeitung, Vorschau und Ausgabe mit Auswahl, Filterung und fehlenden Bausteinen.",
-    "Sprach- und Profilzuordnung sowie Ansagen-Einstellungen bleiben im vorhandenen Betreiber- und Verteilweg eingebunden.",
-    "CSV- und Archiv-Exporte verwenden weiterhin die bestehende lokale Ansagenablage und schließen geheime Einstellungen aus.",
-    "Neue Render- und Persistenztests prüfen Ansagen-Arbeitsbereiche, Bausteinbearbeitung und kompakte Desktop-Ansichten.",
-    "Der vollständige Release-Testlauf umfasst 1.533 Tests ohne Fehler, Ausnahmen oder Überspringer."
+    "Sprechliste importieren und exportieren: direkt oben unter Ansagen-Tool > Sprechbausteine > Erzeugen & Export.",
+    "Portable Texte, Sprachen, Ausspracheregeln und Zusammensetzungsvorlagen ohne Konten, API-Schlüssel oder Stimmenbindungen.",
+    "Textimport ohne kostenpflichtige Spracherzeugung; eigene Profile und vorhandene Audiodateien bleiben erhalten.",
+    "Neue Ansagen-ZIP-Exporte enthalten die Sprechliste im bisherigen Bausteinmanifest und bleiben rückwärtskompatibel.",
+    "Drei Ansagenvarianten im Buskonfigurator und vorhandene Tablet-Rückmeldungen in Dispo+."
   ],
   "required": false
 }
