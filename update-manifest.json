@@ -1,15 +1,15 @@
 {
-  "version": "0.6.39",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.39/BusControlDesktopCenter-0.6.39-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.39 – Umlaufplan-Import und Speichersicherheit",
-  "publishedAt": "2026-10-21",
-  "changelog": "Der Routeneditor erkennt gespeicherte Umlaufpläne und bietet sie im bestehenden Kursplan-Import mit Suche und Vorschau an. Fahrplan-IDs bleiben beim Speichern, Laden und Dropbox-Upload stabil; veraltete Fahrplan-Aliase werden beim Upload ersetzt. Datei-Dialoge, Klartext-Kataloge und Konfigurator-Einstellungen behalten ihren Arbeitsstand verlässlich.",
+  "version": "0.6.40",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.40/BusControlDesktopCenter-0.6.40-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.40 – Konfigurator und Kursplan-PDF",
+  "publishedAt": "2026-10-22",
+  "changelog": "Der Konfigurator bildet die gemeinsamen Tablet-Einstellungen für Sendewege, IBIS, Update-Inhalte und Fahrzeug-Komfort ab. Kursplan-PDFs werden nach dem Speichern wieder über einen sichtbaren Abfragedialog angeboten; Datei-Dialoge akzeptieren neue Speicherziele korrekt.",
   "changelogItems": [
-    "Gespeicherte Umlaufpläne werden im Kursplan-Import gefunden, durchsucht und vor dem Einlesen als Vorschau angezeigt.",
-    "Stabile Fahrplan-IDs verhindern Doppelungen beim Speichern, Laden und beim bestehenden Dropbox-Upload.",
-    "Veraltete Fahrplan-Aliase werden beim Upload erkannt und durch den aktuellen Stand ersetzt.",
-    "Datei-Dialoge und Klartext-Kataloge behalten Such- und Arbeitsordner über Sitzungen hinweg.",
-    "Ansagen- und Kartenbewegungs-Einstellungen des Konfigurators werden vollständig gespeichert und wiederhergestellt."
+    "Der Abfragedialog für Kursplan-PDFs erscheint als sichtbares, fokussiertes Fenster mit Ja/Nein-Auswahl.",
+    "Datei-Dialoge erlauben beim Speichern neue Dateien im gewählten Ordner und behalten den Arbeitskontext.",
+    "Der Konfigurator bietet gemeinsame Bereiche für Update-Inhalte, Sendeweg, IBIS und Fahrzeug-Komfort.",
+    "Konfigurator-Einstellungen werden mit Betreiber- und Fahrzeugprofilen vollständig gelesen, normalisiert und gespeichert.",
+    "Die Konfigurator-Auswahl unterstützt unter anderem Server, Dropbox, SMS und WhatsApp als konfigurierbare Sendewege."
   ],
   "required": false
 }
