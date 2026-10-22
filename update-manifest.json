@@ -1,15 +1,15 @@
 {
-  "version": "0.6.40",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.40/BusControlDesktopCenter-0.6.40-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.40 – Konfigurator und Kursplan-PDF",
-  "publishedAt": "2026-10-22",
-  "changelog": "Der Konfigurator bildet die gemeinsamen Tablet-Einstellungen für Sendewege, IBIS, Update-Inhalte und Fahrzeug-Komfort ab. Kursplan-PDFs werden nach dem Speichern wieder über einen sichtbaren Abfragedialog angeboten; Datei-Dialoge akzeptieren neue Speicherziele korrekt.",
+  "version": "0.6.41",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.41/BusControlDesktopCenter-0.6.41-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.41 – Klartext, Ansagen und Fahrzeugverwaltung",
+  "publishedAt": "2026-10-23",
+  "changelog": "Der Desktop Center bündelt die neuen Klartext-Zielprofile, Ansagen- und Dispatcher-Werkzeuge, die Fahrzeugverwaltung sowie die erweiterten Konfigurator- und Archivfunktionen in der bestehenden Betreiber- und Verteilarchitektur.",
   "changelogItems": [
-    "Der Abfragedialog für Kursplan-PDFs erscheint als sichtbares, fokussiertes Fenster mit Ja/Nein-Auswahl.",
-    "Datei-Dialoge erlauben beim Speichern neue Dateien im gewählten Ordner und behalten den Arbeitskontext.",
-    "Der Konfigurator bietet gemeinsame Bereiche für Update-Inhalte, Sendeweg, IBIS und Fahrzeug-Komfort.",
-    "Konfigurator-Einstellungen werden mit Betreiber- und Fahrzeugprofilen vollständig gelesen, normalisiert und gespeichert.",
-    "Die Konfigurator-Auswahl unterstützt unter anderem Server, Dropbox, SMS und WhatsApp als konfigurierbare Sendewege."
+    "Klartext-Zielprofile, Piktogramme, Zielzeilen und Abfahrts-Countdowns werden im JSON-Editor gespeichert, aufgelöst und in Vorschauen angezeigt.",
+    "Routen- und Fahrtvorlagen erhalten zusätzliche Fahrtarten, Matrix-/Trip-Layouts und robuste gespeicherte Ziel- und Anschlussdaten.",
+    "Das Ansagen-Tool unterstützt Plattformwerte, Straßenaussprache sowie die vorhandene Archiv- und Betreiberablage.",
+    "Dispatcher, Remote-Update-Karten und Fahrzeugtransport verwenden die konfigurierten Kommunikations- und Verteilwege.",
+    "Die Fahrzeugverwaltung sowie die erweiterten Konfigurator- und Archivbereiche bleiben in der bestehenden Desktop-Center-Struktur mandantenfähig."
   ],
   "required": false
 }
