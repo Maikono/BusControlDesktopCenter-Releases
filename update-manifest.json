@@ -1,15 +1,15 @@
 {
-  "version": "0.6.43",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.43/BusControlDesktopCenter-0.6.43-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.43 – Responsive Arbeitsflächen und Editorverbesserungen",
-  "publishedAt": "2026-10-23",
-  "changelog": "Das Desktop Center erhält zentrale Monitor- und Auflösungsprofile bis 2K-Ultrawide sowie Verbesserungen für Routen-, GPX-, Klartext-, Karten- und Haltestellen-Workflows.",
+  "version": "0.6.44",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.44/BusControlDesktopCenter-0.6.44-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.44 – Zielanzeigen-Katalogschutz und Sendepfadkorrekturen",
+  "publishedAt": "2026-10-24",
+  "changelog": "Der Zielanzeigeneditor schützt bestehende Kataloge vor unbeabsichtigtem Überschreiben und bündelt lokale sowie Dropbox-Speicherungen nachvollziehbar. Der gemeinsame Sendepfad trennt Zielanzeigen-Linie und Bustec-Haltestellentexte sauber; der Haltestellen-Import bewahrt lokale Zuordnungen.",
   "changelogItems": [
-    "Alle vom Desktop Center geöffneten Fenster können zentral auf Monitor, Auflösung und verfügbare Arbeitsfläche angepasst werden; 3440 × 1440 ist als 2K-Ultrawide-Profil enthalten.",
-    "Routen- und GPX-Editor verbessern Vorlagen, Stop-Master-Auswahl, Kartenansicht, Import und Export.",
-    "Klartext-, Ansagen- und Haltestellenbereiche erhalten getrennte Arbeitsbereiche, Vorschauen und Standortfunktionen.",
-    "Karten-, Favoriten-, Served-Stop- und Undo-Abläufe im Routing wurden erweitert und stabilisiert.",
-    "Die bestehenden Betreiberprofile und Verteilwege bleiben unverändert die gemeinsame Architektur."
+    "Zielanzeigen-Kataloge werden beim Öffnen nicht mehr automatisch verteilt oder überschrieben; Änderungen laufen über Entwürfe, explizite Freigaben, Backups und Versionsprüfungen.",
+    "Lokale, Dropbox- und BusControl-App-Kataloge werden als zusammengehöriger Schreibvorgang vorbereitet und erst nach erfolgreicher Prüfung übernommen.",
+    "Auf gemeinsam genutzten IBIS-Sendepfaden liefert die Zielanzeigensteuerung Linie und Ziel, während Bustec weiterhin seine Haltestellentexte sendet.",
+    "Der Haltestellen-Master-Import führt neue Stände zusammen und bewahrt lokal gepflegte Namen sowie Ansagen-Zuordnungen.",
+    "Die bestehenden Betreiberprofile und konfigurierbaren Verteilwege bleiben unverändert die gemeinsame Architektur."
   ],
   "required": false
 }
