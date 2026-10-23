@@ -1,15 +1,15 @@
 {
-  "version": "0.6.41",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.41/BusControlDesktopCenter-0.6.41-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.41 – Klartext, Ansagen und Fahrzeugverwaltung",
+  "version": "0.6.42",
+  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.42/BusControlDesktopCenter-0.6.42-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.42 – Konfiguration und Serverwege",
   "publishedAt": "2026-10-23",
-  "changelog": "Der Desktop Center bündelt die neuen Klartext-Zielprofile, Ansagen- und Dispatcher-Werkzeuge, die Fahrzeugverwaltung sowie die erweiterten Konfigurator- und Archivfunktionen in der bestehenden Betreiber- und Verteilarchitektur.",
+  "changelog": "Der Konfigurator erhält eine übersichtliche, responsive Arbeitsoberfläche mit geschützten Navigationen, konfigurierbaren Fahrplan-Endpunkten und sauberer Aufteilung der Fahrzeug- und Serverbereiche.",
   "changelogItems": [
-    "Klartext-Zielprofile, Piktogramme, Zielzeilen und Abfahrts-Countdowns werden im JSON-Editor gespeichert, aufgelöst und in Vorschauen angezeigt.",
-    "Routen- und Fahrtvorlagen erhalten zusätzliche Fahrtarten, Matrix-/Trip-Layouts und robuste gespeicherte Ziel- und Anschlussdaten.",
-    "Das Ansagen-Tool unterstützt Plattformwerte, Straßenaussprache sowie die vorhandene Archiv- und Betreiberablage.",
-    "Dispatcher, Remote-Update-Karten und Fahrzeugtransport verwenden die konfigurierten Kommunikations- und Verteilwege.",
-    "Die Fahrzeugverwaltung sowie die erweiterten Konfigurator- und Archivbereiche bleiben in der bestehenden Desktop-Center-Struktur mandantenfähig."
+    "Der Konfigurator passt Seitenleiste und Inhaltsbereich an die verfügbare Fensterbreite an und erlaubt auch auf kleineren Fenstern das Scrollen.",
+    "Ungespeicherte Änderungen werden beim Bereichswechsel erkannt und mit einem eigenen Bestätigungsdialog geschützt.",
+    "Fahrzeugverwaltung und Konfigurator teilen sich eine klar getrennte Tab- und Arbeitsbereichstruktur.",
+    "Der Fahrplan-Endpunkt kann pro Servertransport gepflegt, normalisiert und in die bestehende Betreiberkonfiguration exportiert werden.",
+    "Die Server-, Dropbox- und Hybrid-Verteilwege bleiben Teil der vorhandenen mandantenfähigen Architektur."
   ],
   "required": false
 }
