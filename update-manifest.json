@@ -1,15 +1,15 @@
 {
-  "version": "0.6.44",
-  "downloadUrl": "https://github.com/Maikono/BusControlDesktopCenter-Releases/releases/download/v0.6.44/BusControlDesktopCenter-0.6.44-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.44 – Zielanzeigen-Katalogschutz und Sendepfadkorrekturen",
+  "version": "0.6.45",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.45/BusControlDesktopCenter-0.6.45-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.45 – Dispo+ Vorplanung und Angebotsworkflow",
   "publishedAt": "2026-10-24",
-  "changelog": "Der Zielanzeigeneditor schützt bestehende Kataloge vor unbeabsichtigtem Überschreiben und bündelt lokale sowie Dropbox-Speicherungen nachvollziehbar. Der gemeinsame Sendepfad trennt Zielanzeigen-Linie und Bustec-Haltestellentexte sauber; der Haltestellen-Import bewahrt lokale Zuordnungen.",
+  "changelog": "Dispo+ bündelt Vorplanung, Angebotsstände und die Übernahme in die operative Planung. Import, Prüfung, Speichern, Wiederaufnahme und Export bleiben betreiberneutral und nutzen die bestehende konfigurierbare Speicher- und Verteilarchitektur.",
   "changelogItems": [
-    "Zielanzeigen-Kataloge werden beim Öffnen nicht mehr automatisch verteilt oder überschrieben; Änderungen laufen über Entwürfe, explizite Freigaben, Backups und Versionsprüfungen.",
-    "Lokale, Dropbox- und BusControl-App-Kataloge werden als zusammengehöriger Schreibvorgang vorbereitet und erst nach erfolgreicher Prüfung übernommen.",
-    "Auf gemeinsam genutzten IBIS-Sendepfaden liefert die Zielanzeigensteuerung Linie und Ziel, während Bustec weiterhin seine Haltestellentexte sendet.",
-    "Der Haltestellen-Master-Import führt neue Stände zusammen und bewahrt lokal gepflegte Namen sowie Ansagen-Zuordnungen.",
-    "Die bestehenden Betreiberprofile und konfigurierbaren Verteilwege bleiben unverändert die gemeinsame Architektur."
+    "Dispo+ führt Vorplanungsregister mit Status für laufende, wartende und aktivierte Planungen.",
+    "Angebotsstände lassen sich getrennt speichern, öffnen und fortsetzen, ohne bereits aktivierte Daten doppelt zu übernehmen.",
+    "Excel- und PDF-Importe prüfen Umläufe, Kurse, Fahrzeugbedarf, Entfernungen und Tageszuordnungen vor der Übernahme.",
+    "Kurs- und Umlaufdaten können als geprüfter Stand exportiert und anschließend in die operative Planung aktiviert werden.",
+    "Betreiberprofile sowie konfigurierbare Speicher- und Verteilwege bleiben die gemeinsame Architektur für alle Verkehrsbetriebe."
   ],
   "required": false
 }
