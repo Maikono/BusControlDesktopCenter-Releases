@@ -1,15 +1,15 @@
 {
-  "version": "0.6.46",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.46/BusControlDesktopCenter-0.6.46-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.46 – Dispo+ Einsatzplanung und Zielanzeigen-Matrix",
-  "publishedAt": "2026-10-24",
-  "changelog": "Dispo+ erweitert die Vorplanung um Kurs- und Fahrerzuordnung sowie Kalenderimporte. Der Zielanzeigeneditor ergänzt die Matrix- und Piktogrammprüfung; alle Bereiche bleiben betreiberneutral und nutzen die bestehende konfigurierbare Speicher- und Verteilarchitektur.",
+  "version": "0.6.47",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.47/BusControlDesktopCenter-0.6.47-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.47 – Auflösungen, Routendateien und Manifest-Sicherheit",
+  "publishedAt": "2026-10-25",
+  "changelog": "Die Desktop-Center-Fenster wenden Full HD, WQHD, Ultra-Wide und die Bildschirmwahl jetzt auch bei maximiertem Start zuverlässig an. Der JSON-Editor prüft Routendateien und GPX/NAV-Assets vor der Veröffentlichung; Manifest- und Transporttyp-Funktionen wurden erweitert.",
   "changelogItems": [
-    "Dispo+ zeigt Kursbelegung, Fahrzeugbedarf und Fahrerzuordnung in der Einsatzplanung.",
-    "Kalender- und Excel-Importe erkennen die vorhandene Tabellenstruktur und übernehmen Tageszuordnungen nachvollziehbar.",
-    "Kurs- und Fahrerzuordnungen lassen sich speichern, wieder öffnen und als geprüfter Stand fortsetzen.",
-    "Der Zielanzeigeneditor prüft Matrixvorschau, Linienbilder und Piktogramme gemeinsam vor der Ausgabe.",
-    "Betreiberprofile sowie konfigurierbare Speicher- und Verteilwege bleiben die gemeinsame Architektur für alle Verkehrsbetriebe."
+    "Full HD, WQHD, 2K-Ultra-Wide und explizite Mehrschirm-Auswahl überstimmen den maximierten Startmodus und werden auf Haupt- und Modulfenster angewendet.",
+    "Der JSON-Editor erstellt für jede Routensitzung einen eigenen Upload-Stand und verhindert, dass ein späterer Export einen früheren Snapshot überschreibt.",
+    "GPX- und NAV-Referenzen werden vor dem Upload lokal oder im konfigurierten Dropbox-Ziel geprüft; fehlende Pflicht-Assets stoppen die Veröffentlichung verständlich.",
+    "Die Manifest-Veröffentlichung prüft hochgeladene Route-Assets, bevorzugt den gerade veröffentlichten Fahrplanstand und behandelt veraltete Ansagenarchive nachvollziehbar.",
+    "Transporttyp-Farbvorschauen und kontextbezogene Routentrigger wurden ergänzt; Betreiberprofile und bestehende Verteilwege bleiben unverändert."
   ],
   "required": false
 }
