@@ -1,15 +1,15 @@
 {
-  "version": "0.6.47",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.47/BusControlDesktopCenter-0.6.47-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.47 – Auflösungen, Routendateien und Manifest-Sicherheit",
+  "version": "0.6.48",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.48/BusControlDesktopCenter-0.6.48-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.48 – JSON-Editor und Haltestellen-Synchronisation",
   "publishedAt": "2026-10-25",
-  "changelog": "Die Desktop-Center-Fenster wenden Full HD, WQHD, Ultra-Wide und die Bildschirmwahl jetzt auch bei maximiertem Start zuverlässig an. Der JSON-Editor prüft Routendateien und GPX/NAV-Assets vor der Veröffentlichung; Manifest- und Transporttyp-Funktionen wurden erweitert.",
+  "changelog": "Der JSON-Editor übernimmt Haltestellenstämme, Routendateien und Veröffentlichungsstände robuster. Automatische Bereinigung veralteter Kurse sowie konsistentere Dropbox- und Ansagen-Manifeste verhindern veraltete oder unvollständige Daten.",
   "changelogItems": [
-    "Full HD, WQHD, 2K-Ultra-Wide und explizite Mehrschirm-Auswahl überstimmen den maximierten Startmodus und werden auf Haupt- und Modulfenster angewendet.",
-    "Der JSON-Editor erstellt für jede Routensitzung einen eigenen Upload-Stand und verhindert, dass ein späterer Export einen früheren Snapshot überschreibt.",
-    "GPX- und NAV-Referenzen werden vor dem Upload lokal oder im konfigurierten Dropbox-Ziel geprüft; fehlende Pflicht-Assets stoppen die Veröffentlichung verständlich.",
-    "Die Manifest-Veröffentlichung prüft hochgeladene Route-Assets, bevorzugt den gerade veröffentlichten Fahrplanstand und behandelt veraltete Ansagenarchive nachvollziehbar.",
-    "Transporttyp-Farbvorschauen und kontextbezogene Routentrigger wurden ergänzt; Betreiberprofile und bestehende Verteilwege bleiben unverändert."
+    "Haltestellenstämme werden über einen gemeinsamen Resolver nach ID, Live-ID und normalisierten Namen zusammengeführt; mehrere bevorzugte Dateien bleiben je Sitzung erhalten.",
+    "Der JSON-Editor wählt verfügbare Haltestellen- und Manifestquellen nachvollziehbar aus und lädt sie bei Änderungen automatisch neu.",
+    "Veraltete Kurse können nach einer konfigurierbaren Frist automatisch für lokale Dateien und Tablets bereinigt werden; die Funktion bleibt in den Einstellungen abschaltbar.",
+    "Dropbox-Workspace-Import, Ansagen-Konfiguration und Manifest-Publisher prüfen Remote-Metadaten, veröffentlichte Stände und Konflikte konsistenter.",
+    "Die Änderungen bleiben betreiberneutral und verwenden weiterhin die bestehenden konfigurierten Verteilwege."
   ],
   "required": false
 }
