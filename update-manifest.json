@@ -1,15 +1,15 @@
 {
-  "version": "0.6.48",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.48/BusControlDesktopCenter-0.6.48-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.48 – JSON-Editor und Haltestellen-Synchronisation",
+  "version": "0.6.49",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.49/BusControlDesktopCenter-0.6.49-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.49 – Sichere Fahrplanlöschung und Manifest-Abgleich",
   "publishedAt": "2026-10-25",
-  "changelog": "Der JSON-Editor übernimmt Haltestellenstämme, Routendateien und Veröffentlichungsstände robuster. Automatische Bereinigung veralteter Kurse sowie konsistentere Dropbox- und Ansagen-Manifeste verhindern veraltete oder unvollständige Daten.",
+  "changelog": "Fahrplanlöschungen werden jetzt über stabile Fahrplan-IDs und den bestehenden Tombstone-/Manifest-Weg verarbeitet. Dadurch bleiben gleich benannte Kurse anderer Kategorien erhalten und veraltete Routendateien werden nicht mehr versehentlich erneut verteilt.",
   "changelogItems": [
-    "Haltestellenstämme werden über einen gemeinsamen Resolver nach ID, Live-ID und normalisierten Namen zusammengeführt; mehrere bevorzugte Dateien bleiben je Sitzung erhalten.",
-    "Der JSON-Editor wählt verfügbare Haltestellen- und Manifestquellen nachvollziehbar aus und lädt sie bei Änderungen automatisch neu.",
-    "Veraltete Kurse können nach einer konfigurierbaren Frist automatisch für lokale Dateien und Tablets bereinigt werden; die Funktion bleibt in den Einstellungen abschaltbar.",
-    "Dropbox-Workspace-Import, Ansagen-Konfiguration und Manifest-Publisher prüfen Remote-Metadaten, veröffentlichte Stände und Konflikte konsistenter.",
-    "Die Änderungen bleiben betreiberneutral und verwenden weiterhin die bestehenden konfigurierten Verteilwege."
+    "Fahrplan-Löschaufträge speichern die stabile scheduleId und bleiben zu älteren JSON-Aufträgen kompatibel.",
+    "Ein Tombstone wird vor dem Entfernen der Dropbox-Quelle veröffentlicht; schlägt die Manifest-Veröffentlichung fehl, bleiben die Quelldateien erhalten.",
+    "Remote-Löschungen lesen die Routendatei und prüfen ID, Linie, Kurs und Kategorie, statt nur nach einem Dateinamen zu löschen.",
+    "Manifest- und Workspace-Import filtern gelöschte Kurse gezielt, lassen wiederverwendete Pfade mit neuer ID sowie gleich benannte Kurse anderer Kategorien bestehen.",
+    "Die Änderungen erweitern die bestehenden betreiberneutralen Dropbox-/Manifest-Verteilwege ohne eine zweite Update-Architektur."
   ],
   "required": false
 }
