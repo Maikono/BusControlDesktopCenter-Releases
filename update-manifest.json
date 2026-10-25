@@ -1,14 +1,14 @@
 {
-  "version": "0.6.45",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.45/BusControlDesktopCenter-0.6.45-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.45 – Dispo+ Vorplanung und Angebotsworkflow",
+  "version": "0.6.46",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.46/BusControlDesktopCenter-0.6.46-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.46 – Dispo+ Einsatzplanung und Zielanzeigen-Matrix",
   "publishedAt": "2026-10-24",
-  "changelog": "Dispo+ bündelt Vorplanung, Angebotsstände und die Übernahme in die operative Planung. Import, Prüfung, Speichern, Wiederaufnahme und Export bleiben betreiberneutral und nutzen die bestehende konfigurierbare Speicher- und Verteilarchitektur.",
+  "changelog": "Dispo+ erweitert die Vorplanung um Kurs- und Fahrerzuordnung sowie Kalenderimporte. Der Zielanzeigeneditor ergänzt die Matrix- und Piktogrammprüfung; alle Bereiche bleiben betreiberneutral und nutzen die bestehende konfigurierbare Speicher- und Verteilarchitektur.",
   "changelogItems": [
-    "Dispo+ führt Vorplanungsregister mit Status für laufende, wartende und aktivierte Planungen.",
-    "Angebotsstände lassen sich getrennt speichern, öffnen und fortsetzen, ohne bereits aktivierte Daten doppelt zu übernehmen.",
-    "Excel- und PDF-Importe prüfen Umläufe, Kurse, Fahrzeugbedarf, Entfernungen und Tageszuordnungen vor der Übernahme.",
-    "Kurs- und Umlaufdaten können als geprüfter Stand exportiert und anschließend in die operative Planung aktiviert werden.",
+    "Dispo+ zeigt Kursbelegung, Fahrzeugbedarf und Fahrerzuordnung in der Einsatzplanung.",
+    "Kalender- und Excel-Importe erkennen die vorhandene Tabellenstruktur und übernehmen Tageszuordnungen nachvollziehbar.",
+    "Kurs- und Fahrerzuordnungen lassen sich speichern, wieder öffnen und als geprüfter Stand fortsetzen.",
+    "Der Zielanzeigeneditor prüft Matrixvorschau, Linienbilder und Piktogramme gemeinsam vor der Ausgabe.",
     "Betreiberprofile sowie konfigurierbare Speicher- und Verteilwege bleiben die gemeinsame Architektur für alle Verkehrsbetriebe."
   ],
   "required": false
