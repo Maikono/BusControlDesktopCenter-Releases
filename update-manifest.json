@@ -1,15 +1,16 @@
 {
-  "version": "0.6.50",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.50/BusControlDesktopCenter-0.6.50-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.50 – Dropbox-Abschluss-Upload und Kursbibliothek",
+  "version": "0.6.51",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.51/BusControlDesktopCenter-0.6.51-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.51 – Routeneditor, Dispo+, Konfigurator und Routing",
   "publishedAt": "2026-10-26",
-  "changelog": "Der Dropbox-Abschluss-Upload gleicht Remote-Hashes ab, zeigt nur noch offene Dateien und läuft dauerhaft im Hintergrund mit animiertem Fortschritt. Der Abschlussdialog führt zurück an die vorherige Maske oder ins Hauptmenü; die Kursbibliothek erhält zusätzlich die überarbeitete 3×3-Darstellung und lokale Kartenquellen.",
+  "changelog": "Der Routeneditor übernimmt Fahrtanfang und -ende zuverlässig aus gespeicherten Haltestellen und erhält eine responsive Fahrtanlage mit Liniencode-Katalog und manueller Zielprüfung. Dispo+ verbessert Kurs-/Fahrerzuordnung und Planänderungen; der Konfigurator persistiert Betreiber- und Fahrzeugdaten robuster. Dispatcher, Routing und Ansagen-Center erhalten stabilere Status-, Verkehrs- und Bearbeitungsabläufe.",
   "changelogItems": [
-    "Remote-Hash-Abgleich und offene-Dateien-Filter verhindern erneute Uploads bereits synchronisierter Dropbox-Dateien.",
-    "Der Upload läuft in einem langlebigen Hintergrund-Koordinator mit echtem animiertem Fortschritt neben dem Dropbox-Symbol.",
-    "Ein 3×3-Seitenraster ersetzt die Scrollliste und hält Sammel-Uploads bei vielen Dateien bedienbar.",
-    "Der Abschlussdialog bietet die Rückkehr an die vorherige Maske oder ins Hauptmenü; laufende Uploads bleiben dabei aktiv.",
-    "Die Kursbibliothek und lokale Kartenquellen werden persistent und über die bestehenden betreiberneutralen Pfade verwaltet."
+    "Routenvorlagen leiten Fahrtanfang und -ende aus den bereinigten gespeicherten Haltestellen ab und behalten diese Daten beim Synchronisieren.",
+    "Die Fahrtanlage nutzt ein ausgeglichenes responsives Kartenraster mit klarer Ziel-, Linien- und Verkehrsmittelbearbeitung.",
+    "Liniencode-Katalog, Suche und manuelle Korrektur greifen direkt in der Fahrtanlage; Festtext-Ziele werden ohne unpassende IE-Codes behandelt.",
+    "Dispo+ erhält robustere Kurs-/Fahrerzuordnung, Planänderungsdialoge und Simulations-/Policy-Tests.",
+    "Der Konfigurator übernimmt Einstellungen per Migration und Roundtrip-Prüfung zuverlässig; Betreiber-, Fahrzeug- und Haltestellenkonfiguration bleiben betreiberneutral.",
+    "Dispatcher, Routing-Karte, Verkehrs-/Risikoauswertung und Ansagen-Center erhalten stabilere Status- und Bearbeitungsabläufe; neue Regressionstests sichern den Stand."
   ],
   "required": false
 }
