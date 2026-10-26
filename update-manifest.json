@@ -1,15 +1,15 @@
 {
-  "version": "0.6.49",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.49/BusControlDesktopCenter-0.6.49-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.49 – Sichere Fahrplanlöschung und Manifest-Abgleich",
-  "publishedAt": "2026-10-25",
-  "changelog": "Fahrplanlöschungen werden jetzt über stabile Fahrplan-IDs und den bestehenden Tombstone-/Manifest-Weg verarbeitet. Dadurch bleiben gleich benannte Kurse anderer Kategorien erhalten und veraltete Routendateien werden nicht mehr versehentlich erneut verteilt.",
+  "version": "0.6.50",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.50/BusControlDesktopCenter-0.6.50-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.50 – Dropbox-Abschluss-Upload und Kursbibliothek",
+  "publishedAt": "2026-10-26",
+  "changelog": "Der Dropbox-Abschluss-Upload gleicht Remote-Hashes ab, zeigt nur noch offene Dateien und läuft dauerhaft im Hintergrund mit animiertem Fortschritt. Der Abschlussdialog führt zurück an die vorherige Maske oder ins Hauptmenü; die Kursbibliothek erhält zusätzlich die überarbeitete 3×3-Darstellung und lokale Kartenquellen.",
   "changelogItems": [
-    "Fahrplan-Löschaufträge speichern die stabile scheduleId und bleiben zu älteren JSON-Aufträgen kompatibel.",
-    "Ein Tombstone wird vor dem Entfernen der Dropbox-Quelle veröffentlicht; schlägt die Manifest-Veröffentlichung fehl, bleiben die Quelldateien erhalten.",
-    "Remote-Löschungen lesen die Routendatei und prüfen ID, Linie, Kurs und Kategorie, statt nur nach einem Dateinamen zu löschen.",
-    "Manifest- und Workspace-Import filtern gelöschte Kurse gezielt, lassen wiederverwendete Pfade mit neuer ID sowie gleich benannte Kurse anderer Kategorien bestehen.",
-    "Die Änderungen erweitern die bestehenden betreiberneutralen Dropbox-/Manifest-Verteilwege ohne eine zweite Update-Architektur."
+    "Remote-Hash-Abgleich und offene-Dateien-Filter verhindern erneute Uploads bereits synchronisierter Dropbox-Dateien.",
+    "Der Upload läuft in einem langlebigen Hintergrund-Koordinator mit echtem animiertem Fortschritt neben dem Dropbox-Symbol.",
+    "Ein 3×3-Seitenraster ersetzt die Scrollliste und hält Sammel-Uploads bei vielen Dateien bedienbar.",
+    "Der Abschlussdialog bietet die Rückkehr an die vorherige Maske oder ins Hauptmenü; laufende Uploads bleiben dabei aktiv.",
+    "Die Kursbibliothek und lokale Kartenquellen werden persistent und über die bestehenden betreiberneutralen Pfade verwaltet."
   ],
   "required": false
 }
