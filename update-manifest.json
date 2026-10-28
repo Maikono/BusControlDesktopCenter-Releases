@@ -1,16 +1,15 @@
 {
-  "version": "0.6.51",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.51/BusControlDesktopCenter-0.6.51-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.51 – Routeneditor, Dispo+, Konfigurator und Routing",
-  "publishedAt": "2026-10-26",
-  "changelog": "Der Routeneditor übernimmt Fahrtanfang und -ende zuverlässig aus gespeicherten Haltestellen und erhält eine responsive Fahrtanlage mit Liniencode-Katalog und manueller Zielprüfung. Dispo+ verbessert Kurs-/Fahrerzuordnung und Planänderungen; der Konfigurator persistiert Betreiber- und Fahrzeugdaten robuster. Dispatcher, Routing und Ansagen-Center erhalten stabilere Status-, Verkehrs- und Bearbeitungsabläufe.",
+  "version": "0.6.52",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.52/BusControlDesktopCenter-0.6.52-setup.exe",
+  "headline": "BusControl Desktop Center v0.6.52 – Dispatcher, Konfigurator und JSON-Editor",
+  "publishedAt": "2026-10-28",
+  "changelog": "Der Dispatcher erhält ein vollständiges Nachrichten- und Broadcast-Center mit Fahrzeugseitenleiste, Kartenüberlagerungen, Verbindungston und persistenten Einstellungen. Der Konfigurator erweitert Kartenbewegung, Offline-/Tracking-Einstellungen und Fahrzeugkarten. Der JSON-Editor leitet Routenendpunkte betreiberneutral aus Vorlagen ab und prüft die neue Richtlinie.",
   "changelogItems": [
-    "Routenvorlagen leiten Fahrtanfang und -ende aus den bereinigten gespeicherten Haltestellen ab und behalten diese Daten beim Synchronisieren.",
-    "Die Fahrtanlage nutzt ein ausgeglichenes responsives Kartenraster mit klarer Ziel-, Linien- und Verkehrsmittelbearbeitung.",
-    "Liniencode-Katalog, Suche und manuelle Korrektur greifen direkt in der Fahrtanlage; Festtext-Ziele werden ohne unpassende IE-Codes behandelt.",
-    "Dispo+ erhält robustere Kurs-/Fahrerzuordnung, Planänderungsdialoge und Simulations-/Policy-Tests.",
-    "Der Konfigurator übernimmt Einstellungen per Migration und Roundtrip-Prüfung zuverlässig; Betreiber-, Fahrzeug- und Haltestellenkonfiguration bleiben betreiberneutral.",
-    "Dispatcher, Routing-Karte, Verkehrs-/Risikoauswertung und Ansagen-Center erhalten stabilere Status- und Bearbeitungsabläufe; neue Regressionstests sichern den Stand."
+    "Der Dispatcher bündelt Nachrichten, Broadcasts und Fahrzeugstatus in einem eigenen Center mit klarer Seitenleiste und Kartenüberlagerungen.",
+    "Verbindungston, Fahrzeugauswahl und Dispatcher-Einstellungen werden persistent und betreiberneutral verwaltet.",
+    "Der Konfigurator speichert Kartenbewegung, Offline-Modus, Tracking und weitere Fahrzeugkarten-Einstellungen über Migrationen und Roundtrip-Prüfungen.",
+    "Der JSON-Editor nutzt eine getrennte Endpoint-Policy für betreiberneutrale Routenvorlagen und validiert die Ableitung von Start und Ziel.",
+    "Neue Regressionstests sichern Dispatcher-Broadcasts, Kartenoptionen, Endpoint-Policy und die Persistenz der Einstellungen."
   ],
   "required": false
 }
