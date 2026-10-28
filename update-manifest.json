@@ -1,15 +1,17 @@
 {
-  "version": "0.6.52",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.52/BusControlDesktopCenter-0.6.52-setup.exe",
-  "headline": "BusControl Desktop Center v0.6.52 – Dispatcher, Konfigurator und JSON-Editor",
+  "version": "0.6.53",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.53/BusControlDesktopCenter-0.6.53-setup.exe",
+  "headline": "BusControl Nexus v0.6.53 – Neues Startcenter, animierter Bootscreen und Tag-/Nachtmodus",
   "publishedAt": "2026-10-28",
-  "changelog": "Der Dispatcher erhält ein vollständiges Nachrichten- und Broadcast-Center mit Fahrzeugseitenleiste, Kartenüberlagerungen, Verbindungston und persistenten Einstellungen. Der Konfigurator erweitert Kartenbewegung, Offline-/Tracking-Einstellungen und Fahrzeugkarten. Der JSON-Editor leitet Routenendpunkte betreiberneutral aus Vorlagen ab und prüft die neue Richtlinie.",
+  "changelog": "BusControl Nexus erhält ein kompaktes Startcenter, einen animierten Bootscreen mit sechs Programm-Symbolen und einem Liniennetz-Finale sowie einen lokal gespeicherten Tag-/Nachtmodus. Die Leitstelle erweitert Tracking- und Haltestellendetails und archiviert lokal empfangene Fahrtspuren und Tagesberichte betreibergetrennt. Der Konfigurator ergänzt das Hauptmenü-Raster, die Pause-Funktion und ihre PIN samt Import, Migration und Export.",
   "changelogItems": [
-    "Der Dispatcher bündelt Nachrichten, Broadcasts und Fahrzeugstatus in einem eigenen Center mit klarer Seitenleiste und Kartenüberlagerungen.",
-    "Verbindungston, Fahrzeugauswahl und Dispatcher-Einstellungen werden persistent und betreiberneutral verwaltet.",
-    "Der Konfigurator speichert Kartenbewegung, Offline-Modus, Tracking und weitere Fahrzeugkarten-Einstellungen über Migrationen und Roundtrip-Prüfungen.",
-    "Der JSON-Editor nutzt eine getrennte Endpoint-Policy für betreiberneutrale Routenvorlagen und validiert die Ableitung von Start und Ziel.",
-    "Neue Regressionstests sichern Dispatcher-Broadcasts, Kartenoptionen, Endpoint-Policy und die Persistenz der Einstellungen."
+    "Neues Nexus-Startcenter mit kleineren Programm-Piktogrammen und einer an die Fensterbreite angepassten Anordnung.",
+    "Animierter Bootscreen: Haltestellen, Routen und Leitstelle, anschließend Zielanzeigen, Fahrzeuge und Ansagen. Das große Liniennetz wächst erst im Finale von der Mitte aus, bevor Nexus erneut erscheint. Die Sequenz läuft einmal; der echte Ladestatus bleibt sichtbar.",
+    "Tag- und Nachtmodus für Startbildschirm und Hauptmenü, direkt umschaltbar und unter Einstellungen > Allgemein auf diesem PC gespeichert.",
+    "Leitstelle: anklickbare Trackingpunkte und Fahrplanhaltestellen mit Zeit, Geschwindigkeit, Verspätung, Fahrt- und Haltestelleninformationen.",
+    "Lokal empfangene Fahrtspuren und Haltestellen-Tagesberichte werden mindestens 60 Tage je Betreiber archiviert und bleiben auch nach dem Entfernen der Transportdateien verfügbar.",
+    "Konfigurator: Hauptmenü-Raster mit Symbolauswahl und Fahrzeug-Overrides sowie Pause-Schaltfläche und Pausen-PIN. Import, Migration und erneuter Export sind abgesichert.",
+    "Der bestehende Server-Release prüft beide Downloads öffentlich und mit exakter Dateigröße, bevor das Update-Manifest freigegeben wird."
   ],
   "required": false
 }
