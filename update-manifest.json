@@ -1,19 +1,16 @@
 {
-  "version": "0.6.54",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.54/BusControlDesktopCenter-0.6.54-setup.exe",
-  "headline": "BusControl Nexus v0.6.54 – Neues Hauptmenü, Statusübersicht und Desktop-Schnellzugriffe",
+  "version": "0.6.55",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.55/BusControlDesktopCenter-0.6.55-setup.exe",
+  "headline": "BusControl Nexus v0.6.55 – Geordnete Programmübersicht und verbesserte Haltestellenkarten",
   "publishedAt": "2026-10-29",
-  "changelog": "Nexus erhält ein farbiges, eckiges Hauptmenü mit Suche, zehn aktuellen Programmen und einer Statusseitenleiste. Desktop-Schnellzugriffe öffnen einzelne Module direkt. Der Bootscreen startet dunkler und ergänzt einen animierten Fahrgast. Leitstellenkarte, GPX-Sperrungsanzeige, Haltestellenauswahl und Konfigurator wurden verbessert.",
+  "changelog": "Die Nexus-Programmübersicht ist auf großen Bildschirmen als geordnetes 2×2-Raster aufgebaut und die Hintergrundsynchronisierung erscheint als kompakte Statuskarte. Haltestellen-Center und Routen-Editor zeigen größere Haltestellensymbole, Namen und Fahrtrichtungen übersichtlicher an.",
   "changelogItems": [
-    "Eckige Programmzeilen mit kleinen Piktogrammen, eigenen Programmfarben und Suche; angepasste Anordnung für kleine Fenster, Full HD und Ultrawide.",
-    "Statusseitenleiste mit Einstellungen, letztem Arbeitsstand, Dropbox, Updates, Fahrzeugen und Problemen. Fehlende oder veraltete Live-Daten bleiben als unbekannt erkennbar; auf kleinen Fenstern ist die Übersicht aufklappbar.",
-    "Zehn aktuelle Programme im Startcenter. Der alte ZD-Editor, der separate Kostenkalkulator und der Kursplaner entfallen als eigenständige Programme; die Kalkulation bleibt in Dispo+.",
-    "Windows-Desktop-Schnellzugriffe öffnen das gewünschte Modul direkt und verwenden eine bereits laufende Nexus-Instanz.",
-    "Dunklerer Animationsbeginn mit dezentem Fahrgast; das einmalige Liniennetz-Finale wird heller und geht in den gewählten Tag- oder Nachtmodus über.",
-    "Leitstelle: mehrere farbige Fahrzeugspuren, Einzelfahrzeug-Auswahl, Haltestellensymbole und GPX-Haltestellen. Betriebstage, Fahrtwechsel und GPS-Lücken werden bei den Spuren berücksichtigt.",
-    "GPX-Editor: gemeldete Sperrungen mit animierten Durchfahrtsverbotsschildern. Die ausdrücklich ausgewählte Haltestellendatei behält Vorrang vor automatisch gefundenen Dateien.",
-    "Konfigurator: Pausenbeschilderung mit Symbol und Text sowie Tablet-UI-Skalierung von 80 bis 130 Prozent, einschließlich Import und Export.",
-    "Haltestellen-Center: direkte Live-ID-Suche, Auswahl für Ansagen und GPX-Wegpunkte sowie Kopieren mit neuer Master-Stop-ID. Übernommene Live-IDs und Ansagedateien können anschließend angepasst werden; seltene Werkzeuge sind einklappbar. Eingaben bleiben beim direkten Einklappen, Wechseln und Kopieren erhalten."
+    "Die vier Programmbereiche stehen auf Full HD, 2K und Ultrawide geordnet in zwei Spalten und zwei Zeilen. Auf schmalen Fenstern wechselt die Übersicht automatisch in eine Spalte.",
+    "Der Download- und Synchronisierungsstatus ist eine kompakte, mittig ausgerichtete Karte mit Tag-/Nachtfarben, gekürzten langen Dateipfaden und platzsparender Fortschrittsanzeige.",
+    "Haltestellen-Center: größere H-Piktogramme und Beschriftungen ohne zusätzlichen Auswahlring. Name und Fahrtrichtung erscheinen dauerhaft in getrennten Feldern.",
+    "Haltestellen- und Ansagenradius lassen sich direkt im standardmäßig geöffneten Bereich GPS & Radien bearbeiten; die Schnellwerte bleiben erhalten.",
+    "Routen-Editor: Haltestellen aus dem geladenen Bestand und bereits übernommene Fahrtpunkte zeigen vorhandene Richtungsangaben direkt in der MapLibre- und Ausweichkarte.",
+    "Die Kartenaktualisierung berücksichtigt geänderte Namen, Richtungen und Koordinaten zuverlässig, ohne bei gleichnamigen Haltestellen ungesicherte Zuordnungen zu erzwingen."
   ],
   "required": false
 }
