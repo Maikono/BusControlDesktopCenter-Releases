@@ -1,18 +1,18 @@
 {
-  "version": "0.6.58",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.58/BusControlDesktopCenter-0.6.58-setup.exe",
-  "headline": "BusControl Nexus v0.6.58 – Flexible Fahrzeitprofile im Routen-Editor",
+  "version": "0.6.59",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.59/BusControlDesktopCenter-0.6.59-setup.exe",
+  "headline": "BusControl Nexus v0.6.59 – Sichere Fahrzeitprofile und Normal-Basis",
   "publishedAt": "2026-10-30",
-  "changelog": "Mehrere benannte Fahrzeitprofile lassen sich direkt an einer Haltestellenfolge speichern, aktualisieren und auswählen. Beim Profilwechsel bleiben Startzeit und Haltestellenfolge erhalten, während relative Fahr- und Standzeiten sicher übernommen werden. Profile bleiben in Editorsitzungen und Routenvorlagen verfügbar.",
+  "changelog": "Fahrzeitprofile bleiben jetzt über alle Fahrten und Richtungswechsel eines Kurses erhalten. Jede Haltestellenfolge erhält automatisch ein geschütztes Normal-Profil mit den ursprünglichen Fahr- und Standzeiten. Benutzerprofile werden nur für passende Haltestellenfolgen angeboten und können getrennt je Richtung denselben Namen verwenden.",
   "changelogItems": [
-    "Für eine feste Haltestellenfolge lassen sich mehrere frei benannte Fahrzeitprofile wie HVZ, NVZ oder Samstag anlegen und aktualisieren.",
-    "Der kompakte Profilwähler sitzt direkt unter der Startzeit an der ersten Haltestelle.",
-    "Beim Profilwechsel ändern sich die relativen Fahr- und Standzeiten; die gewählte Startzeit bleibt unverändert.",
-    "Manuelle Abweichungen vom ausgewählten Profil werden mit einem Sternchen gekennzeichnet.",
-    "Fahrzeitprofile und die aktuelle Auswahl bleiben in der Editorsitzung erhalten und werden in Routenvorlagen gespeichert.",
-    "Das Standardprofil einer Routenvorlage wird beim Laden automatisch auf die gewünschte Startzeit angewendet.",
-    "Nicht passende Haltestellenfolgen werden abgewiesen; Fahrten über Mitternacht und eine Ankunft vor der ersten Abfahrt bleiben korrekt.",
-    "Die Profilbedienung ist für Full HD, Windows-Skalierung, ultrabreite und schmale Fenster ausgelegt."
+    "Benutzerprofile wie NVZ-SA bleiben im gesamten Kurskatalog erhalten, auch wenn zwischenzeitlich eine Fahrt in Gegenrichtung geladen wird.",
+    "Im Profilwähler erscheinen weiterhin nur Profile, deren vollständige Haltestellenfolge zur aktuellen Fahrt passt.",
+    "Derselbe Profilname kann getrennt für Hin- und Rückrichtung gespeichert werden.",
+    "Die ursprünglichen Routenzeiten werden automatisch als erstes, geschütztes Profil Normal gespeichert.",
+    "Ein Wechsel zurück zu Normal stellt die ursprünglichen Fahr- und Standzeitabstände wieder her, ohne die gewählte Startzeit zu verändern.",
+    "Ein aktives benutzerdefiniertes Standardprofil kann die geschützte Normal-Basis nicht mehr überschreiben.",
+    "Routenvorlagen werden mit ihrem Profilkatalog zusammengeführt; ältere Vorlagen erhalten Normal automatisch.",
+    "Ausdrücklich ausgewählte Standardprofile einer Routenvorlage bleiben beim Laden erhalten."
   ],
   "required": false
 }
