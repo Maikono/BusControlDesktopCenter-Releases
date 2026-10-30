@@ -1,26 +1,17 @@
 {
-  "version": "0.6.56",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.56/BusControlDesktopCenter-0.6.56-setup.exe",
-  "headline": "BusControl Nexus v0.6.56 – Schneller GPX-Import, verlässliche Ziele und sichere Fahrerakten",
+  "version": "0.6.57",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.57/BusControlDesktopCenter-0.6.57-setup.exe",
+  "headline": "BusControl Nexus v0.6.57 – Klarere Zielprofile, kompakte Startzeiten und schnelle Ansagen-Deltas",
   "publishedAt": "2026-10-30",
-  "changelog": "Der Routen-Editor erhält einen persistenten Schnellmodus und verarbeitet GPX-Dateien deutlich schlanker außerhalb des UI-Threads. Manuell übernommene Zielanzeigen bleiben erhalten, Fahrtzeiten lassen sich gemeinsam verschieben und die lokale Haltestellendatei bleibt betreiberbezogen gespeichert. Für ältere falsch geschützte Fahrerakten gibt es eine sichere Windows-Rechte-Reparatur.",
+  "changelog": "Zielprofile zeigen beide physischen Anzeigezeilen übersichtlich an und markieren die tatsächlich gespeicherte Zielzeile. Die Fahrten-Startzeit sitzt direkt an der ersten Haltestelle und verschiebt weiterhin alle Folgezeiten korrekt. Einzelne neue Ansagen lassen sich als kleine, geprüfte Deltas neben dem unveränderten Basis-ZIP veröffentlichen.",
   "changelogItems": [
-    "Ein eindeutiger {ziel}-Platzhalter legt die tatsächliche Zielzeile des Profils fest. Vertauschte ältere Zeilenmarker werden damit automatisch richtig ausgewertet.",
-    "Eine manuell gesetzte Zielbeschilderung hat Vorrang vor der aus der letzten Haltestelle erzeugten Anzeige und wird über einen sichtbaren Übernehmen-Button bestätigt.",
-    "Die erste Abfahrt einer Fahrt kann direkt geändert werden. Alle lesbaren Ankunfts- und Abfahrtszeiten verschieben sich gemeinsam, während Fahr- und Standzeiten unverändert bleiben.",
-    "Kurze Startzeiteingaben wie 1, 1 Uhr, 100 oder 01:00 werden einheitlich als 01:00 verarbeitet; Zeitverschiebungen über Mitternacht bleiben korrekt.",
-    "Die für Routing und Karte gewählte lokale Haltestellendatei wird geräte- und betreiberbezogen gespeichert und bleibt auch nach einer zurückgesetzten zentralen Datenquellenkonfiguration erhalten.",
-    "Bei einer automatischen Wiederherstellung wird der aktuelle Haltestellen-Arbeitsstamm, insbesondere Haltestellen_west.json, vor älteren stops.json-Beständen bevorzugt.",
-    "GPX-Haltestellenmetadaten werden per Streaming gelesen, ohne die vollständige Strecke als XML-DOM zu laden. Ein vorbereiteter Haltestellen-Masterindex und ein gecachter GPX-Index vermeiden wiederholte Vollsuchen.",
-    "GPX-, NAV- und Haltestellenübernahme laufen mit sichtbarem Ladezustand außerhalb des UI-Threads. Die Kartenvorschau wird asynchron erzeugt und für eine flüssige Darstellung auf höchstens 2.500 Punkte reduziert.",
-    "Lokale GPX- und NAV-Verweise werden gebündelt gespeichert, sodass Auswahl und Zuordnung ohne unnötige Einzelzugriffe erhalten bleiben.",
-    "Bei einem früher durch einen Administratorstart verursachten Windows-Rechtefehler kann die Fahrerakte nach einer einmaligen UAC-Bestätigung gezielt die Dateirechte von fahrerakten.json und personalakte-zugriffsprotokoll.jsonl reparieren und anschließend automatisch neu laden.",
-    "Die Rechte-Reparatur verändert keine Fahrerakteninhalte: Sie akzeptiert nur den aktuell angemeldeten persönlichen Windows-Benutzer, lehnt Gruppen, Dienstkonten, symbolische Verknüpfungen, Junctions und Hardlinks ab und repariert sowie prüft jede Datei über denselben nativen Datei-Handle.",
-    "Der Routen-Editor bietet einen persistenten Schnellmodus mit der responsiven Reihenfolge Profil, Linie, Ziel, Transporttyp, Fahrtart und GPX oberhalb der vorhandenen Haltestellenliste.",
-    "Standard- und Schnellmodus bearbeiten dieselbe Fahrt und können ohne Datenverlust gewechselt werden. Betriebsfahrt-Automatik, Zielprofil-Transporttyp, Countdown und die asynchrone GPX-Auswahl bleiben erhalten; umfangreiche Import- und Vorlagenblöcke werden im Schnellmodus ausgeblendet.",
-    "Die Kurs-Endübersicht bündelt Speichern, Speichern und Upload, Upload öffnen, Sammel-Upload sowie Hauptmenü in einer kompakten responsiven Karte; Ansagenprüfungsdetails sind standardmäßig eingeklappt.",
-    "Die Upload-Übersicht zeigt ausschließlich offene Dateien in einem kompakten 3×3-Raster mit Folgeseiten ab zehn Einträgen. Vorhandene oder fertig hochgeladene Dateien verschwinden aus der Liste, während der Upload im Hintergrund weiterlaufen kann.",
-    "Beim Verlassen der Fahrtgrunddaten warnt ein Dialog bei Linienfahrten vor fehlender Linie oder fehlendem Ziel. Betriebsfahrten mit automatischem D/99 sind ausgenommen; die Prüfung gilt auch beim Speichern im Schnellmodus."
+    "Der Zielprofil-Editor zeigt beide physischen Zielzeilen in einer klaren Zweizeilen-Vorschau und hebt die Zeile hervor, die als eigentlicher Destination Text gespeichert wird.",
+    "Leere Profilzeilen bleiben in der Vorschau sichtbar. Enthält genau eine Zeile den Platzhalter {ziel}, wird sie automatisch als Zielzeile erkannt.",
+    "Die Fahrten-Startzeit befindet sich kompakt in der ersten Haltestellenkarte direkt bei der ersten Abfahrt; sie bleibt auch bei einer Fahrt mit nur einer Haltestelle editierbar.",
+    "Eine geänderte Startzeit verschiebt weiterhin alle lesbaren Ankunfts- und Abfahrtszeiten gemeinsam. Fahr- und Standzeiten sowie Verschiebungen über Mitternacht bleiben korrekt.",
+    "Neue oder geänderte MP3-, WAV-, OGG- und M4A-Ansagen können als kleine Deltas neben dem unveränderten Basis-ZIP veröffentlicht werden.",
+    "Die Delta-Veröffentlichung prüft Betreiberprofil, erlaubten Ansagenordner, Dropbox-Hash und Dateigröße, bevor beide bestehenden Manifestkopien revisionsgeschützt aktualisiert werden; bei einer Kollision wird ein bereits geschriebener Spiegel zurückgerollt.",
+    "Eine erneut veröffentlichte Ansage ersetzt ihr vorhandenes Delta, statt einen doppelten Eintrag zu erzeugen; Basisarchiv und vorhandene Verteilarchitektur bleiben erhalten."
   ],
   "required": false
 }
