@@ -1,17 +1,18 @@
 {
-  "version": "0.6.57",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.57/BusControlDesktopCenter-0.6.57-setup.exe",
-  "headline": "BusControl Nexus v0.6.57 – Klarere Zielprofile, kompakte Startzeiten und schnelle Ansagen-Deltas",
+  "version": "0.6.58",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.58/BusControlDesktopCenter-0.6.58-setup.exe",
+  "headline": "BusControl Nexus v0.6.58 – Flexible Fahrzeitprofile im Routen-Editor",
   "publishedAt": "2026-10-30",
-  "changelog": "Zielprofile zeigen beide physischen Anzeigezeilen übersichtlich an und markieren die tatsächlich gespeicherte Zielzeile. Die Fahrten-Startzeit sitzt direkt an der ersten Haltestelle und verschiebt weiterhin alle Folgezeiten korrekt. Einzelne neue Ansagen lassen sich als kleine, geprüfte Deltas neben dem unveränderten Basis-ZIP veröffentlichen.",
+  "changelog": "Mehrere benannte Fahrzeitprofile lassen sich direkt an einer Haltestellenfolge speichern, aktualisieren und auswählen. Beim Profilwechsel bleiben Startzeit und Haltestellenfolge erhalten, während relative Fahr- und Standzeiten sicher übernommen werden. Profile bleiben in Editorsitzungen und Routenvorlagen verfügbar.",
   "changelogItems": [
-    "Der Zielprofil-Editor zeigt beide physischen Zielzeilen in einer klaren Zweizeilen-Vorschau und hebt die Zeile hervor, die als eigentlicher Destination Text gespeichert wird.",
-    "Leere Profilzeilen bleiben in der Vorschau sichtbar. Enthält genau eine Zeile den Platzhalter {ziel}, wird sie automatisch als Zielzeile erkannt.",
-    "Die Fahrten-Startzeit befindet sich kompakt in der ersten Haltestellenkarte direkt bei der ersten Abfahrt; sie bleibt auch bei einer Fahrt mit nur einer Haltestelle editierbar.",
-    "Eine geänderte Startzeit verschiebt weiterhin alle lesbaren Ankunfts- und Abfahrtszeiten gemeinsam. Fahr- und Standzeiten sowie Verschiebungen über Mitternacht bleiben korrekt.",
-    "Neue oder geänderte MP3-, WAV-, OGG- und M4A-Ansagen können als kleine Deltas neben dem unveränderten Basis-ZIP veröffentlicht werden.",
-    "Die Delta-Veröffentlichung prüft Betreiberprofil, erlaubten Ansagenordner, Dropbox-Hash und Dateigröße, bevor beide bestehenden Manifestkopien revisionsgeschützt aktualisiert werden; bei einer Kollision wird ein bereits geschriebener Spiegel zurückgerollt.",
-    "Eine erneut veröffentlichte Ansage ersetzt ihr vorhandenes Delta, statt einen doppelten Eintrag zu erzeugen; Basisarchiv und vorhandene Verteilarchitektur bleiben erhalten."
+    "Für eine feste Haltestellenfolge lassen sich mehrere frei benannte Fahrzeitprofile wie HVZ, NVZ oder Samstag anlegen und aktualisieren.",
+    "Der kompakte Profilwähler sitzt direkt unter der Startzeit an der ersten Haltestelle.",
+    "Beim Profilwechsel ändern sich die relativen Fahr- und Standzeiten; die gewählte Startzeit bleibt unverändert.",
+    "Manuelle Abweichungen vom ausgewählten Profil werden mit einem Sternchen gekennzeichnet.",
+    "Fahrzeitprofile und die aktuelle Auswahl bleiben in der Editorsitzung erhalten und werden in Routenvorlagen gespeichert.",
+    "Das Standardprofil einer Routenvorlage wird beim Laden automatisch auf die gewünschte Startzeit angewendet.",
+    "Nicht passende Haltestellenfolgen werden abgewiesen; Fahrten über Mitternacht und eine Ankunft vor der ersten Abfahrt bleiben korrekt.",
+    "Die Profilbedienung ist für Full HD, Windows-Skalierung, ultrabreite und schmale Fenster ausgelegt."
   ],
   "required": false
 }
