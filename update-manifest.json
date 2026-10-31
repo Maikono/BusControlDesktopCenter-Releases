@@ -1,18 +1,22 @@
 {
-  "version": "0.6.59",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.59/BusControlDesktopCenter-0.6.59-setup.exe",
-  "headline": "BusControl Nexus v0.6.59 – Sichere Fahrzeitprofile und Normal-Basis",
-  "publishedAt": "2026-10-30",
-  "changelog": "Fahrzeitprofile bleiben jetzt über alle Fahrten und Richtungswechsel eines Kurses erhalten. Jede Haltestellenfolge erhält automatisch ein geschütztes Normal-Profil mit den ursprünglichen Fahr- und Standzeiten. Benutzerprofile werden nur für passende Haltestellenfolgen angeboten und können getrennt je Richtung denselben Namen verwenden.",
+  "version": "0.6.61",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.61/BusControlDesktopCenter-0.6.61-setup.exe",
+  "headline": "BusControl Nexus v0.6.61 – Verbindliche Zielanzeigen und sichere Haltestellenpflege",
+  "publishedAt": "2026-10-31",
+  "changelog": "Manuell eingegebene und ausgewählte Zielanzeigen bleiben beim Speichern, Exportieren und erneuten Laden vollständig erhalten. Der automatische SEV-Fallback greift nur noch, wenn tatsächlich keine Zielinformation hinterlegt ist. Zusätzlich stellt der Routeneditor auf jedem PC wieder exakt die gewählte Haltestellenquelle her; Masterpflege, TransferInfo sowie die Jingle- und Ansagenkonfiguration funktionieren zuverlässig.",
   "changelogItems": [
-    "Benutzerprofile wie NVZ-SA bleiben im gesamten Kurskatalog erhalten, auch wenn zwischenzeitlich eine Fahrt in Gegenrichtung geladen wird.",
-    "Im Profilwähler erscheinen weiterhin nur Profile, deren vollständige Haltestellenfolge zur aktuellen Fahrt passt.",
-    "Derselbe Profilname kann getrennt für Hin- und Rückrichtung gespeichert werden.",
-    "Die ursprünglichen Routenzeiten werden automatisch als erstes, geschütztes Profil Normal gespeichert.",
-    "Ein Wechsel zurück zu Normal stellt die ursprünglichen Fahr- und Standzeitabstände wieder her, ohne die gewählte Startzeit zu verändern.",
-    "Ein aktives benutzerdefiniertes Standardprofil kann die geschützte Normal-Basis nicht mehr überschreiben.",
-    "Routenvorlagen werden mit ihrem Profilkatalog zusammengeführt; ältere Vorlagen erhalten Normal automatisch.",
-    "Ausdrücklich ausgewählte Standardprofile einer Routenvorlage bleiben beim Laden erhalten."
+    "Die gerätelokal gewählte Haltestellen-Masterdatei wird beim nächsten Start und beim Wiederherstellen einer Sitzung wieder exakt verwendet.",
+    "Ein veralteter, fehlender Dateipfad blockiert keine noch erreichbare Sitzungsdatei mehr.",
+    "Fehlt die bekannte Quelle, zeigt die Masterpflege den Pfad und eine direkte Dateiauswahl an, statt still einen fremden oder zentralen Index zu laden.",
+    "Master-Stop-IDs werden bei ID-basierten Wartungsaktionen wieder strikt und unabhängig von veralteten Namen oder Koordinaten erkannt.",
+    "Haltestellen-Aktualisierung und Haltestellentausch übernehmen wieder die passenden Stammdaten.",
+    "TransferInfo wird bei der Masterpflege, bei neuen Haltestellen und beim GPX-Import aus der aktiven gewählten Quelle übernommen.",
+    "Im Konfigurator sind Start-, Fahrtende- und Frühabfahrts-Jingles eindeutig benannt und vollständig konfigurierbar.",
+    "Die Datei für die Nächste-Haltestelle-Ansage sowie die Frühabfahrts-Warnschwelle werden korrekt importiert, bearbeitet und wieder exportiert.",
+    "Manuell eingegebene und ausdrücklich ausgewählte Ziele haben Vorrang vor älteren Zielfeldern und automatisch erzeugten Ersatzanzeigen.",
+    "Zieltext, Zielcode, Zielzeilen, Front- und Seitenlayout sowie Piktogrammzeichen bleiben beim JSON-Export und Reimport erhalten.",
+    "Der automatische Schienenersatzverkehr-Fallback wird nur erzeugt, wenn keine explizite Zielinformation vorhanden ist.",
+    "Beim Fahrplanimport gewinnt ein aufgelöstes Ziel aus dem Zielkatalog vor dem SEV-Fallback."
   ],
   "required": false
 }
