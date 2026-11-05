@@ -1,20 +1,18 @@
 {
-  "version": "0.6.63",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.63/BusControlDesktopCenter-0.6.63-setup.exe",
-  "headline": "BusControl Nexus v0.6.63 – Präzise Fahrtwiederholungen und flexible Statusanzeigen",
+  "version": "0.6.64",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.64/BusControlDesktopCenter-0.6.64-setup.exe",
+  "headline": "BusControl Nexus v0.6.64 – Stabile Live-Haltestellensuche mit automatischem Fallback",
   "publishedAt": "2026-11-05",
-  "changelog": "Der Kurs- und JSON-Editor stellt Fahrten übersichtlicher mit ihren Zeitbereichen dar und erzeugt Wiederholungen zuverlässig bis zur letzten erlaubten Abfahrt – auch über Mitternacht und mit einer zulässigen Teilrunde. Im Konfigurator lassen sich Form und Statusfarben des Delaypanels gestalten sowie eigene Haltestellensymbole sicher für die bestehende Asset-Verteilung vorbereiten.",
+  "changelog": "Haltestellensuche und Live-Vorschau verwenden jetzt einen gemeinsamen VRR-OpenService-Client. Bei vorübergehenden Netzwerkproblemen wechselt er automatisch vom verkehr-nrr-Dienst auf den öffentlichen Ausweichdienst. Karte und Editor unterscheiden dadurch echte Verbindungsfehler zuverlässig von einer erfolgreichen Suche ohne Treffer.",
   "changelogItems": [
-    "Die Fahrtauswahl im Kurseditor zeigt Abfahrts- und Ankunftszeit direkt unter der Fahrtrichtung an.",
-    "Die Auswahl mehrerer Fahrten für Wiederholungen ist vertikal angeordnet, scrollbar und zeigt Zeit, Linie, Richtung und Status übersichtlich zusammen.",
-    "Die Wiederholungs-Endzeit gilt jetzt eindeutig als letzte zulässige Abfahrt; keine erzeugte Fahrt beginnt nach dieser Grenze.",
-    "Eine letzte unvollständige Runde wird bis zur Endzeit korrekt angelegt und in der Abschlussmeldung als Teilrunde ausgewiesen.",
-    "Fahrtwiederholungen über Mitternacht behandeln Uhrzeiten des Folgetags zuverlässig.",
-    "Linienfilter in der Routenvorlagen-Auswahl bleiben auch bei vielen Linien vollständig per Scrollleiste erreichbar.",
-    "Die Farbzuteilung der Transportarten 36 bis 39 wurde an die vorgesehenen Farbgruppen angepasst.",
-    "Form sowie Farben für pünktlich, verspätet, verfrüht, Pause und Schrift des Delaypanels sind separat konfigurierbar und direkt als Vorschau sichtbar.",
-    "Delaypanel-Einstellungen werden migriert, gespeichert und in Designvorlagen übernommen, ohne betriebliche Daten zu verändern.",
-    "Für den Haltestellenindex kann ein eigenes PNG-, JPG- oder WebP-Symbol über einen sicheren Dateinamen vorbereitet und in der Konfigurator-Vorschau ausgewählt werden."
+    "StopFinder und Live-Abfahrtsvorschau verwenden denselben zentralen VRR-OpenService-Client.",
+    "Anfragen laufen zuerst über den verkehr-nrr-Dienst und wechseln bei einem vorübergehenden Ausfall automatisch auf den öffentlichen VRR-OpenService.",
+    "Verbindungsabbrüche, Zeitüberschreitungen sowie temporäre HTTP-Fehler lösen den sicheren Fallback aus.",
+    "Nichttemporäre Eingabefehler wie HTTP 400 werden nicht unnötig erneut gesendet.",
+    "Sind beide Dienste nicht erreichbar, erscheint eine verständliche deutsche Fehlermeldung mit dem tatsächlichen Fehlergrund.",
+    "Karte und Haltestelleneditor unterscheiden Netzwerkfehler von einer erfolgreichen Suche ohne passenden Treffer.",
+    "Ladezustände der Live-ID-Suche werden bei Erfolg, leerem Ergebnis und Fehler zuverlässig beendet.",
+    "Die Live-Vorschau weist aus, ob verkehr-nrr oder der öffentliche Ausweichdienst geantwortet hat."
   ],
   "required": false
 }
