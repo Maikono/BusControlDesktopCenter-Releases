@@ -1,18 +1,17 @@
 {
-  "version": "0.6.64",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.64/BusControlDesktopCenter-0.6.64-setup.exe",
-  "headline": "BusControl Nexus v0.6.64 – Stabile Live-Haltestellensuche mit automatischem Fallback",
-  "publishedAt": "2026-11-05",
-  "changelog": "Haltestellensuche und Live-Vorschau verwenden jetzt einen gemeinsamen VRR-OpenService-Client. Bei vorübergehenden Netzwerkproblemen wechselt er automatisch vom verkehr-nrr-Dienst auf den öffentlichen Ausweichdienst. Karte und Editor unterscheiden dadurch echte Verbindungsfehler zuverlässig von einer erfolgreichen Suche ohne Treffer.",
+  "version": "0.6.66",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.66/BusControlDesktopCenter-0.6.66-setup.exe",
+  "headline": "BusControl Nexus v0.6.66 – Neuer Routenplaner und exakte Fahrtdistanzen",
+  "publishedAt": "2026-11-06",
+  "changelog": "Der Routenplaner erhält einen responsiven Kartenarbeitsplatz für Full HD, skalierte Anzeigen und Ultrawide. Lokale Betriebsregeln steuern Sperrungen, Richtungen, Haltestellenanfahrten und bevorzugte Wege. GPX- und NAV-Distanzen werden exakt pro Fahrt bis in Kursplan, Vorlagen und Sitzungen übernommen.",
   "changelogItems": [
-    "StopFinder und Live-Abfahrtsvorschau verwenden denselben zentralen VRR-OpenService-Client.",
-    "Anfragen laufen zuerst über den verkehr-nrr-Dienst und wechseln bei einem vorübergehenden Ausfall automatisch auf den öffentlichen VRR-OpenService.",
-    "Verbindungsabbrüche, Zeitüberschreitungen sowie temporäre HTTP-Fehler lösen den sicheren Fallback aus.",
-    "Nichttemporäre Eingabefehler wie HTTP 400 werden nicht unnötig erneut gesendet.",
-    "Sind beide Dienste nicht erreichbar, erscheint eine verständliche deutsche Fehlermeldung mit dem tatsächlichen Fehlergrund.",
-    "Karte und Haltestelleneditor unterscheiden Netzwerkfehler von einer erfolgreichen Suche ohne passenden Treffer.",
-    "Ladezustände der Live-ID-Suche werden bei Erfolg, leerem Ergebnis und Fehler zuverlässig beendet.",
-    "Die Live-Vorschau weist aus, ob verkehr-nrr oder der öffentliche Ausweichdienst geantwortet hat."
+    "Der neue responsive Routenplaner ordnet Planung, Karte und Ebenen übersichtlich an und bleibt auf Full HD, skaliertem Full HD sowie Ultrawide bedienbar.",
+    "Eckige Werkzeuge, kompakte Register, einstellbare Routennamen und Linienfarben sowie eine kontrastreiche Nachtkarte verbessern die tägliche Bedienung.",
+    "Manuelle Straßensperrungen, erlaubte Fahrtrichtungen, Haltestellen-Anfahrtsrichtungen und bevorzugte Korridore werden als lokale Betriebsebenen gespeichert.",
+    "Valhalla berücksichtigt diese Regeln gezielt bei Ausschlüssen und Fahrtrichtungen, ohne lokale Betriebsdaten in synchronisierte Routendateien zu schreiben.",
+    "Wiederholt korrigierte Strecken können optional als bevorzugte Standardwege erkannt und für passende spätere Routen vorgeschlagen werden.",
+    "GPX- und NAV-Gesamtdistanzen bleiben pro Fahrt und Routenvariante exakt in Vorlagen, Sitzungen, JSON-Dateien und Kursplänen erhalten.",
+    "Die Distanzberechnung verhindert Doppelzählungen, verbindet getrennte GPX-Segmente nicht künstlich und übernimmt bei NAV-Dateien die echte Gesamtstrecke."
   ],
   "required": false
 }
