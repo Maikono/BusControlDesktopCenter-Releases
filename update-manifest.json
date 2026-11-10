@@ -1,17 +1,18 @@
 {
-  "version": "0.6.67",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.67/BusControlDesktopCenter-0.6.67-setup.exe",
-  "headline": "BusControl Nexus v0.6.67 – Fahrzeugdaten, Fahrthistorie und Zielnummern",
+  "version": "0.6.68",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.68/BusControlDesktopCenter-0.6.68-setup.exe",
+  "headline": "BusControl Nexus v0.6.68 – Fahrzeughistorien, Fahrtberichte und präzisere Leitstellenkarten",
   "publishedAt": "2026-11-10",
-  "changelog": "Dispo+ und die digitale Fahrzeugakte erhalten eine betreiberneutrale Auswertung für optionale Fahrzeugtelemetrie, historische Verbrauchsberichte, Fahrthistorien, Fahrzeugfotos und PDF-Abweichungsberichte. Der Dispatcher sichert Fahrtereignisse genauer, während der Zielanzeigeneditor stabile Zielnummern samt Manifest verteilt.",
+  "changelog": "Die digitale Fahrzeugakte erhält eine durchgängige Auswertung aufgezeichneter Betriebstage und Fahrten. GPS-Spuren, Ereignisse, technische Meldungen, Kilometerstände und Haltestellenabweichungen lassen sich gezielt auswählen, auf der Karte nachvollziehen und als PDF dokumentieren. Dispatcher und Server-Historie arbeiten dabei mit strengeren Betreiber- und Fahrzeugbindungen.",
   "changelogItems": [
-    "Dispo+ liest optionale FMS-/ESP32-Telemetrie ausschließlich über den vorhandenen betreiberbezogenen Trackingweg und trennt aktuelle, veraltete und historische Werte eindeutig.",
-    "Historische Verbrauchsberichte zeigen Kraftstoff, Strecke und streckengewichtete Flottenvergleiche, ohne Live-Snapshots oder bestätigte Archivdaten zu überschreiben.",
-    "Der Konfigurator verwaltet die Telemetrie je Fahrzeug standardmäßig deaktiviert und hält Zugangsdaten sowie lokale Pausenzustände aus verteilten Konfigurationen heraus.",
-    "Die digitale Fahrzeugakte bündelt Tages- und Fahrthistorien, zentrale Fahrzeugfotos, Flottenübersichten und Haltestellenabweichungen in einer gemeinsamen Ansicht.",
-    "PDF-Fahrtberichte enthalten pro Fahrt ein skaliertes Abweichungsdiagramm mit eigener Null-Linie sowie die vollständige Haltestellentabelle.",
-    "Der Dispatcher archiviert Fahrtereignisse und Linienverläufe genauer und hält Betreiber- und Fahrzeugdaten auch in der Kartenhistorie getrennt.",
-    "Der Zielanzeigeneditor vergibt stabile Zielnummern und veröffentlicht globale sowie fahrzeugbezogene Zielnummernmanifeste über die bestehende Verteilung."
+    "Die Fahrzeugakte trennt den vollständigen Betriebstag und einzelne aufgezeichnete Fahrten; kurze Datenlücken zerschneiden zusammengehörige Fahrten nicht künstlich.",
+    "Frei wählbare Historienzeiträume einschließlich Uhrzeit lassen sich laden und mit Streckenkarte, Fahrtabschnitten, Ereignissen, Entfernungen und Abweichungen als PDF ausgeben.",
+    "PDF-Fahrtberichte verwenden exakt die ausgewählte Spur und nur sicher zugeordnete Haltestellenberichte; Nachtfahrten über Mitternacht werden korrekt berücksichtigt.",
+    "Technische Ereignisse, Fahrthistorie, Kilometerverlauf und Schadensmeldungen sind getrennt gegliedert und öffnen den passenden Karten- und Fahrtabschnitt.",
+    "Eine neue 60-Tage-Pünktlichkeitsübersicht wertet ausschließlich tatsächlich vorhandene Einsatztage und übermittelte Abweichungen aus.",
+    "Leitstellen- und Fahrzeugkarten passen den sichtbaren Ausschnitt an vollständige aufgezeichnete Verläufe an und zeigen sekundengenaue Rohpunktdetails.",
+    "Serverhistorien akzeptieren Punkte nur bei belastbarer Betreiber- und Fahrzeugbindung und halten Daten verschiedener Betriebe und Fahrzeuge getrennt.",
+    "Abweichungsdiagramme zeigen normale Werte minutengenau und begrenzen beschädigte Extremdaten mit einem ausdrücklich gekennzeichneten Sicherheitsraster."
   ],
   "required": false
 }
