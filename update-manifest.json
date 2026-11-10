@@ -1,17 +1,17 @@
 {
-  "version": "0.6.66",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.66/BusControlDesktopCenter-0.6.66-setup.exe",
-  "headline": "BusControl Nexus v0.6.66 – Neuer Routenplaner und exakte Fahrtdistanzen",
-  "publishedAt": "2026-11-06",
-  "changelog": "Der Routenplaner erhält einen responsiven Kartenarbeitsplatz für Full HD, skalierte Anzeigen und Ultrawide. Lokale Betriebsregeln steuern Sperrungen, Richtungen, Haltestellenanfahrten und bevorzugte Wege. GPX- und NAV-Distanzen werden exakt pro Fahrt bis in Kursplan, Vorlagen und Sitzungen übernommen.",
+  "version": "0.6.67",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.67/BusControlDesktopCenter-0.6.67-setup.exe",
+  "headline": "BusControl Nexus v0.6.67 – Fahrzeugdaten, Fahrthistorie und Zielnummern",
+  "publishedAt": "2026-11-10",
+  "changelog": "Dispo+ und die digitale Fahrzeugakte erhalten eine betreiberneutrale Auswertung für optionale Fahrzeugtelemetrie, historische Verbrauchsberichte, Fahrthistorien, Fahrzeugfotos und PDF-Abweichungsberichte. Der Dispatcher sichert Fahrtereignisse genauer, während der Zielanzeigeneditor stabile Zielnummern samt Manifest verteilt.",
   "changelogItems": [
-    "Der neue responsive Routenplaner ordnet Planung, Karte und Ebenen übersichtlich an und bleibt auf Full HD, skaliertem Full HD sowie Ultrawide bedienbar.",
-    "Eckige Werkzeuge, kompakte Register, einstellbare Routennamen und Linienfarben sowie eine kontrastreiche Nachtkarte verbessern die tägliche Bedienung.",
-    "Manuelle Straßensperrungen, erlaubte Fahrtrichtungen, Haltestellen-Anfahrtsrichtungen und bevorzugte Korridore werden als lokale Betriebsebenen gespeichert.",
-    "Valhalla berücksichtigt diese Regeln gezielt bei Ausschlüssen und Fahrtrichtungen, ohne lokale Betriebsdaten in synchronisierte Routendateien zu schreiben.",
-    "Wiederholt korrigierte Strecken können optional als bevorzugte Standardwege erkannt und für passende spätere Routen vorgeschlagen werden.",
-    "GPX- und NAV-Gesamtdistanzen bleiben pro Fahrt und Routenvariante exakt in Vorlagen, Sitzungen, JSON-Dateien und Kursplänen erhalten.",
-    "Die Distanzberechnung verhindert Doppelzählungen, verbindet getrennte GPX-Segmente nicht künstlich und übernimmt bei NAV-Dateien die echte Gesamtstrecke."
+    "Dispo+ liest optionale FMS-/ESP32-Telemetrie ausschließlich über den vorhandenen betreiberbezogenen Trackingweg und trennt aktuelle, veraltete und historische Werte eindeutig.",
+    "Historische Verbrauchsberichte zeigen Kraftstoff, Strecke und streckengewichtete Flottenvergleiche, ohne Live-Snapshots oder bestätigte Archivdaten zu überschreiben.",
+    "Der Konfigurator verwaltet die Telemetrie je Fahrzeug standardmäßig deaktiviert und hält Zugangsdaten sowie lokale Pausenzustände aus verteilten Konfigurationen heraus.",
+    "Die digitale Fahrzeugakte bündelt Tages- und Fahrthistorien, zentrale Fahrzeugfotos, Flottenübersichten und Haltestellenabweichungen in einer gemeinsamen Ansicht.",
+    "PDF-Fahrtberichte enthalten pro Fahrt ein skaliertes Abweichungsdiagramm mit eigener Null-Linie sowie die vollständige Haltestellentabelle.",
+    "Der Dispatcher archiviert Fahrtereignisse und Linienverläufe genauer und hält Betreiber- und Fahrzeugdaten auch in der Kartenhistorie getrennt.",
+    "Der Zielanzeigeneditor vergibt stabile Zielnummern und veröffentlicht globale sowie fahrzeugbezogene Zielnummernmanifeste über die bestehende Verteilung."
   ],
   "required": false
 }
