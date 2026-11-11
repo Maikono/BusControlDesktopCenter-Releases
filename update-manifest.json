@@ -1,18 +1,18 @@
 {
-  "version": "0.6.69",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.69/BusControlDesktopCenter-0.6.69-setup.exe",
-  "headline": "BusControl Nexus v0.6.69 – übersichtlichere Fahrzeugakten und schnellerer Release-Bau",
+  "version": "0.6.70",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.70/BusControlDesktopCenter-0.6.70-setup.exe",
+  "headline": "BusControl Nexus v0.6.70 – sichere Tagesplanung und zuverlässiger Programmstart",
   "publishedAt": "2026-11-11",
-  "changelog": "Die digitale Fahrzeugakte erhält eine klar gegliederte Navigation für Störungen, Fahrtverlauf und Karte, schriftliche Historie, Schichtberichte, Pflege, Schäden, Kilometer und Dokumente. Karten, Abweichungsdiagramme und Ladezustände wurden für schmale wie breite Fenster besser lesbar angeordnet. Künftige Windows-Pakete werden zusätzlich über den neuen abgesicherten Build-Runner vorbereitet.",
+  "changelog": "Dispo+ behandelt Verkehrstage, Nachtfahrten und Wagenkarten jetzt durchgängig über Tagesgrenzen hinweg. Fahrten lassen sich gezielt zwischen Kursen verschieben, Depotwege und Einsatzzeiten werden nachvollziehbar ausgewiesen und Excel-Neuimporte warnen vor betroffenen manuellen Änderungen. BusControl Nexus stellt ein minimiertes Hauptfenster beim erneuten Start wieder her; der stille Updater beendet und startet die Anwendung zuverlässig und repariert den bekannten temporären Test-Installationspfad.",
   "changelogItems": [
-    "Eine feste linke Bereichsnavigation ersetzt die verschachtelten Aufklappbereiche der Fahrzeugakte.",
-    "Störungen, GPS-Fahrtverlauf mit Karte und schriftliche Werkstatt- beziehungsweise Fahrzeughistorie sind klar voneinander getrennt.",
-    "Schichtberichte, Sauberkeit, Schäden, Kilometerstände und Dokumente bleiben direkt über eigene Bereiche erreichbar.",
-    "Breite Fenster zeigen Navigation und Detailansicht nebeneinander; auf schmalen Fenstern werden beide Bereiche sinnvoll untereinander angeordnet.",
-    "Die Streckenkarte bleibt bereits in mittelgroßen Detailansichten neben den Bedienelementen sichtbar und steht in schmalen Ansichten vor der Abschnittsliste.",
-    "Lade- und Leerzustände erklären eindeutig, ob für den gewählten Betriebstag oder die gewählte Fahrt eine GPS-Spur vorhanden ist.",
-    "Abweichungsdiagramme verwenden mehr Platz, zeigen Uhrzeit und kurze Fahrtnummern und halten außergewöhnliche Messwerte lesbar im Sicherheitsraster.",
-    "Der neue Windows-Build-Runner erstellt künftige Setup- und Laufzeitpakete mit dauerhaftem Werkzeug- und Gradle-Cache; Veröffentlichung und Serverzugang bleiben getrennt auf GitHub."
+    "Dispo+ kann kurze, nachweislich zusammenhängende Nachtfahrten nach Bestätigung dem vorherigen Verkehrstag zuordnen, ohne unabhängige Frühfahrten falsch zu verschieben.",
+    "Wagenkarten zeigen die Ausfahrt zuerst, danach Fahrten und Übergänge sowie unten Einfahrt und vollständige Einsatzzeit einschließlich beider Depotwege.",
+    "Einzelne Fahrten lassen sich per Ziehen oder gezieltem Einfügen in einen anderen Kurs verschieben; Anschlüsse und Fahrzeugbedarf werden vor dem Übernehmen neu geprüft.",
+    "Excel-Zeiten über 24 Uhr und bestätigte Folgetagszeiten bleiben bis Dienstplanung, Kalender, Übersicht und Kalkulation erhalten; Neuimporte warnen vor betroffenen manuellen Planungen.",
+    "Leerfahrtdauern gelten standardmäßig auch in Gegenrichtung, sofern kein ausdrücklicher Rückwert oder eine gerichtete Sperre hinterlegt ist.",
+    "Die Fahrzeughistorie lädt Dateien gebündelt, bietet eine kompakte Seitenleiste und einen gemeinsamen PDF-Einstieg und bleibt streng an Betreiber- und Fahrzeugkennung gebunden.",
+    "Ein erneuter Start stellt ein bereits laufendes, minimiertes BusControl-Nexus-Fenster wieder her und holt es sichtbar in den Vordergrund.",
+    "Der stille Setup-Updater startet nach erfolgreicher Installation die richtige Anwendung, erneuert die Desktop-Verknüpfung und migriert ausschließlich den bekannten temporären Testpfad zum regulären Installationsordner."
   ],
   "required": false
 }
