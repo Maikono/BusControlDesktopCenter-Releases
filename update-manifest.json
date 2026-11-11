@@ -1,18 +1,18 @@
 {
-  "version": "0.6.68",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.68/BusControlDesktopCenter-0.6.68-setup.exe",
-  "headline": "BusControl Nexus v0.6.68 – Fahrzeughistorien, Fahrtberichte und präzisere Leitstellenkarten",
-  "publishedAt": "2026-11-10",
-  "changelog": "Die digitale Fahrzeugakte erhält eine durchgängige Auswertung aufgezeichneter Betriebstage und Fahrten. GPS-Spuren, Ereignisse, technische Meldungen, Kilometerstände und Haltestellenabweichungen lassen sich gezielt auswählen, auf der Karte nachvollziehen und als PDF dokumentieren. Dispatcher und Server-Historie arbeiten dabei mit strengeren Betreiber- und Fahrzeugbindungen.",
+  "version": "0.6.69",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.69/BusControlDesktopCenter-0.6.69-setup.exe",
+  "headline": "BusControl Nexus v0.6.69 – übersichtlichere Fahrzeugakten und schnellerer Release-Bau",
+  "publishedAt": "2026-11-11",
+  "changelog": "Die digitale Fahrzeugakte erhält eine klar gegliederte Navigation für Störungen, Fahrtverlauf und Karte, schriftliche Historie, Schichtberichte, Pflege, Schäden, Kilometer und Dokumente. Karten, Abweichungsdiagramme und Ladezustände wurden für schmale wie breite Fenster besser lesbar angeordnet. Künftige Windows-Pakete werden zusätzlich über den neuen abgesicherten Build-Runner vorbereitet.",
   "changelogItems": [
-    "Die Fahrzeugakte trennt den vollständigen Betriebstag und einzelne aufgezeichnete Fahrten; kurze Datenlücken zerschneiden zusammengehörige Fahrten nicht künstlich.",
-    "Frei wählbare Historienzeiträume einschließlich Uhrzeit lassen sich laden und mit Streckenkarte, Fahrtabschnitten, Ereignissen, Entfernungen und Abweichungen als PDF ausgeben.",
-    "PDF-Fahrtberichte verwenden exakt die ausgewählte Spur und nur sicher zugeordnete Haltestellenberichte; Nachtfahrten über Mitternacht werden korrekt berücksichtigt.",
-    "Technische Ereignisse, Fahrthistorie, Kilometerverlauf und Schadensmeldungen sind getrennt gegliedert und öffnen den passenden Karten- und Fahrtabschnitt.",
-    "Eine neue 60-Tage-Pünktlichkeitsübersicht wertet ausschließlich tatsächlich vorhandene Einsatztage und übermittelte Abweichungen aus.",
-    "Leitstellen- und Fahrzeugkarten passen den sichtbaren Ausschnitt an vollständige aufgezeichnete Verläufe an und zeigen sekundengenaue Rohpunktdetails.",
-    "Serverhistorien akzeptieren Punkte nur bei belastbarer Betreiber- und Fahrzeugbindung und halten Daten verschiedener Betriebe und Fahrzeuge getrennt.",
-    "Abweichungsdiagramme zeigen normale Werte minutengenau und begrenzen beschädigte Extremdaten mit einem ausdrücklich gekennzeichneten Sicherheitsraster."
+    "Eine feste linke Bereichsnavigation ersetzt die verschachtelten Aufklappbereiche der Fahrzeugakte.",
+    "Störungen, GPS-Fahrtverlauf mit Karte und schriftliche Werkstatt- beziehungsweise Fahrzeughistorie sind klar voneinander getrennt.",
+    "Schichtberichte, Sauberkeit, Schäden, Kilometerstände und Dokumente bleiben direkt über eigene Bereiche erreichbar.",
+    "Breite Fenster zeigen Navigation und Detailansicht nebeneinander; auf schmalen Fenstern werden beide Bereiche sinnvoll untereinander angeordnet.",
+    "Die Streckenkarte bleibt bereits in mittelgroßen Detailansichten neben den Bedienelementen sichtbar und steht in schmalen Ansichten vor der Abschnittsliste.",
+    "Lade- und Leerzustände erklären eindeutig, ob für den gewählten Betriebstag oder die gewählte Fahrt eine GPS-Spur vorhanden ist.",
+    "Abweichungsdiagramme verwenden mehr Platz, zeigen Uhrzeit und kurze Fahrtnummern und halten außergewöhnliche Messwerte lesbar im Sicherheitsraster.",
+    "Der neue Windows-Build-Runner erstellt künftige Setup- und Laufzeitpakete mit dauerhaftem Werkzeug- und Gradle-Cache; Veröffentlichung und Serverzugang bleiben getrennt auf GitHub."
   ],
   "required": false
 }
