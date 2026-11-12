@@ -1,18 +1,19 @@
 {
-  "version": "0.6.70",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.70/BusControlDesktopCenter-0.6.70-setup.exe",
-  "headline": "BusControl Nexus v0.6.70 – sichere Tagesplanung und zuverlässiger Programmstart",
-  "publishedAt": "2026-11-11",
-  "changelog": "Dispo+ behandelt Verkehrstage, Nachtfahrten und Wagenkarten jetzt durchgängig über Tagesgrenzen hinweg. Fahrten lassen sich gezielt zwischen Kursen verschieben, Depotwege und Einsatzzeiten werden nachvollziehbar ausgewiesen und Excel-Neuimporte warnen vor betroffenen manuellen Änderungen. BusControl Nexus stellt ein minimiertes Hauptfenster beim erneuten Start wieder her; der stille Updater beendet und startet die Anwendung zuverlässig und repariert den bekannten temporären Test-Installationspfad.",
+  "version": "0.6.71",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.71/BusControlDesktopCenter-0.6.71-setup.exe",
+  "headline": "BusControl Nexus v0.6.71 – vollständige Tagesberichte und sichere Update-Migration",
+  "publishedAt": "2026-11-12",
+  "changelog": "Die Fahrzeugakte erstellt Tagesberichte jetzt wahlweise für ein vollständiges Fahrzeug oder für einen Linienkurs über Fahrzeugwechsel hinweg. Historische Haltestellen-, Ansagen- und Monitor-Nachweise werden nachvollziehbar in Oberfläche und PDF dargestellt. Der Installer übernimmt außerdem ältere Testinstallationen und deren bekannte Taskleisten-Verknüpfung kontrolliert in die reguläre Installation und öffnet nach einem stillen Update die neue Version genau einmal.",
   "changelogItems": [
-    "Dispo+ kann kurze, nachweislich zusammenhängende Nachtfahrten nach Bestätigung dem vorherigen Verkehrstag zuordnen, ohne unabhängige Frühfahrten falsch zu verschieben.",
-    "Wagenkarten zeigen die Ausfahrt zuerst, danach Fahrten und Übergänge sowie unten Einfahrt und vollständige Einsatzzeit einschließlich beider Depotwege.",
-    "Einzelne Fahrten lassen sich per Ziehen oder gezieltem Einfügen in einen anderen Kurs verschieben; Anschlüsse und Fahrzeugbedarf werden vor dem Übernehmen neu geprüft.",
-    "Excel-Zeiten über 24 Uhr und bestätigte Folgetagszeiten bleiben bis Dienstplanung, Kalender, Übersicht und Kalkulation erhalten; Neuimporte warnen vor betroffenen manuellen Planungen.",
-    "Leerfahrtdauern gelten standardmäßig auch in Gegenrichtung, sofern kein ausdrücklicher Rückwert oder eine gerichtete Sperre hinterlegt ist.",
-    "Die Fahrzeughistorie lädt Dateien gebündelt, bietet eine kompakte Seitenleiste und einen gemeinsamen PDF-Einstieg und bleibt streng an Betreiber- und Fahrzeugkennung gebunden.",
-    "Ein erneuter Start stellt ein bereits laufendes, minimiertes BusControl-Nexus-Fenster wieder her und holt es sichtbar in den Vordergrund.",
-    "Der stille Setup-Updater startet nach erfolgreicher Installation die richtige Anwendung, erneuert die Desktop-Verknüpfung und migriert ausschließlich den bekannten temporären Testpfad zum regulären Installationsordner."
+    "Unter ‚Tagesberichte erstellen‘ stehen getrennte Ansichten für den gesamten Fahrzeugeinsatz und für Linie/Kurs zur Verfügung.",
+    "Linien- und Kursberichte führen zusammengehörige Aufzeichnungen auch dann fort, wenn während des Einsatztags das Fahrzeug wechselt.",
+    "Fahrzeugberichte behalten alle Linien- und Kurswechsel des ausgewählten Fahrzeugs in zeitlicher Reihenfolge bei.",
+    "Historische Berichte werden betreibergebunden geladen, für einen gewählten Zeitraum zusammengeführt und bei Bedarf vorsichtig aus ausreichend belegten GPS-Daten ergänzt.",
+    "Haltestellenansage, bestätigtes Wiedergabeende, Monitorverbindung und Monitoranzeige werden getrennt ausgewiesen, ohne fehlende Gerätequittungen als Erfolg darzustellen.",
+    "PDF-Berichte enthalten die Tagesübersicht, Datenlücken, Fahrzeugabschnitte und die vorhandenen Fahrgastinformations-Nachweise.",
+    "Bei neuen oder unvollständigen Konfigurationen sind Haltestellenberichte standardmäßig aktiv; ein ausdrücklich gespeichertes Deaktivieren bleibt erhalten.",
+    "Der stille Installer startet nach einem Update aus älteren Versionen die regulär installierte Anwendung und verhindert einen doppelten Neustart mit dem aktuellen Updater.",
+    "Nur eine Taskleisten-Verknüpfung, die exakt auf den bekannten temporären QA-Pfad zeigt, wird auf die reguläre Installation umgebogen; andere Verknüpfungen bleiben unangetastet."
   ],
   "required": false
 }
