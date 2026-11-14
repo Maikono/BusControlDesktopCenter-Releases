@@ -1,15 +1,15 @@
 {
-  "version": "0.6.73",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.73/BusControlDesktopCenter-0.6.73-setup.exe",
-  "headline": "BusControl Nexus v0.6.73 – aufleuchtende Haltestellen bei Ansagen",
+  "version": "0.6.74",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.74/BusControlDesktopCenter-0.6.74-setup.exe",
+  "headline": "BusControl Nexus v0.6.74 – zuverlässige Datei- und Speicherdialoge",
   "publishedAt": "2026-11-14",
-  "changelog": "Die Karteneinstellungen erhalten einen eigenen Schalter für den Ansage-Pulseffekt. Ist er aktiv, kann das passende Haltestellensymbol beim Start einer Haltestellenansage kurz aufleuchten. Die Einstellung wird betreiberneutral gespeichert und in Designprofilen sowie beim Konfigurationsaustausch vollständig übernommen.",
+  "changelog": "Datei- und Speicherdialoge im Kurseditor bleiben zuverlässig vor dem zugehörigen Programmfenster geöffnet. Insbesondere schließt sich der erste Speicherdialog eines neu angelegten Kurses nicht mehr selbstständig. Auch nach der Betriebsfahrten-Prüfung und bei der Sammel-Kursplanauswahl wird der zentrale fenstergebundene Dialogdienst verwendet.",
   "changelogItems": [
-    "In den Kartenoptionen lässt sich „Haltestelle bei Ansage aufleuchten lassen“ getrennt ein- und ausschalten.",
-    "Bei neuen oder unvollständigen Konfigurationen ist der Pulseffekt standardmäßig aktiviert; ein ausdrücklich gespeichertes Ausschalten bleibt erhalten.",
-    "Import, Export und erneutes Laden der zentralen Konfiguration bewahren die Einstellung vollständig.",
-    "Designprofile übernehmen den Schalter gemeinsam mit den übrigen Haltestellenmarker-Einstellungen.",
-    "Die Einstellung bleibt mandantenfähig und wird über die vorhandene Konfigurationsarchitektur an kompatible Fahrzeuggeräte verteilt."
+    "Beim ersten Speichern eines neu angelegten Kurses bleibt der native Windows-Speicherdialog geöffnet, bis der Nutzer eine Auswahl trifft oder abbricht.",
+    "Validierung und Kurszustand werden erst nach erfolgreicher Dateiauswahl in die Oberfläche übernommen, damit der Dialog sein Besitzerfenster nicht verliert.",
+    "Nach der Betriebsfahrten-Prüfung startet das Speichern erst nach dem abgeschlossenen UI-Zyklus.",
+    "Die Sammel-Kursplanauswahl verwendet ebenfalls den vorhandenen zentralen, fenstergebundenen Dialogdienst.",
+    "Bestehende und kopierte Kurse speichern weiterhin direkt in ihre bereits zugeordnete Datei."
   ],
   "required": false
 }
