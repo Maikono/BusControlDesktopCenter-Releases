@@ -1,19 +1,18 @@
 {
-  "version": "0.6.71",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.71/BusControlDesktopCenter-0.6.71-setup.exe",
-  "headline": "BusControl Nexus v0.6.71 – vollständige Tagesberichte und sichere Update-Migration",
-  "publishedAt": "2026-11-12",
-  "changelog": "Die Fahrzeugakte erstellt Tagesberichte jetzt wahlweise für ein vollständiges Fahrzeug oder für einen Linienkurs über Fahrzeugwechsel hinweg. Historische Haltestellen-, Ansagen- und Monitor-Nachweise werden nachvollziehbar in Oberfläche und PDF dargestellt. Der Installer übernimmt außerdem ältere Testinstallationen und deren bekannte Taskleisten-Verknüpfung kontrolliert in die reguläre Installation und öffnet nach einem stillen Update die neue Version genau einmal.",
+  "version": "0.6.72",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.72/BusControlDesktopCenter-0.6.72-setup.exe",
+  "headline": "BusControl Nexus v0.6.72 – zuverlässige Arbeitsstände, Karten und Leitstellenrufe",
+  "publishedAt": "2026-11-14",
+  "changelog": "Das Update sichert Arbeitsstände und Kataloge zuverlässiger, hält Dateiauswahlen sichtbar im Vordergrund und erweitert die Kartenansicht um konfigurierbare Marker und Linien. Fahrzeugauswertungen und PDF-Nachweise sind besser lesbar. In der Leitstelle lassen sich Meldungs- und Ruftöne gezielt steuern; eingehende, ausgehende, verbundene und beendete Gespräche werden eindeutig akustisch unterschieden.",
   "changelogItems": [
-    "Unter ‚Tagesberichte erstellen‘ stehen getrennte Ansichten für den gesamten Fahrzeugeinsatz und für Linie/Kurs zur Verfügung.",
-    "Linien- und Kursberichte führen zusammengehörige Aufzeichnungen auch dann fort, wenn während des Einsatztags das Fahrzeug wechselt.",
-    "Fahrzeugberichte behalten alle Linien- und Kurswechsel des ausgewählten Fahrzeugs in zeitlicher Reihenfolge bei.",
-    "Historische Berichte werden betreibergebunden geladen, für einen gewählten Zeitraum zusammengeführt und bei Bedarf vorsichtig aus ausreichend belegten GPS-Daten ergänzt.",
-    "Haltestellenansage, bestätigtes Wiedergabeende, Monitorverbindung und Monitoranzeige werden getrennt ausgewiesen, ohne fehlende Gerätequittungen als Erfolg darzustellen.",
-    "PDF-Berichte enthalten die Tagesübersicht, Datenlücken, Fahrzeugabschnitte und die vorhandenen Fahrgastinformations-Nachweise.",
-    "Bei neuen oder unvollständigen Konfigurationen sind Haltestellenberichte standardmäßig aktiv; ein ausdrücklich gespeichertes Deaktivieren bleibt erhalten.",
-    "Der stille Installer startet nach einem Update aus älteren Versionen die regulär installierte Anwendung und verhindert einen doppelten Neustart mit dem aktuellen Updater.",
-    "Nur eine Taskleisten-Verknüpfung, die exakt auf den bekannten temporären QA-Pfad zeigt, wird auf die reguläre Installation umgebogen; andere Verknüpfungen bleiben unangetastet."
+    "Native Datei- und Ordnerauswahlen erscheinen zuverlässig vor dem zugehörigen Programmfenster und behalten den zuletzt verwendeten Speicherort.",
+    "Dispo+-Vorplanungen, Aktivierungsstände und Projektregister werden robust als JSON gelesen und geschrieben; ein einzelner Lesefehler verwirft keine vorhandenen Projekte mehr.",
+    "Klartext- und Zielkataloge werden verlustfrei synchronisiert, ohne die gerade bearbeitete Quelldatei während der Verteilung selbst zu überschreiben.",
+    "Haltestellenmarker, Beschriftungen, Annäherungsdistanz, Zusatzinformationen und Linienoptik lassen sich zentral und betreiberneutral konfigurieren.",
+    "Fahrzeugarchiv-Diagramme passen Achsen, Abstände und lange Haltestellennamen an kleine sowie große Ansichten an.",
+    "Zeitraum-PDFs binden vorhandene Fahrgastinformations-Nachweise ein und stellen Abweichungsverläufe übersichtlicher dar.",
+    "Die Leitstelle bietet gespeicherte Schalter für einzelne Meldungsarten sowie unterscheidbare Töne für eingehende Rufe, Verbindungsaufbau, erfolgreiche Audioverbindung und Gesprächsende.",
+    "Serverbasierte Leitstellenrufe lösen keinen doppelten allgemeinen Rückrufton mehr aus, und alle Ruftöne werden beim Verlassen der Leitstelle zuverlässig beendet."
   ],
   "required": false
 }
