@@ -1,16 +1,16 @@
 {
-  "version": "0.6.75",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.75/BusControlDesktopCenter-0.6.75-setup.exe",
-  "headline": "BusControl Nexus v0.6.75 – Dispo+-Arbeitsaufträge und Zug-Abwarten-Steuerung",
-  "publishedAt": "2026-11-15",
-  "changelog": "Freigegebene Dispo+-Vorplanungen lassen sich als validierte Arbeitsaufträge in den Routeneditor übernehmen. Der Routeneditor schützt vor doppelten Übergaben und ergänzt je Fahrt eine konfigurierbare Zug-Abwarten-Steuerung mit Linien-, Ziel-, Schwellen- und Wartezeitfiltern.",
+  "version": "0.6.76",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.76/BusControlDesktopCenter-0.6.76-setup.exe",
+  "headline": "BusControl Nexus v0.6.76 – sichere Routen und kompakter Routen-Center",
+  "publishedAt": "2026-11-22",
+  "changelog": "Der Routen-Center nutzt normale und kompakte Bildschirmgrößen besser aus, speichert Kurse zuverlässig vor Upload-Aktionen und erweitert die HST-Masterpflege. Vor GPX- und NAV-Exporten werden aktuelle Verkehrsmeldungen geprüft; bekannte Vollsperrungen werden umfahren oder blockieren den Export mit einer klaren Prüfung.",
   "changelogItems": [
-    "Freigegebene Dispo+-Vorplanungsprojekte erzeugen einen validierten und per Fingerprint abgesicherten Arbeitsauftrag für den Routeneditor.",
-    "Offene Arbeitsaufträge werden im Routeneditor angezeigt und über einen geführten Importdialog in Kurse, Fahrten und Haltestellen überführt.",
-    "Bereits übernommene oder identische Arbeitsaufträge werden erkannt, damit keine doppelten Kurse entstehen.",
-    "An der ersten Haltestelle einer Fahrt kann der Zug-Abwarten-Hinweis einzeln ein- oder ausgeschaltet und auf mehrere Anschlusslinien sowie optionale Ziele begrenzt werden.",
-    "Warnschwelle und maximale Wartezeit sind je Fahrt einstellbar; alte Kursdateien bleiben durch sichere Standardwerte kompatibel.",
-    "Schulbus-, Betriebs- und nicht livefähige Haltestellen deaktivieren die Live-Anschlussprüfung automatisch."
+    "Das Routen-Center passt Karten, Schriften, Abstände und Bedienelemente an normale, kompakte und ultrabreite Bildschirme an.",
+    "Kurse werden vor Sammel-Upload und Upload-Übergabe zuerst lokal gespeichert; der Abschlussdialog beschreibt diesen Ablauf eindeutig.",
+    "Die HST-Masterpflege kann Bussteig- und Gleisangaben bewusst aktualisieren, ohne routenspezifische Werte standardmäßig zu überschreiben.",
+    "Zug-Abwarten-Filter akzeptieren mehrere Linien getrennt durch Komma, Semikolon oder Zeilenumbruch.",
+    "Der Routeneditor vergleicht Strecken mit aktuellen Meldungen unter anderem von Verkehr.NRW, Autobahn und NDW und bewertet deren räumliche Genauigkeit und Aktualität.",
+    "Bestätigte Vollsperrungen werden automatisch umfahren; bleibt eine Sperrung auf der Route oder ist die Datenlage unklar, stoppt beziehungsweise warnt der Export mit einem überprüfbaren Dialog."
   ],
   "required": false
 }
