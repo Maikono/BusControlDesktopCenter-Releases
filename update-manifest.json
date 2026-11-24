@@ -1,16 +1,16 @@
 {
-  "version": "0.6.76",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.76/BusControlDesktopCenter-0.6.76-setup.exe",
-  "headline": "BusControl Nexus v0.6.76 – sichere Routen und kompakter Routen-Center",
-  "publishedAt": "2026-11-22",
-  "changelog": "Der Routen-Center nutzt normale und kompakte Bildschirmgrößen besser aus, speichert Kurse zuverlässig vor Upload-Aktionen und erweitert die HST-Masterpflege. Vor GPX- und NAV-Exporten werden aktuelle Verkehrsmeldungen geprüft; bekannte Vollsperrungen werden umfahren oder blockieren den Export mit einer klaren Prüfung.",
+  "version": "0.6.77",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.77/BusControlDesktopCenter-0.6.77-setup.exe",
+  "headline": "BusControl Nexus v0.6.77 – sichere Kursablage, Dispo+-Angebote und Messenger-Pilot",
+  "publishedAt": "2026-11-24",
+  "changelog": "Kurse und Sammel-Uploads bleiben zuverlässig an die tatsächlich geöffnete Linie und den tatsächlich geöffneten Kurs gebunden. Dispo+ erweitert die Angebotspositionen, Kalkulation und PDF-Ausgabe. Zusätzlich steht ein optionaler Messenger-/Livefunk-Pilot mit sicher lokal gespeicherten Zugangsdaten bereit; der bisherige Transport bleibt als Rückfallweg erhalten. Der Desktop-Updater startet Nexus nach der Installation verlässlicher wieder.",
   "changelogItems": [
-    "Das Routen-Center passt Karten, Schriften, Abstände und Bedienelemente an normale, kompakte und ultrabreite Bildschirme an.",
-    "Kurse werden vor Sammel-Upload und Upload-Übergabe zuerst lokal gespeichert; der Abschlussdialog beschreibt diesen Ablauf eindeutig.",
-    "Die HST-Masterpflege kann Bussteig- und Gleisangaben bewusst aktualisieren, ohne routenspezifische Werte standardmäßig zu überschreiben.",
-    "Zug-Abwarten-Filter akzeptieren mehrere Linien getrennt durch Komma, Semikolon oder Zeilenumbruch.",
-    "Der Routeneditor vergleicht Strecken mit aktuellen Meldungen unter anderem von Verkehr.NRW, Autobahn und NDW und bewertet deren räumliche Genauigkeit und Aktualität.",
-    "Bestätigte Vollsperrungen werden automatisch umfahren; bleibt eine Sperrung auf der Route oder ist die Datenlage unklar, stoppt beziehungsweise warnt der Export mit einem überprüfbaren Dialog."
+    "Neue und bestehende Kurse verwenden beim Speichern und Sammel-Upload immer ihre eigene dauerhafte Kurskennung und ihren aktuellen Kursnamen.",
+    "Die automatische Kursquelle folgt der aktuell laufenden Installation; synchronisierte Fahrplandateien stehen früher und vollständig zur Verfügung.",
+    "Dispo+ ordnet Angebotspositionen zuverlässig zu Kursgruppen zu, berechnet Positionen gemeinsam und übernimmt die Ergebnisse in Übersicht und PDF.",
+    "Der optionale Messenger-/Livefunk-Pilot unterstützt Direktnachrichten, Fahrzeug-zu-Fahrzeug-Kommunikation, Gruppenrufe und WebRTC-Signalisierung in abgestuften Betriebsarten.",
+    "Messenger-Zugangsdaten bleiben lokal auf dem jeweiligen Rechner und werden nicht in gemeinsam verteilte Konfigurationsdateien geschrieben.",
+    "Der Updater beendet nur die richtige Installation, dokumentiert den Installationsstatus dauerhaft und startet BusControl Nexus nach erfolgreichem Setup wieder zuverlässig."
   ],
   "required": false
 }
