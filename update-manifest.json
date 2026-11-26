@@ -1,18 +1,18 @@
 {
-  "version": "0.6.78",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.78/BusControlDesktopCenter-0.6.78-setup.exe",
-  "headline": "BusControl Nexus v0.6.78 – Schnellwartung, Dienstplanung und flexible Konfiguration",
-  "publishedAt": "2026-11-24",
-  "changelog": "Der Routen-Editor erhält eine abgesicherte Schnellwartung für GPX-, NAV-, Ansage-, Trigger- und Fahrzeitkorrekturen. Dispo+ erweitert Angebotspreise, geführte Dienstplanung, Fahrzeug- und Fahrerzuweisung sowie eine lokale versionierte Übergabe für die künftige Fahrer-App. Konfigurator und Leitstelle erhalten zusätzliche betreiberneutrale Anzeige-, Netzwerk- und Engstellenfunk-Einstellungen.",
+  "version": "0.6.79",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.79/BusControlDesktopCenter-0.6.79-setup.exe",
+  "headline": "BusControl Nexus v0.6.79 – Angebotsprojekte, Leitstellen-Kommunikation und GPS-Historie",
+  "publishedAt": "2026-11-26",
+  "changelog": "Dispo+ erweitert den Import und die Kalkulation von Ausschreibungs- und Angebotsprojekten einschließlich Flottenprüfung, Projektregister und PDF-Ausgabe. Die Leitstelle erhält eine übersichtlichere Kommunikationszentrale mit eingehenden Anrufen, Fahrzeugbildern und Kartenbezug. GPS-Fahrtenverläufe können aus Server, Dropbox und lokaler Historie zusammengeführt und mit einstellbarer Aufbewahrungsdauer genutzt werden.",
   "changelogItems": [
-    "Die neue Schnellwartung zeigt betroffene Kurse und Vorlagen vorab, legt Sicherungen an und veröffentlicht Änderungen erst über den bestehenden Betreiber- und Manifestweg.",
-    "GPX-, NAV- und Ansagedateien lassen sich zentral austauschen; Route-Trigger und Fahrzeiten können kontrolliert nachbearbeitet werden.",
-    "Dispo+ bietet automatische, schnelle und vollständige Angebotskalkulationen mit Wochentags-, Feiertags-, Kilometer-, Personal- und Fahrzeugkosten sowie nachvollziehbarer PDF-Ausgabe.",
-    "Ein geführter Arbeitsablauf erstellt Dienste aus Umläufen oder Kursen, unterstützt offene Zuweisungen und formuliert technische Fehler als verständliche nächste Schritte.",
-    "Freigegebene Dienste werden lokal, betreibergetrennt und versioniert für eine spätere Fahrer-App bereitgestellt; eine externe Übertragung wird noch nicht vorgetäuscht.",
-    "Netzwerkpräferenz, Haltestellenraster, Schriften, Begleit-Apps, Hauptmenü und Status-Badges sind im Konfigurator umfangreicher einstellbar und in Fahrzeug-Overrides vererbbar.",
-    "Der Desktop-Teil des optionalen Engstellenfunks ergänzt Fahrweg- und Leitstellen-Editoren, ohne bestehende Nachrichten-, Dropbox- oder Hybridwege zu ersetzen.",
-    "Leere oder nicht freigegebene Messenger-API-Tokens werden nicht exportiert."
+    "Dispo+ erkennt Ausschreibungslose und Vergabeeinheiten in Excel-Arbeitsmappen und übernimmt feste Kurse kontrolliert in Angebotsprojekte.",
+    "Schnellpreise können getrennte Stundenwerte für Werktag, Samstag und Sonntag verwenden; Kostenpositionen und Preisbildung bleiben in Übersicht und Projekt nachvollziehbar.",
+    "Eine Flottenprüfung bewertet den Fahrzeugbedarf der Angebotspositionen, bevor ein Angebot ausgegeben wird.",
+    "Projektregister, Projektablage und PDF-Ausgabe zeigen Kurse, Preispositionen und Kalkulationszusammenfassung konsistent an, auch bei Nachtkursen.",
+    "Die Leitstelle bündelt eingehende Anrufe, Fahrzeugbezug, Fahrzeugbilder und Kommunikationsaktionen in einer übersichtlicheren Oberfläche.",
+    "Karten- und Fensteransichten der Leitstelle wurden für die neuen Kommunikations- und Fahrzeuginformationen erweitert.",
+    "GPS-Fahrtenverläufe werden betreiber- und fahrzeugbezogen aus Server-, Dropbox- und lokalen Aufzeichnungen zusammengeführt.",
+    "Die Aufbewahrungsdauer der GPS-Historie ist im Konfigurator zwischen 60 und 730 Tagen einstellbar; bestehende lokale, Dropbox- und Serverwege bleiben erhalten."
   ],
   "required": false
 }
