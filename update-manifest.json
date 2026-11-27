@@ -1,18 +1,18 @@
 {
-  "version": "0.6.79",
-  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.6.79/BusControlDesktopCenter-0.6.79-setup.exe",
-  "headline": "BusControl Nexus v0.6.79 – Angebotsprojekte, Leitstellen-Kommunikation und GPS-Historie",
-  "publishedAt": "2026-11-26",
-  "changelog": "Dispo+ erweitert den Import und die Kalkulation von Ausschreibungs- und Angebotsprojekten einschließlich Flottenprüfung, Projektregister und PDF-Ausgabe. Die Leitstelle erhält eine übersichtlichere Kommunikationszentrale mit eingehenden Anrufen, Fahrzeugbildern und Kartenbezug. GPS-Fahrtenverläufe können aus Server, Dropbox und lokaler Historie zusammengeführt und mit einstellbarer Aufbewahrungsdauer genutzt werden.",
+  "version": "0.7.0",
+  "downloadUrl": "https://live.verkehr-nrr.de/buscontroldesktopcenter/v0.7.0/BusControlDesktopCenter-0.7.0-setup.exe",
+  "headline": "BusControl Nexus v0.7.0 – optionale Nexus Cloud, neues Logo und robustere Importe",
+  "publishedAt": "2026-11-27",
+  "changelog": "BusControl Nexus 0.7.0 ergänzt optionale, betreibergetrennte Cloud-Arbeitsbereiche mit geschützter Anmeldung, Offline-Warteschlange und ausdrücklich aktivierbarem automatischem Abgleich. Das neue Nexus-Logo erscheint auf Start- und Ladeansicht. Dateiauswahl und Excel-Kursimport wurden für reale Windows-Ordner und echte Datumszellen robuster gemacht.",
   "changelogItems": [
-    "Dispo+ erkennt Ausschreibungslose und Vergabeeinheiten in Excel-Arbeitsmappen und übernimmt feste Kurse kontrolliert in Angebotsprojekte.",
-    "Schnellpreise können getrennte Stundenwerte für Werktag, Samstag und Sonntag verwenden; Kostenpositionen und Preisbildung bleiben in Übersicht und Projekt nachvollziehbar.",
-    "Eine Flottenprüfung bewertet den Fahrzeugbedarf der Angebotspositionen, bevor ein Angebot ausgegeben wird.",
-    "Projektregister, Projektablage und PDF-Ausgabe zeigen Kurse, Preispositionen und Kalkulationszusammenfassung konsistent an, auch bei Nachtkursen.",
-    "Die Leitstelle bündelt eingehende Anrufe, Fahrzeugbezug, Fahrzeugbilder und Kommunikationsaktionen in einer übersichtlicheren Oberfläche.",
-    "Karten- und Fensteransichten der Leitstelle wurden für die neuen Kommunikations- und Fahrzeuginformationen erweitert.",
-    "GPS-Fahrtenverläufe werden betreiber- und fahrzeugbezogen aus Server-, Dropbox- und lokalen Aufzeichnungen zusammengeführt.",
-    "Die Aufbewahrungsdauer der GPS-Historie ist im Konfigurator zwischen 60 und 730 Tagen einstellbar; bestehende lokale, Dropbox- und Serverwege bleiben erhalten."
+    "Nexus Cloud kann je Verkehrsbetrieb als eigener Arbeitsbereich eingerichtet werden; lokale und Dropbox-basierte Arbeitsweisen bleiben erhalten.",
+    "Anmeldedaten werden benutzergebunden verschlüsselt gespeichert, Betreiberprofile und Arbeitsbereiche bleiben voneinander getrennt.",
+    "Der automatische Cloud-Abgleich wird nur nach ausdrücklicher Auswahl aktiv und nutzt dieselbe dauerhafte Offline-Warteschlange, Konfliktprüfung und Wiederholungslogik wie der manuelle Abgleich.",
+    "Arbeitsbereichssperre, Neustartschutz und getrennte Leitstellenbindung verhindern paralleles Überschreiben oder die unbemerkte Nutzung fremder Verbindungen.",
+    "Startseite und Bootscreen verwenden das neue BusControl-Nexus-Logo, ohne Fenster- und Installer-Symbole zu verändern.",
+    "Die Windows-Dateiauswahl arbeitet nur mit realen Laufwerken und Ordnern und fällt bei nicht unterstützten Filtern kontrolliert auf eine ungefilterte Auswahl zurück.",
+    "Dispo+ erkennt Verkehrstage in Excel-Kursunterlagen auch dann zuverlässig, wenn Excel sie als echte numerische Datumszellen oder Formelergebnisse speichert.",
+    "Bestehende Fachbereiche ohne Cloudfreigabe behalten ihre bisherigen Datenquellen; eine Installation aktiviert keinen fremden Betreiber automatisch."
   ],
   "required": false
 }
